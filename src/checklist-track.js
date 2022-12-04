@@ -1,4 +1,4 @@
-const checkboxValues = JSON.parse(localStorage.getItem("checkboxValues")) || {},
+const checkboxValues = JSON.parse(localStorage.getItem("checkboxValues"+code)) || {},
 	buttons = Array.from(document.querySelectorAll(".checklist-item__expand")),
 	labels = Array.from(document.querySelectorAll(".checklist-item__title")),
 	checkboxes = Array.from(document.querySelectorAll('input[type="checkbox"]')),
@@ -19,7 +19,7 @@ function loadIds() {
 }
 function updateStorage(a) {
 	(checkboxValues[a.id] = a.checked), localStorage.setItem(
-		"checkboxValues",
+		"checkboxValues"+code,
 		JSON.stringify(checkboxValues)
 	);
 }
