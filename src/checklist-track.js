@@ -70,6 +70,7 @@ function resetCheckboxes() {
 	), countChecked();
 }
 window.onload = function() {
+	document.getElementById('title1').click();
 	loadIds(), loadValues(), checkboxes.forEach(a =>
 		a.addEventListener("click", countChecked)
 	), buttons.forEach(a =>
