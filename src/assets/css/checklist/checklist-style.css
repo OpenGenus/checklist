@@ -212,8 +212,8 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
 
-  margin-left: 105;
-  margin-right: 105;
+  margin-left: 105px;
+  margin-right: 105px;
 
   -webkit-box-flex: 1;
   -ms-flex: 1;
