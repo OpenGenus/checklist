@@ -80,7 +80,7 @@ team@opengenus.org
     </div>
 </header>
 
-<div class="container">
+<div id = "contents" class="container">
 
     <section class="checklist">
         <h2 id="title1" class="checklist__title">Week 1: Basics of DL</h2>
@@ -208,6 +208,9 @@ team@opengenus.org
                     <div class="info">
                         <a href = https://iq.opengenus.org/artificial-neural-networks/>Artificial Neural Network</a> is a form of computing system that vaguely resembles the biological nervous system. It is composed of very many neurons that are centres of computation and learn by a sort of hit and trial method over the course of many epochs.
                     </div>
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/artificial-neural-networks/>CapsNet</a> is an artificial neural network which consists of capsules(bunch of neurons) which allow us to confirm if entities (components) are present in the image. We will cover Capsule Networks in depth.
+                    </div>
                 </div>
             </li>       
 
@@ -307,8 +310,13 @@ team@opengenus.org
                     <div class="info">
                         <a href = https://iq.opengenus.org/types-of-backpropagation/> Backpropagation</a> 
                         is an algorithm used in supervised learning to train the neural networks. The algorithm works by adjusting the weights and biases of the nodes.It entails sending input data into the network forward to produce an output, comparing it to the desired output, and then propagating the mistake back through the network to change the nodes' weights and biases.
+                        <a href = https://iq.opengenus.org/back-propagation-through-time/> Back propagation through time</a>is the the generalization of this algorithm to recurrent neural networks
+                        <a href = https://iq.opengenus.org/deep-belief-network/> Deep Belief Networks </a>are unsupervised learning models that overcome these limitations. We will explore them in details in this article at OpenGenus.
+                        
                 </div>
             </li>
+
+            
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -423,6 +431,22 @@ team@opengenus.org
                         becomes a simple sigmoid-weighted linear unit function when β = 1. But when β = 0 then the swish function simply scales the input by 1/2 .
                 </div>
             </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Gradient Descent</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/gradient-descent/
+                        > Gradient Descent</a>
+                        algorithm is one of the most popuarl algorithms for finding optimal parameters for most machine learning models including neural networks.
+                </div>
+            </li>
+
+            
 
             
 
@@ -642,6 +666,44 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Cross Validation</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/cross-validation/>Cross Validation</a> 
+                        is a procedure used to evaluate your machine learning model on limited sample of data. With the help of this, we can actually tell how well our model performs on unseen data.
+            </li> 
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Precision, Recall, Sensitivity and Specificity</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/precision-recall-sensitivity-specificity/>Precision, Recall, Sensitivity and Specificity</a> 
+                        are key metrics to evaluate how well a model performs. And in this article we will go over each of them and their meaning.
+            </li> 
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Dimensionality Reduction</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/types-of-dimensionality-reduction-techniques/>Dimensional Reduction Techniques</a> 
+                        are covered in this article. It is important to reduce the dimensionality of the model to make the model simpler.
+            </li> 
+
+            
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Add Operation</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
@@ -815,7 +877,20 @@ team@opengenus.org
                         operates on a single training example at a time, rather than a batch of examples. It normalizes the activations of each layer by subtracting the mean and dividing by the standard deviation of the layer's activations. This approach has been shown to be effective in a wide range of tasks, including image recognition, natural language processing, and speech recognition.
                     </div>
             </li>
-            
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Layer Normalization</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href =https://iq.opengenus.org/adadelta/
+                        > Adadelta</a>
+                        proposed by Matthew D. Zeiler in the paper "ADADELTA: An Adaptive Learning Rate Method" in 2012, is an extension of AdaGrad that seeks to overcome this limitation. It aims to adaptively adjust the learning rate without the need for a monotonically decreasing learning rate over time.
+                    </div>
+            </li>
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -944,6 +1019,20 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Flattened CNN</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/flattened-cnn/
+                        > Flattened CNN</a> 
+                        were able to obtain performance comparable to that of conventional Convolutional Neural Networks without much loss in accuracy, despite being about two times faster during feed-forward passes owing to the significant reduction in the number of learning parameters. Let us have a look at how this is implemented mathematically
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Evolution of CNN Architectures</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
@@ -958,6 +1047,64 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Evolution of CNN Architectures</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/instance-segmentation/
+                        > Instance Segmentation</a> 
+                        will start by combining a semantic segmentation approach to the object detection one, So instead of just a bounding box a round the object, now will be a precise mask a round each object and also differentiate between instances of the same class.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Winograd Convolution</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/winograds-convolution-theorem/
+                        > Winograd Convolution</a> 
+                        proved a lower bound on the number of multiplications required for convolution, and used Chinese Remainder Theorem to construct optimal algorithm to achieve minimum number of multiplies.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Transposed Convolution</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/transposed-convolution/
+                        >Transposed Convolution</a> 
+                        is also known as upsampled convolution, which refers to the task it accomplishes, which is to upsample the input feature map.
+                </div>
+            </li>
+
+            
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">RefineNet</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/refinenet/
+                        > RefineNet</a> 
+                        blocks are 3-stage processing entities each handling and learning features of data on different levels of the model. The 3-stages of each block comprise the following components.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">AlexNet</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
@@ -967,8 +1114,42 @@ team@opengenus.org
                         <a href = https://iq.opengenus.org/architecture-and-use-of-alexnet/
                         > AlexNet</a> 
                         is a Deep Convolutional Neural Network (CNN) for image classification that won the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry.
+                        <a href = https://iq.opengenus.org/local-response-normalization/
+                        > Local response Normalization</a> 
+                        become first utilized in AlexNet architecture, with ReLU serving because the activation function rather than the more common tanh and sigmoid. In addition to the reasons described above, LRN was used to enhance lateral inhibition.
+                        
                 </div>
             </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">SqueezeNet</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/squeezenet-model/
+                        > SqueezeNet</a> is a CNN architecture which has 50 times less parameters than AlexNet but still maintains AlexNet level accuracy. We also showcased the architecture of the model alongwith the implementation on the ImageNet dataset.
+                </div>
+            </li>
+
+            
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">SpineNet</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/spinenet/
+                        > SpineNet</a> 
+                        is an image recognition deep learning Convolutional Neural Network (CNN).
+            </li>
+
+            
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -986,7 +1167,7 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">VGG 11</span>
+                    class="checklist-item__title">VGG</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
                 </button>
@@ -995,34 +1176,16 @@ team@opengenus.org
                         <a href = https://iq.opengenus.org/vgg-11/
                         > VGG 11</a> 
                         is a pre-trained model, on a dataset and contains the weights that represent the features of whichever dataset it was trained on. Using a pre-trained model one is saving time. Already an ample amount of the time and computation resources has been spent to learn a lot of features and the model will likely benefit from it.
-                </div>
-            </li>
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">VGG 16</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
                         <a href = https://iq.opengenus.org/vgg16/
                         > VGG 16</a> 
                         is a variant of VGG model with 16 convolution layers and we have explored the VGG16 architecture in depth.
-                </div>
-            </li>
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">VGG 19</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
                         <a href = https://iq.opengenus.org/vgg19-architecture/
                         > VGG 19</a> 
                         is a variant of VGG model which in short consists of 19 layers (16 convolution layers, 3 Fully connected layer, 5 MaxPool layers and 1 SoftMax layer). There are other variants of VGG like VGG11, VGG16 and others. VGG19 has 19.6 billion FLOPs.
+                        <a href = https://iq.opengenus.org/vgg54-and-vgg22/
+                        > VGG 54 and VGG 22</a> 
+                        are loss metrics to compare high and low resolution images by considering the feature maps generated by VGG19 neural network model.
+                        
                 </div>
             </li>
 
@@ -1108,6 +1271,20 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Variational Autoencoder</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/variational-autoencoder-tf/
+                        > Variational Autoencoder</a>. 
+                        is a probabilistic model that compresses high-dimensional input data into a more manageable representation.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Feed Forward Neural Networks</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
@@ -1117,6 +1294,7 @@ team@opengenus.org
                         <a href = https://iq.opengenus.org/feed-forward-neural-networks/
                         > Feedfoward Neural Network</a>
                         is an Artificial Neural Network in which connections between the nodes do not form a cycle. The feedforward neural network was the first and simplest type of artificial neural network. In this network, the information moves in only one direction, forward, from the input nodes, through the hidden node and to the output nodes.It does not form a cycle.
+                        <a href = https://iq.opengenus.org/radial-basis-neural-network/> RBFNN </a> is a feed-forward neural network, composed from : an input layer representing the source of data, exactly one hidden layer with high dimension and an output layer to render the results of the network.
                 </div>
             </li>
             
@@ -1174,6 +1352,12 @@ team@opengenus.org
                     > GAN</a>
                     is a machine learning algorithm that is capable of generating new training datasets.
                 </div>
+                <div class="info">
+                    <a href =https://iq.opengenus.org/conditional-generative-adversarial-net/
+                    > Conditional GAN</a>
+                    can be done by feeding y as an additional input layer to both the discriminator and the generator.
+                </div>
+                
         </li>
 
             <li class="checklist-item">
@@ -1220,7 +1404,33 @@ team@opengenus.org
                 </div>
             </li>
 
-            
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">YOLO V5</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/yolov5/
+                        > YOLO V5</a> 
+                        is a state of the art, real-time object detection algorithm created by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi in 2015 and was pre-trained on the COCO dataset.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Seq2seq</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/yolov5/
+                        >Seq2seq</a> 
+                        is a kind of model that was born to solve "Many to many" problem. Seq2Seq has many applications,perhaps the most common one is Machine Translation.
+                </div>
+            </li>
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -1561,6 +1771,10 @@ team@opengenus.org
                     </div>
                 </div>
             </li>
+
+            
+
+            
             
     </section>
 
@@ -1639,6 +1853,20 @@ team@opengenus.org
                 </div>
             </li>
 
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Exploration Exploitation Dilema</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/exploration-exploitation-dilemma/>Exploration Exploitation Dilema</a> 
+                        is a concept that describes the challenge of deciding between exploring new options or exploiting already known options to maximize rewards.
+                </div>
+            </li>
+
+            
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -1668,9 +1896,48 @@ team@opengenus.org
                 </div>
             </li>
 
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Refinedet</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/refinedet/
+                        > refinedet</a> 
+                        generates a predetermined number of bounding boxes and scores indicating the existence of distinct kinds of items in those boxes, followed by non-maximum suppression (NMS).
+                </div>
+            </li>
 
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Fast Fourier Transformation and Multiplication</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/fast-fourier-transformation-and-multiplication/
+                        > Fast Fourier Transformation and Multiplication</a> 
+                        is an algorithm for computing the discrete Fourier transform (DFT) of a sequence. The DFT is a mathematical operation that converts a sequence of numbers into a sequence of frequencies.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Image Segementation</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/pq-sq-rq/
+                        > Image Segementation</a> 
+                        evaluation metrics are covered in this article. It includes Panoptic quality (PQ), segmentation quality (SQ) and recognition quality (RQ).
+                </div>
+            </li>
             
-
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Hinge Loss for SVM</span>
@@ -1685,8 +1952,33 @@ team@opengenus.org
                 </div>
             </li>
 
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Dialted Convolution</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/dilated-convolution/
+                        > Dialted Convolution</a> 
+                        also known as Atrous Convolution or convolution with holes, first came into light by the paper "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs". The idea behind dilated convolution is to "inflate" the kernel which in turn skips some of the points.
+                </div>
+            </li>
 
-            
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Wake Sleep Algorithm</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/wake-sleep-algorithm/
+                        > Wake Sleep Algorithm</a> 
+                        is a stack of layers that represents the data. In this process, each layer learns to represent the activities of the adjacent hidden layers. This algorithm allows the representations to be efficient and the inputs to be adjusted accurately.
+                </div>
+            </li>
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -1767,8 +2059,6 @@ team@opengenus.org
                 </div>
             </li>
 
-            
-
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Scaled Dot Product Attention</span>
@@ -1785,6 +2075,20 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Stop Words</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href =https://iq.opengenus.org/stop-words/
+                        > Stop Words</a>. 
+                        are commonly used in a language but do not carry much meaning or significance. They are often used to connect other words or to form grammatical structures.
+                    </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Word Representations</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
@@ -1793,6 +2097,45 @@ team@opengenus.org
                     <div class="info">
                         <a href = https://iq.opengenus.org/word-representations/>Word Representations</a> 
                         , a popular concept in Natural Language Processing, are often used to improve the performance characteristics of text classification algorithms. As the name suggests, it is used to represent words with an alternative form which is easier to process and understand.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Topic Modeling Techniques</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/topic-modelling-techniques/>Topic Modeling</a> 
+                        is an algorithm for extracting the topic or topics for a collection of documents. It is the widely used text mining method in Natural Language Processing to gain insights about the text documents. The algorithm is analogous to dimensionality reduction techniques used for numerical data.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Byte Pair Encoding</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/byte-pair-encoding/>Byte Pair Encoding</a> 
+                        is originally a compression algorithm that was adapted for NLP usage.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Zipfs Law</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/zipfs-law/>Zipfs Law</a> 
+                        is an empirical law, that was proposed by George Kingsley Zipf, an American Linguist.
                 </div>
             </li>
 
@@ -1858,8 +2201,24 @@ team@opengenus.org
                     <div class="info">
                         <a href = https://iq.opengenus.org/interview-questions-on-transformers/> Transforers</a> 
                         questions are explored in this article. After goign through the article, you will have a thorough understanding of the model.
+                        <a href = https://iq.opengenus.org/vision-transformer/> Vision Transformer </a>  is a transformer model to build a new network for image recognition
                 </div>
             </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Self Attention</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/self-attention-in-transformer/> Self Attention</a> 
+                        is a process that trying to make each single input to pay attention to the other inputs in the same sequence. this attention is weighted to each other input and this weight is trainable.
+                </div>
+            </li>
+
+            
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -1897,7 +2256,10 @@ team@opengenus.org
                 <div class="info-container">
                     <div class="info">
                         <a href =  https://iq.opengenus.org/gpt2-vs-gpt3-vs-gpt35-vs-gpt4/> All GPT Models</a> are covered in this article. And we will compare the developments and the different advantages and the disadvantages of the individual models.
-
+                        <a href = https://iq.opengenus.org/distilled-gpt2/> while distilled GPT 2</a> is a light version of GPT-2 and has 6 layers and 82 million parameters. The word embedding size for distilGPT2 is 768.
+                        <a href =  https://iq.opengenus.org/gpt-3-5-model/> GPT 3.5</a>is a fined-tuned version of the GPT3 (Generative Pre-Trained Transformer) model. GPT-3.5 was developed in January 2022 and has 3 variants each with 1.3B, 6B and 175B parameters.
+                        
+                        
                 </div>
             </li>
 
@@ -1991,6 +2353,21 @@ team@opengenus.org
                         > Applications of RNN</a> are covered in this article and you can pick one of the application ideas and try to implement it yourself.
 
             </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Global Temperature Change Prediction</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/global-temperature-change-prediction/
+                        > ML and DL</a> subfields of artificial intelligence, have demonstrated great promise in predictive modeling and data analysis. This article at OpenGenus explores how ML and DL can be effectively utilized for global temperature change prediction.
+
+            </li>
+
+            
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
