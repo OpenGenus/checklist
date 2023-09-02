@@ -6,6 +6,11 @@ html {
 article, aside, footer, header, nav, section {
 	display: block;
 }
+
+#contents {
+	margin-left: 140px;
+}
+
 small { text-align: center;
 margin-left: auto;
     margin-right: auto;
