@@ -11,3 +11,10 @@
 | 6 | System Design Checklist | Ready |
 | 7 | Deep Learning Checklist | Ready, clean-up needed |
 
+## Todo features:
+
+* Code cleanup (checklist dynamic height logic) [_In progress_]
+* Add author/ contributor list (section) in checklist
+* Optimize page
+* Add page sharing buttons
+* Script to make checklist production-ready (file extension + relative CSS/JS path)
