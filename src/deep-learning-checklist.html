@@ -283,6 +283,25 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Hidden Layer</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        The input layer contains input neurons that send information to the <a href = https://iq.opengenus.org/hidden-layers/>hidden layer </a> 
+                        The hidden layer sends data to the output layer.<br>
+                        Every neuron has weighted inputs, an activation function, and one output.
+                        The input layer takes inputs and passes on its scores to the next hidden layer for 
+                        further activation and this goes on till the output is reached. 
+                        Synapses are the adjustable parameters that convert a neural network 
+                        to a parameterized system.
+                    </div>
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Bias op</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
@@ -603,7 +622,7 @@ team@opengenus.org
                 </button>
                 <div class="info-container">
                     <div class="info">
-                        <a href = https://iq.opengenus.org/inference-process/>Inference</a> is the process of running a DL model. It may look to be simple but is technically, rich direction.
+                        <a href = https://iq.opengenus.org/inference-process/>Inference</a> is the process of running a DL model. It may look to be simple but is technically, rich direction. The main focus is on performance optimization and keep the accuracy (rate of correct output) of the model intact.
                 </div>
             </li>
             
@@ -616,7 +635,7 @@ team@opengenus.org
                 <div class="info-container">
                     <div class="info">
                         <a href = https://iq.opengenus.org/training-vs-inference/> Training and Inference</a> 
-                        are the two parts of deep learning models. Inference is the simplier part where we run a model. The main focus is on performance optimization and keep the accuracy (rate of correct output) of the model intact.
+                        are the two parts of deep learning models. Inference is the simplier part where we run a model. Remember inference can be done on CPUs but training require special hardware like GPUs, TPUs, FPGAs and others. Training can be done on CPUs but it may take years to complete.
                 </div>
             </li>
 
@@ -720,7 +739,35 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Feature Selection</span>
+                    class="checklist-item__title">Basics of Training</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href =https://iq.opengenus.org/training-process-of-deep-learning-models/
+                        > Training</a> is the most challenging part as it requires significant computing power. Due to this, DL was stuck for nearly 30 years. Once systems like GPU made training feasible, DL took off.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Epoch Iteration and Batch</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href =https://iq.opengenus.org/epoch-iteration-and-batch-in-deep-learning
+                        > Epoch, Iteration and Batch</a>
+                        are included in this article. In this article, we will explore three fundamental concepts in deep learning: epoch, iteration, and batch. These concepts are essential in training deep neural networks and improving their accuracy and performance.
+                    </div>
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Feature Selection?</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
                 </button>
@@ -728,7 +775,51 @@ team@opengenus.org
                     <div class="info">
                         <a href =https://iq.opengenus.org/feature-selection-problem/
                         > Feature Selection</a>
-                        can help in improving maching learning model performance, reducing dimensionality, enhancing interpretability, and preventing overfitting. Throughout the article, we will touch more on why feature selection is so important, how to implement feature selection, and the broader impact of feature selection.
+                        can help in improving maching learning model performance, reducing dimensionality, enhancing interpretability, and preventing overfitting. Throughout the article, we will touch more on why feature selection is so important, how to implement feature selection, and the broader impact of feature selection.<br>
+                        <strong>DL usually do not need feature selection</strong> which makes it a powerful technique.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Backpropagation</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/types-of-backpropagation/> Backpropagation</a> 
+                        is an algorithm used in supervised learning to train the neural networks. The algorithm works by adjusting the weights and biases of the nodes.It entails sending input data into the network forward to produce an output, comparing it to the desired output, and then propagating the mistake back through the network to change the nodes' weights and biases.<br>
+                        <a href = https://iq.opengenus.org/back-propagation-through-time/> Back propagation through time</a> is the the generalization of this algorithm to recurrent neural networks<br>
+                        <a href = https://iq.opengenus.org/deep-belief-network/> Deep Belief Networks </a>are unsupervised learning models that overcome these limitations. We will explore them in details in this article at OpenGenus.
+                </div>
+            </li>
+
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Gradient Descent</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/gradient-descent/
+                        > Gradient Descent</a>
+                        algorithm is one of the most popular algorithms for finding optimal parameters for most machine learning models including neural networks.
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Cost Functions</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/cost-functions-in-machine-learning/>Cost Function</a> calculates the individual losses and eventually overall cost. 
+                    </div>
                 </div>
             </li>
 
@@ -742,7 +833,7 @@ team@opengenus.org
                     <div class="info">
                         <a href =https://iq.opengenus.org/types-of-gradient-optimizers/
                         > Gradient Optimizers</a>
-                        are crucial in deep learning. In this article, we will explore the concept of Gradient optimization and the different types of Gradient Optimizers present in Deep Learning such as Mini-batch Gradient Descent Optimizer.
+                        are crucial in deep learning. In the article, we explored the concept of Gradient optimization and the different types of Gradient Optimizers present in Deep Learning such as Mini-batch Gradient Descent Optimizer.
                     </div>
                 </div>
             </li>
@@ -756,7 +847,7 @@ team@opengenus.org
                 <div class="info-container">
                     <div class="info">
                         <a href = https://iq.opengenus.org/overfitting-problem/> Overfitting</a> 
-                        refers to a phenomenon in data science that occurs when a our models aren't able to fit exactly to their training data. 
+                        refers to a phenomenon that occurs when our models learn the training data more than expected and perform poor in validation dataset.
                 </div>
             </li>
 
@@ -782,6 +873,19 @@ team@opengenus.org
                 <div class="info-container">
                     <div class="info">
                         <a href = https://iq.opengenus.org/residual-connections/> Residual connections</a> work by introducing shortcut connections that allow the gradient to flow directly from one layer to another without any alteration.
+                    </div>
+                </div>
+            </li>
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Variance</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/variance-in-dl/>Variance</a> refers to the variability or inconsistency of the model's performance when trained on different subsets of the training data.
                     </div>
                 </div>
             </li>
@@ -825,6 +929,18 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                    class="checklist-item__title">Precision, Recall, Sensitivity and Specificity</span>
+                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+                <div class="info-container">
+                    <div class="info">
+                        <a href = https://iq.opengenus.org/precision-recall-sensitivity-specificity/>Precision, Recall, Sensitivity and Specificity</a> 
+                        are key metrics to evaluate how well a model performs. And in this article we will go over each of them and their meaning.
+            </li> 
+
+            <li class="checklist-item">
+                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Calibration</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
@@ -844,7 +960,7 @@ team@opengenus.org
                 <div class="info-container">
                     <div class="info">
                         <a href = https://iq.opengenus.org/pruning-in-ml/>Pruning</a> 
-                        in Machine Learning is an optimization technique for Neural Network models. These models are usually smaller and efficient. Pruning aims to optimise the model by eliminating the values of weight tensors to gain computationally cost efficient model that takes less time in training.
+                        in Deep Learning is an optimization technique for Neural Network models. These models are usually smaller and efficient. Pruning aims to optimize the model by eliminating the values of weight tensors to gain computationally cost efficient model that takes less time in training.
             </li> 
 
             <li class="checklist-item">
@@ -863,18 +979,6 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Precision, Recall, Sensitivity and Specificity</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
-                        <a href = https://iq.opengenus.org/precision-recall-sensitivity-specificity/>Precision, Recall, Sensitivity and Specificity</a> 
-                        are key metrics to evaluate how well a model performs. And in this article we will go over each of them and their meaning.
-            </li> 
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                     class="checklist-item__title">Dimensionality Reduction</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
@@ -883,19 +987,6 @@ team@opengenus.org
                     <div class="info">
                         <a href = https://iq.opengenus.org/types-of-dimensionality-reduction-techniques/>Dimensional Reduction Techniques</a> 
                         are covered in this article. It is important to reduce the dimensionality of the model to make the model simpler.
-            </li>
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Variance</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
-                        <a href = https://iq.opengenus.org/variance-in-dl/>Variance</a> refers to the variability or inconsistency of the model's performance when trained on different subsets of the training data.
-                    </div>
-                </div>
             </li>
 
             <li class="checklist-item">
@@ -927,82 +1018,15 @@ team@opengenus.org
 
             <li class="checklist-item">
                 <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Cost Functions</span>
+                    class="checklist-item__title">Delta Rule in Neural Network</span>
                 <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                     <span class="line"></span>
                 </button>
                 <div class="info-container">
                     <div class="info">
-                        <a href = https://iq.opengenus.org/cost-functions-in-machine-learning/>Cost Function</a> calculates the individual losses and eventually overall cost. 
-                    </div>
-                </div>
-            </li>
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Backpropagation</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
-                        <a href = https://iq.opengenus.org/types-of-backpropagation/> Backpropagation</a> 
-                        is an algorithm used in supervised learning to train the neural networks. The algorithm works by adjusting the weights and biases of the nodes.It entails sending input data into the network forward to produce an output, comparing it to the desired output, and then propagating the mistake back through the network to change the nodes' weights and biases.
-                        <a href = https://iq.opengenus.org/back-propagation-through-time/> Back propagation through time</a>is the the generalization of this algorithm to recurrent neural networks
-                        <a href = https://iq.opengenus.org/deep-belief-network/> Deep Belief Networks </a>are unsupervised learning models that overcome these limitations. We will explore them in details in this article at OpenGenus.
-                        
-                </div>
-            </li>
-
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Gradient Descent</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
-                        <a href = https://iq.opengenus.org/gradient-descent/
-                        > Gradient Descent</a>
-                        algorithm is one of the most popuarl algorithms for finding optimal parameters for most machine learning models including neural networks.
-                </div>
-            </li>
-
-            
-
-            
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Hidden Layer</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
-                        The input layer contains input neurons that send information to the <a href = https://iq.opengenus.org/hidden-layers/>hidden layer </a> 
-                        The hidden layer sends data to the output layer. 
-                        Every neuron has weighted inputs, an activation function, and one output.
-                        The input layer takes inputs and passes on its scores to the next hidden layer for 
-                        further activation and this goes on till the output is reached. 
-                        Synapses are the adjustable parameters that convert a neural network 
-                        to a parameterized system.
-                    </div>
-                </div>
-            </li>
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Epoch Iteration and Batch</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
-                        <a href =https://iq.opengenus.org/epoch-iteration-and-batch-in-deep-learning
-                        > Epoch, Iteration and Batch</a>
-                        are included in this article. In this article, we will explore three fundamental concepts in deep learning: epoch, iteration, and batch. These concepts are essential in training deep neural networks and improving their accuracy and performance.
+                        <a href = https://iq.opengenus.org/delta-rule-in-neural-network/
+                        > Delta Rule in Neural Network</a>. 
+                        is one algorithm that can be used repeatedly during training to modify the network weights to reduce loss error.
                     </div>
                 </div>
             </li>
@@ -1018,22 +1042,7 @@ team@opengenus.org
                         <a href = https://iq.opengenus.org/deep-learning-on-2-dimensional-images/
                         > 2 dimensional images</a> are one of the most common input data types. In this article, we will take a look at the deep learning techniques that can be applied on 2 dimensional images to extract useful information and develop ground breaking applications from face recognition to medical imaging.
                 </div>
-            </li>
-
-            <li class="checklist-item">
-                <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                    class="checklist-item__title">Delta Rule in Neural Network</span>
-                <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                    <span class="line"></span>
-                </button>
-                <div class="info-container">
-                    <div class="info">
-                        <a href = https://iq.opengenus.org/delta-rule-in-neural-network/
-                        > Delta Rule in Neural Network</a>. 
-                        is one algorithm that can be used repeatedly during training to modify the network weights to reduce loss error.
-                    </div>
-                </div>
-            </li>        
+            </li>     
 
         </ul>
 
