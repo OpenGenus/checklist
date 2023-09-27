@@ -10,6 +10,7 @@
 | 5 | Greedy Algorithm Checklist | [Deployed](https://iq.opengenus.org/greedy-algorithms-checklist/) |
 | 6 | System Design Checklist | In progress |
 | 7 | Deep Learning Checklist | [Deployed](https://iq.opengenus.org/deep-learning-checklist/) |
+| 8 | Open Source Checklist | In progress |
 
 ## Todo features:
 
