@@ -5,7 +5,7 @@ import shutil
 source_directory = os.path.abspath(os.path.join(os.getcwd(), ".."))
 
 # Define the destination directory
-destination_directory = "deploy/checklist"
+destination_directory = "deploy/production-checklist"
 
 # Define the full path for the destination directory
 destination_path = os.path.join(source_directory, destination_directory)
