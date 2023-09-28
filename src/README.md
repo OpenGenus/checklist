@@ -5,11 +5,11 @@
 |---|---|---|---|
 | 1 | 100 Interview Problems | [Deployed](https://iq.opengenus.org/100-interview-problems/) | - |
 | 2 | Data Science Checklist | [Deployed](https://iq.opengenus.org/data-science-checklist/) | Sanjana Babu |
-| 3 | Python Checklist | [Deployed](https://iq.opengenus.org/python-checklist/) | |
-| 4 | Graph Algorithm Checklist | [Deployed](https://iq.opengenus.org/graph-algorithms-checklist/) | |
-| 5 | Greedy Algorithm Checklist | [Deployed](https://iq.opengenus.org/greedy-algorithms-checklist/) | |
+| 3 | Python Checklist | [Deployed](https://iq.opengenus.org/python-checklist/) | Akanksha Singh |
+| 4 | Graph Algorithm Checklist | [Deployed](https://iq.opengenus.org/graph-algorithms-checklist/) | Akanksha Singh |
+| 5 | Greedy Algorithm Checklist | [Deployed](https://iq.opengenus.org/greedy-algorithms-checklist/) | Akanksha Singh |
 | 6 | System Design Checklist | In progress | |
-| 7 | Deep Learning Checklist | [Deployed](https://iq.opengenus.org/deep-learning-checklist/) | |
+| 7 | Deep Learning Checklist | [Deployed](https://iq.opengenus.org/deep-learning-checklist/) | Jiadi Huang |
 | 8 | Open Source Checklist | In progress | |
 
 ## Todo features:
