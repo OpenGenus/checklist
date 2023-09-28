@@ -1,5 +1,5 @@
-# OpenGenus Checklist 📅
+# OpenGenus Checklist
 
-Pioneering the future of organized sequential knowledge
+ 🐐 Pioneering the future of organized sequential knowledge
 
 ---
