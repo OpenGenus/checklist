@@ -14,8 +14,18 @@ html_files = [file for file in os.listdir(parent_directory) if file.endswith(".h
 # Get the current date
 current_date = datetime.datetime.now().strftime("%Y-%m-%d")
 
+# Count of HTML files
+total_files = len(html_files)
+
+# Print "Conversion started" once at the beginning
+print("Conversion started:")
+
 # Iterate through each HTML file
-for html_file_name in html_files:
+for index, html_file_name in enumerate(html_files, start=1):
+
+    # Print the conversion progress
+    print(f"({index}/{total_files}) {html_file_name} converted...")
+
     # Read HTML content from the HTML file
     with open(os.path.join(parent_directory, html_file_name), 'r', encoding='utf-8') as html_file:
         html_content = html_file.read()
@@ -100,6 +110,5 @@ for html_file_name in html_files:
     with open(os.path.join(output_directory, markdown_file_name), 'w', encoding='utf-8') as markdown_file:
         markdown_file.write(markdown_content)
 
-    print(f"Conversion from {html_file_name} to Markdown is complete. Saved to 'list/{markdown_file_name}'.")
-
-print("All conversions are complete.")
+# Print the final message when all conversions are complete
+print(f"All {total_files} checklists converted to markdown.")
