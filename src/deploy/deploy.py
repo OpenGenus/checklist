@@ -14,21 +14,35 @@ destination_path = os.path.join(source_directory, destination_directory)
 if not os.path.exists(destination_path):
     os.makedirs(destination_path)
 
-# Loop through the HTML files in the source directory
+# Mapping of file extensions and their corresponding paths
+file_extensions = {
+    ".html": ".hbs"
+}
+
+# Loop through the files in the source directory
 for filename in os.listdir(source_directory):
     if filename == "sample-checklist-template.html":
         # Skip the file named "sample.html"
         continue
 
-    if filename.endswith(".html"):
-        # Generate the new .hbs filename
-        new_filename = os.path.splitext(filename)[0] + ".hbs"
+    # Get the file extension
+    file_extension = os.path.splitext(filename)[1]
 
-        # Define the source and destination file paths
-        source_path = os.path.join(source_directory, filename)
-        destination_file_path = os.path.join(destination_path, new_filename)
+    if file_extension in file_extensions:
+        # Get the new file extension and destination path
+        new_extension = file_extensions[file_extension]
+        destination_file_path = os.path.join(destination_path, os.path.splitext(filename)[0] + new_extension)
 
-        # Copy the file and rename it with the .hbs extension
-        shutil.copy(source_path, destination_file_path)
+        # Read the content of the HTML file with UTF-8 encoding
+        with open(os.path.join(source_directory, filename), "r", encoding="utf-8") as html_file:
+            html_content = html_file.read()
+
+        # Update the CSS and JS file paths within the HTML content
+        updated_html_content = html_content.replace('checklist-style.css', '/assets/css/checklist/checklist-style.css')
+        updated_html_content = updated_html_content.replace('checklist-track.js', '/assets/js/checklist/checklist-track.js')
+
+        # Write the updated content to the destination file with the new extension
+        with open(destination_file_path, "w", encoding="utf-8") as destination_file:
+            destination_file.write(updated_html_content)
 
 print("Conversion completed.")
