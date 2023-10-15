@@ -129,6 +129,16 @@ a:hover {
 	font-weight: 150;
 	margin: .5em .2em .375em;
 	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.text_small_v2 {
+	font-size: 1.2vw;
+	font-weight: 150;
+	margin: .5em .2em .375em;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 .title a {
 	color: #e6e6e6;
