@@ -65,8 +65,13 @@ team@opengenus.org
 
 <header>
  <h1 class="title">System Design Checklist</h1>
- <p class="text_small">Powered by OpenGenus IQ because we want you ❤️ to succeed. (<a href="https://iq.opengenus.org/use-checklist/" target="_blank" rel="noopener">How to use this?</a>)<br>Bookmark this page now (press <code>CTRL</code> + <code>D</code>) to easily use this masterpiece tomorrow<br></p>
- <p class="text_small">Only concepts that you need to review to ace your System Design Interview</p>
+ <p class="text_small">System design is the process of creating the architecture, modules, components, interfaces, and data for a system. 
+    System design is the core concept behind the design of any distributed systems. These concepts are now repeatedly being asked in several interviews. 
+    This checklist covers all the important concepts with which you can ace your interviews!
+ </p>
+ <p class="text_small_v2">Powered by OpenGenus IQ because we want you ❤️ to succeed. (<a href="https://iq.opengenus.org/use-checklist/" target="_blank" rel="noopener">How to use this?</a>)
+    <br>Bookmark this page now (press <code>CTRL</code> + <code>D</code>) to easily use this masterpiece tomorrow<br>
+ </p>
  <div class="progress">
   <span class="progress__count">0/X</span>
   <input class="progress__reset" type="reset" value="Reset" title="Reset Checkboxes" tabindex="0">
@@ -77,10 +82,24 @@ team@opengenus.org
 
 <div class="container">
   <section class="checklist">
-    <h2 class="checklist__title">Section 1: Load Balancing and Scaling</h2>
+    <h2 class="checklist__title">Section 0: Different Components of System Design</h2>
+    These components form the building blocks of the system-design.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
+        <li class="checklist-item">
+            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                class="checklist-item__title">Software development lifecycles</span>
+            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                <span class="line"></span>
+            </button>
+            <div class="info-container">
+                <div class="info">
+                   <a href="https://iq.opengenus.org/software-development-lifecycle/" target="_blank" rel="noopener"> Software Development Lifecycles (SDLC)</a>
+                   refer to methodologies or frameworks that guide the process of designing, developing, testing, deploying, and maintaining software systems. 
+                </div>
+            </div>
+        </li>
 
         <li class="checklist-item">
             <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -100,6 +119,77 @@ team@opengenus.org
                 </div>
             </div>
         </li>
+
+        <li class="checklist-item">
+            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                class="checklist-item__title">Different types of databases</span>
+            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                <span class="line"></span>
+            </button>
+            <div class="info-container">
+                <div class="info">
+                    In the world of system design, databases play a crucial role in storing and managing data efficiently. 
+                    Understanding the <a href="https://iq.opengenus.org/types-of-database/" target="_blank" rel="noopener">different types of databases</a> 
+                    is essential for designing scalable and robust systems. 
+
+                </div>
+            </div>
+        </li>
+
+        <li class="checklist-item">
+            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                class="checklist-item__title">Key-value store</span>
+            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                <span class="line"></span>
+            </button>
+            <div class="info-container">
+                <div class="info">
+                    A<a href="https://iq.opengenus.org/key-value-store/" target="_blank" rel="noopener"> Key-Value Store</a> 
+                    is a type of NoSQL database that stores data as a collection of key-value pairs. Each piece of data 
+                    is associated with a unique key, which serves as an identifier for retrieving or updating the data. 
+                </div>
+            </div>
+        </li>
+
+        <li class="checklist-item">
+            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                class="checklist-item__title">Distributed operating system</span>
+            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                <span class="line"></span>
+            </button>
+            <div class="info-container">
+                <div class="info">
+                  A <a href="https://iq.opengenus.org/distributed-operating-system/" target="_blank" rel="noopener">distributed operating system</a>, 
+                    is an advanced software architecture that extends the capabilities of traditional operating systems
+                  to manage and coordinate multiple interconnected computers or nodes within a network.
+                </div>
+            </div>
+        </li>
+
+        <li class="checklist-item">
+            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                class="checklist-item__title">Distributed file system</span>
+            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                <span class="line"></span>
+            </button>
+            <div class="info-container">
+                <div class="info">
+                    A <a href="https://iq.opengenus.org/distributed-file-system/" target="_blank" rel="noopener">Distributed File System </a> 
+                    is a file storage technology that spans multiple physical or virtual servers, 
+                    allowing them to work together as a single, unified file system. 
+                    
+                </div>
+            </div>
+        </li>
+        
+    </ul>
+  </section>
+  <section class="checklist">
+    <h2 class="checklist__title">Section 1: Load Balancing and Scaling</h2>
+    Here we will discuss about different concepts relating to load balancing and scaling.
+    <span class="checklist__title-border"></span>
+    <span class="checklist__percentage-border"></span>
+    <ul class="checklist-container">
 
         <li class="checklist-item">
             <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -164,27 +254,13 @@ team@opengenus.org
         
     </ul>
   </section>
+
   <section class="checklist">
     <h2 class="checklist__title">Section 2: Databases and Data Storage</h2>
+    Database is an integral part of any system, here we will look at the different types and other important concepts relating to it.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
-
-        <li class="checklist-item">
-            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                class="checklist-item__title">Different types of databases</span>
-            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                <span class="line"></span>
-            </button>
-            <div class="info-container">
-                <div class="info">
-                    In the world of system design, databases play a crucial role in storing and managing data efficiently. 
-                    Understanding the <a href="https://iq.opengenus.org/types-of-database/" target="_blank" rel="noopener">different types of databases</a> 
-                    is essential for designing scalable and robust systems. 
-
-                </div>
-            </div>
-        </li>
 
         <li class="checklist-item">
             <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -619,60 +695,16 @@ team@opengenus.org
                 </div>
             </div>
         </li>
-        <li class="checklist-item">
-            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                class="checklist-item__title">Key-value store</span>
-            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                <span class="line"></span>
-            </button>
-            <div class="info-container">
-                <div class="info">
-                    A<a href="https://iq.opengenus.org/key-value-store/" target="_blank" rel="noopener"> Key-Value Store</a> 
-                    is a type of NoSQL database that stores data as a collection of key-value pairs. Each piece of data 
-                    is associated with a unique key, which serves as an identifier for retrieving or updating the data. 
-                </div>
-            </div>
-        </li>
 
     </ul>
 
   </section>
   <section class="checklist">
     <h2 class="checklist__title">Section 3: Distributed Systems</h2>
+    In our systems we might require our devices to work on a variety of tasks and components all spread accross a network, this can be achieved by distributed systems.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
-
-        <li class="checklist-item">
-            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                class="checklist-item__title">Distributed operating system</span>
-            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                <span class="line"></span>
-            </button>
-            <div class="info-container">
-                <div class="info">
-                  A <a href="https://iq.opengenus.org/distributed-operating-system/" target="_blank" rel="noopener">distributed operating system</a>, 
-                    is an advanced software architecture that extends the capabilities of traditional operating systems
-                  to manage and coordinate multiple interconnected computers or nodes within a network.
-                </div>
-            </div>
-        </li>
-
-        <li class="checklist-item">
-            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                class="checklist-item__title">Distributed file system</span>
-            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                <span class="line"></span>
-            </button>
-            <div class="info-container">
-                <div class="info">
-                    A <a href="https://iq.opengenus.org/distributed-file-system/" target="_blank" rel="noopener">Distributed File System </a> 
-                    is a file storage technology that spans multiple physical or virtual servers, 
-                    allowing them to work together as a single, unified file system. 
-                    
-                </div>
-            </div>
-        </li>
 
         <li class="checklist-item">
             <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -817,6 +849,7 @@ team@opengenus.org
 
   <section class="checklist">
     <h2 class="checklist__title">Section 4: Data Formats</h2>
+    Each data format is used to handle each type of data.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
@@ -882,6 +915,7 @@ team@opengenus.org
 
   <section class="checklist">
     <h2 class="checklist__title">Section 5: Testing, Tools and Strategies</h2>
+    Testing is an important part of the design cycle, here we will discuss the tools used for testing and different stratergies used to overcome problems.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
@@ -1095,12 +1129,6 @@ team@opengenus.org
                 </div>
             </div>
         </li>
-        
-        <li class="checklist-item">
-            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                class="checklist-item__title">Live streaming to 25.3M viewers</span>
-            
-        </li>
 
         <li class="checklist-item">
             <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
@@ -1138,6 +1166,7 @@ team@opengenus.org
     
   <section class="checklist">
     <h2 class="checklist__title">Section 6: Design Principles and Patterns</h2>
+    To design a system, its important to know about the different design principles and patterns, here we will go through those concepts.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
@@ -1219,6 +1248,7 @@ team@opengenus.org
 
   <section class="checklist">
     <h2 class="checklist__title">Section 7: System Design of Standard Platforms</h2>
+    Here we will look at the system designs of some standard platforms.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
@@ -1404,6 +1434,7 @@ team@opengenus.org
 
   <section class="checklist">
     <h2 class="checklist__title">Section 8: System Design of Popular Platforms</h2>
+    Here we will look at the system design of some popular platforms, this would explain how these platorms are able to handle huge user base and their queries.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
@@ -1654,7 +1685,8 @@ team@opengenus.org
   </section>
 
   <section class="checklist">
-    <h2 class="checklist__title">Section 10: Containerization and Orchestration</h2>
+    <h2 class="checklist__title">Section 9: Containerization and Orchestration</h2>
+    Here we will learn about the various uses of cloud technologies.
     <span class="checklist__title-border"></span>
     <span class="checklist__percentage-border"></span>
     <ul class="checklist-container">
@@ -1669,6 +1701,23 @@ team@opengenus.org
                 <div class="info">
                     <a href="https://iq.opengenus.org/infrastructure-as-a-service/" target="_blank" rel="noopener">Infrastructure as a Service (IaaS) </a> 
                     is a cloud computing model that provides virtualized computing resources over the internet.
+                </div>
+            </div>
+        </li>
+
+        <li class="checklist-item">
+            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
+                class="checklist-item__title">Idea of virtualization</span>
+            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                <span class="line"></span>
+            </button>
+            <div class="info-container">
+                <div class="info">    
+                  <a href="https://iq.opengenus.org/virtualization/" target="_blank" rel="noopener">Virtualization </a> 
+                   is a fundamental concept in system design that involves creating virtual instances of computing 
+                   resources, such as servers, storage, and networks, to effectively utilize physical hardware. By 
+                   abstracting physical resources, virtualization allows multiple virtual machines (VMs) or virtual 
+                   environments to run on a single physical machine, enhancing resource utilization, flexibility, and cost-efficiency.
                 </div>
             </div>
         </li>
@@ -1784,37 +1833,9 @@ team@opengenus.org
             </div>
         </li>
 
-        <li class="checklist-item">
-            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                class="checklist-item__title">Idea of virtualization</span>
-            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                <span class="line"></span>
-            </button>
-            <div class="info-container">
-                <div class="info">    
-                  <a href="https://iq.opengenus.org/virtualization/" target="_blank" rel="noopener">Virtualization </a> 
-                   is a fundamental concept in system design that involves creating virtual instances of computing 
-                   resources, such as servers, storage, and networks, to effectively utilize physical hardware. By 
-                   abstracting physical resources, virtualization allows multiple virtual machines (VMs) or virtual 
-                   environments to run on a single physical machine, enhancing resource utilization, flexibility, and cost-efficiency.
-                </div>
-            </div>
-        </li>
+        
 
-        <li class="checklist-item">
-            <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
-                class="checklist-item__title">Software development lifecycles</span>
-            <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
-                <span class="line"></span>
-            </button>
-            <div class="info-container">
-                <div class="info">
-                   <a href="https://iq.opengenus.org/software-development-lifecycle/" target="_blank" rel="noopener"> Software Development Lifecycles (SDLC)</a>
-                   refer to methodologies or frameworks that guide the process of designing, developing, testing, deploying, and maintaining software systems. 
-                </div>
-            </div>
-        </li>
-
+        
         <li class="checklist-item">
             <input id="" type="checkbox" /><label for="" class="checkbox"></label><span
                 class="checklist-item__title">Fault Tolerance in System Design</span>
