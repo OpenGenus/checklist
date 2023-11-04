@@ -8,7 +8,7 @@
 | 3 | Python Checklist | [Deployed](https://iq.opengenus.org/python-checklist/) | Akanksha Singh |
 | 4 | Graph Algorithm Checklist | [Deployed](https://iq.opengenus.org/graph-algorithms-checklist/) | Akanksha Singh |
 | 5 | Greedy Algorithm Checklist | [Deployed](https://iq.opengenus.org/greedy-algorithms-checklist/) | Akanksha Singh |
-| 6 | System Design Checklist | In progress | |
+| 6 | System Design Checklist | Ready | Aswin Shailajan |
 | 7 | Deep Learning Checklist | [Deployed](https://iq.opengenus.org/deep-learning-checklist/) | Jiadi Huang |
 | 8 | Open Source Checklist | In progress | |
 | 9 | CSS Checklist | In progress | |
