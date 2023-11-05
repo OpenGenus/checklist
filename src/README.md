@@ -11,7 +11,7 @@
 | 6 | System Design Checklist | Ready | Aswin Shailajan |
 | 7 | Deep Learning Checklist | [Deployed](https://iq.opengenus.org/deep-learning-checklist/) | Jiadi Huang |
 | 8 | Open Source Checklist | In progress | |
-| 9 | CSS Checklist | In progress | |
+| 9 | CSS Checklist | Ready | Mathankumar V |
 | 10 | Operating System (OS) Checklist | In progress | |
 | 11 | Web Development Checklist | In progress | Delia Georgiana Soare |
 
