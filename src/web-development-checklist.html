@@ -965,7 +965,7 @@ team@opengenus.org
   <h2 class="checklist__title">Week 18 - 22: Backend JavaScript Framework - Node.js (Express)</h2>
   <span class="checklist__title-border"></span>
   <span class="checklist__percentage-border"></span>
-
+    This is the section for learning a JavaScript backend framework. For the sake of this curriculum, you should either choose a JavaScript framework, or a Python framework (next section).
   <ul class="checklist-container">
    <li class="checklist-item">
     <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Introduction to Node.js</span>
@@ -1048,6 +1048,127 @@ team@opengenus.org
     <div class="info-container">
      <div class="info">
       Here are <a href="https://iq.opengenus.org/list-of-node-js-projects/" target="_blank" rel="noopener">31 Node.js projects</a> that you might want to try in order to test your new-learned skills and, based on difficulty, acquire new ones! 
+    </div>
+    </div>
+   </li>
+
+  </ul>
+
+ </section>
+
+ <section class="checklist">
+  <h2 class="checklist__title">Week 18 - 22: Backend Python Framework - Django</h2>
+  <span class="checklist__title-border"></span>
+  <span class="checklist__percentage-border"></span>
+  This is the section for learning a Python backend framework. For the sake of this curriculum, you should either choose a JavaScript framework (previous section), or a Python framework.
+
+  <ul class="checklist-container">
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Introduction to Django</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      Here is an <a href="https://iq.opengenus.org/getting-started-with-django/" target="_blank" rel="noopener"> introduction to Django </a>, where you will learn a bit more about what it actually is and how you can integrate it in your own project.
+     </div>
+    </div>
+   </li>
+
+  <ul class="checklist-container">
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Application structure of Django</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      Here is an <a href="https://iq.opengenus.org/application-structure-of-django/" target="_blank" rel="noopener"> guide to the application structure of Django </a>, so that you can understand the overall flow. We will be expanding upon these subjects further, this is just an overview.
+     </div>
+    </div>
+   </li>
+
+  <ul class="checklist-container">
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Models in Django</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      <a href="https://iq.opengenus.org/models-in-django/" target="_blank" rel="noopener">Models </a> are Python classes that act as intermediaries between your Python code and the database and a fundamental concept to learn.
+     </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Templates in Django</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      <a href="https://iq.opengenus.org/django-template-system/" target="_blank" rel="noopener">Templates</a> are a fundamental part of Django, that allow you to generate dynamic HTML web pages. 
+    </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Views in Django</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      <a href="https://iq.opengenus.org/class-based-generic-views-django/" target="_blank" rel="noopener">Views</a> are another very important concept in Django, determining the logic of a web page and how it is displayed. Their purpose can be processing requests, retrieving data from the database, or rendering HTML templates.
+     </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">User Authentication</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+     Read <a href="https://iq.opengenus.org/django-user-authentication/" target="_blank" rel="noopener">this article </a> for a walkthrough of how to set up user authentication in Django.
+    </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">URL Routing</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+        URL routing is a fundamental concept that helps you map incoming URLs to specific views, so that you can define how different parts of your application are accessed. All the urls are defined in the 'urls.py' file of the application, inside an array called 'urlpatterns'. You have to import the 'path' function from django.urls (from django.urls import path) and the views, from your current application (from . import views). In order to define a path, you must specify three parameters: the coressponding url, the view that should handle it, and a name. For example, a url pattern for a page displaying all the products of a website could be path('products/', views.products, name="products-list"). In order to define dyanmic URL segments, you must mention them within angle brackets ( < > ): 'products/&lt;int:product_id&gt;'
+    </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Follow-through project</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      Go ahead and try to follow through the creation of a full-fledged project using Django with <a href="https://iq.opengenus.org/pdf-library-application-in-django/" target="_blank" rel="noopener">this article</a>. You will be creating your first-ever project using Django, a library app! 
+    </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Project ideas</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      Some interesting project ideas that you could create using Django would be a blog application, that would include user registration, article publishing, comments and the search functionality. Another great idea could be an e-commerce website, which would include product listings, a shopping cart and the corresponding logic, user accounts, order history, and reviews. If you'd like some other ideas and a more detailed explanation of the projets, you can also check out <a href="https://iq.opengenus.org/software-development-project-ideas/" target="_blank" rel="noopener">this article</a>, where you won't necessarily find Django projects, but software development ones, most of which are entirely doable using Django! Happy coding!
     </div>
     </div>
    </li>
