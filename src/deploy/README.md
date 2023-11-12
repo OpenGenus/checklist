@@ -15,3 +15,12 @@ Automated scripts for handling OG Checklists.
    * PDF
    * Image Preview
    * CSV with links and section headers only
+
+## Browser Extension status
+
+* TODO: Create extension template
+* TODO: Develop script to generate extension
+
+| ID | Checklist | Extension status |
+|---|---|---|
+| 1 | 100 Interview Problems | Version 1 created.<br>Cleanup needed before production. |
