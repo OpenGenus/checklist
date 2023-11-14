@@ -13,7 +13,7 @@
 | 8 | Open Source Checklist | In progress | |
 | 9 | CSS Checklist | **Ready**, to be deployed | Mathankumar V |
 | 10 | Operating System (OS) Checklist | In progress | |
-| 11 | Web Development Checklist | In progress | Delia Georgiana Soare |
+| 11 | Web Development Checklist | **Ready**, to be deployed | Delia Georgiana Soare |
 
 ## Todo features:
 
