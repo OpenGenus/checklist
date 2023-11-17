@@ -1,5 +1,5 @@
-
 [How to use Checklist?](https://iq.opengenus.org/use-checklist/)
+
 
 | ID/Code | Checklist | Status | Main Contributors |
 |---|---|---|---|
@@ -14,11 +14,11 @@
 | 9 | CSS Checklist | **Ready**, to be deployed | Mathankumar V |
 | 10 | Operating System (OS) Checklist | In progress | |
 | 11 | Web Development Checklist | **Ready**, to be deployed | Delia Georgiana Soare |
+| 12 | Large Language Models Checklist | In progress | Alexander Nilsson |
 
 ## Todo features:
-
-* Code cleanup (checklist dynamic height logic) [_In progress_]
-* Add author/ contributor list (section) in checklist
-* Optimize page
-* Add page sharing buttons
-* Script to make checklist production-ready (file extension + relative CSS/JS path)
+- Code cleanup (checklist dynamic height logic) [_In progress_]
+- Add author/ contributor list (section) in checklist
+- Optimize page
+- Add page sharing buttons
+- Script to make checklist production-ready (file extension + relative CSS/JS path)
