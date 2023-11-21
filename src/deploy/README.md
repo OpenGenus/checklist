@@ -15,6 +15,7 @@ Automated scripts for handling OG Checklists.
    * PDF
    * Image Preview
    * CSV with links and section headers only
+3. Script to test validity of a checklist 
 
 ## Browser Extension status
 
