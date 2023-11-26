@@ -1,0 +1,267 @@
+# Greedy Algorithms Checklist: 4 weeks free course
+
+Only concepts that you need to review to master Greedy algorithms
+
+**Week 1: Greedy Algorithm Basics**
+===============================
+1. **Overview: Greedy Algorithm Basics**<br>  In this week, you will learn about the fundamental concepts and techniques of greedy algorithms. The links
+            cover a range of problems such as assigning cookies to children, filling a knapsack, finding the smallest
+            missing positive integer, and dividing numbers into two groups. The links explore how a greedy approach can
+            be used to solve each problem optimally by making locally optimal choices at each step in the hope of
+            achieving a global optimal solution.
+2. **Introduction to Greedy
+          Algorithms**<br>  Learn the conceptual basics of [greedy algorithms](https://iq.opengenus.org/greedy-algorithm-vs-dynamic-programming/) and also learn when to use them.
+3. **Assign
+          Cookies Problem**<br>  [Assign Cookies](https://iq.opengenus.org/assign-cookies/) problem
+            involves assigning cookies of different sizes to children with different greed levels such that the maximum
+            number of children can be satisfied. The term "greed level" refers to the
+            amount of cookies that each child desires. The greedy approach sorts the lists and iteratively checks for
+            contentment by comparing the size of the cookie with the greedy level of the sibling. If the cookie size is
+            greater than or equal to the greedy level, the sibling is considered contented, and the count is
+            incremented.
+4. **Fractional Knapsack Problem**<br>  [Fractional
+              Knapsack](https://iq.opengenus.org/fractional-knapsack/) problem involves maximizing the total value of items that can be placed into a
+            knapsack with a limited weight capacity. The naive approach involves
+            trying all possible subsets of items and fractions to find the maximum profit. The greedy approach involves
+            sorting the items in descending order of value/weight and then
+            including them in the knapsack one-by-one until either the capacity is reached or there are no more items
+            left. You can also dive deeper into different variations of the Knapsack Problem. The [Unbounded
+              Knapsack Problem](https://iq.opengenus.org/unbounded-knapsack-problem/) involves maximizing the value of items that can be put into a
+            knapsack of unlimited capacity, while the [0-1 Knapsack Problem](https://iq.opengenus.org/0-1-knapsack-problem/) involves choosing a subset of items to
+            maximize value while staying within a knapsack's weight limit. The [Bin Packing Problem
+            ](https://iq.opengenus.org/bin-packing-problem/)involves packing items into bins of limited capacity while minimizing the number of bins used.
+5. **Remove
+          K Digits to Make Smallest Number**<br>  [Remove K Digits to Make Smallest Number](https://iq.opengenus.org/remove-k-digits-to-make-smallest-number/) is the problem of
+            removing K digits from a given number to make it the smallest possible number. The approach for this problem
+            involves using the Monotonic Stack approach. A monotonic stack is a special type of stack that maintains a
+            monotonic sequence of elements, either strictly increasing or strictly decreasing, as we move from the
+            bottom to the top of the stack.
+6. **Smallest Missing Positive Integer**<br>  Learn how to find the [smallest missing positive integer ](https://iq.opengenus.org/first-missing-positive-integer/) in an
+            unsorted integer array in O(n) time and constant space complexity using a greedy approach with hashmaps. The
+            brute force approach involves traversing the array multiple times and finding the next smallest integer each
+            time. The sorting approach involves sorting the array and then finding the missing smallest positive
+            integer by traversing from the start.
+7. **The
+          smallest subset with sum greater than sum of all other elements**<br>  [Smallest Subset with Sum Greater than All Other Elements](https://iq.opengenus.org/smallest-subset-with-sum-greater-than-all-other-elements/) is
+            the problem of finding the smallest subset of a given set of integers with a sum greater than the sum of all
+            the other elements. The naive approach involves finding all possible subsets of the given set and then their
+            sum is compared with the sum of the remaining elements. The greedy approach involves sorting the array in
+            descending order and selecting the largest elements that sum up to at least half of the total sum of the
+            given array. We select the largest elements to minimize the length of the subset.
+8. **Minimum
+          number of Fibonacci terms with sum equal to a given number N**<br>  [Minimum Fibonacci Terms with Given Sum](https://iq.opengenus.org/minimum-fibonacci-terms-with-given-sum/) explains how to find the minimum number
+            of Fibonacci terms that sum up to a given number using a greedy algorithm approach. The approach involves
+            iterating through the Fibonacci sequence in reverse order and selecting the largest Fibonacci number that is
+            less than or equal to the remaining sum, then subtracting that number from the sum and repeating the process
+            until the sum becomes zero. Another similar problem is [finding the number of ways to represent a
+              given number as the sum of k Fibonacci numbers](https://iq.opengenus.org/number-of-ways-to-represent-a-number-as-sum-of-k-fibonacci-numbers/). This can be solved using either a brute force approach
+            or a recursive approach.
+9. **Divide
+          numbers from 1 to n into two groups with minimum sum difference from O(2^N) to O(N)**<br>  [Divide Numbers from 1 to N into Two Groups with Minimum Difference](https://iq.opengenus.org/divide-numbers-from-1-to-n-into-two-groups-with-minimum-difference/)
+            is the problem of dividing numbers from 1 to N into two groups such that the difference between the sum of
+            the two groups is minimum. The naive approach involves generating all subsets of the array, calculating the
+            sum of each subset, computing the absolute sum difference between the two subsets, and updating the minimum
+            difference. The greedy approach involves sorting the numbers in descending order and assigning them to two
+            groups with the goal of minimizing the difference between their sums.
+
+**Week 2: Maximum/Minimum Problems**
+================================
+1. **Overview: Maximum/Minimum Problems**<br>  Learn about "Maximum/minimum problems", with a particular focus on greedy algorithms for solving
+            problems related to finding the maximum or minimum values of a particular quantity. The links in this
+            subcategory cover a range of problems, such as finding the largest and smallest numbers with a given number
+            of digits and sum of digits, finding the largest cube formed by deleting minimum digits from a number, and
+            maximizing the sum of the product of an array with its index subject to a given condition.
+2. **Largest Number with Given Number of Digits and Sum of Digits**<br>  [Largest Number with Given Number of Digits and Sum of Digits](https://iq.opengenus.org/find-largest-number-with-given-number-of-digits-and-sum-of-digits/)
+            problem discusses an greedy algorithmic approach to finding the largest possible number with a specified
+            number of digits and a given sum of those digits. It uses a while loop to add the digit 9 until the sum is
+            greater than or equal to 9 and then adds the remaining sum as the last digit. The approach fills the
+            remaining digits with 0s to obtain the largest possible number.
+3. **Smallest Number with Given Number of Digits and Digits Sum**<br>  [Smallest Number with Given Number of Digits and Digits Sum](https://iq.opengenus.org/find-smallest-number-with-given-number-of-digits-and-digits-sum/)
+            involves a greedy method for finding the smallest possible number with a specified number of digits and a
+            given sum of those digits. It uses a loop to determine the value of each digit by subtracting the remaining
+            sum from 9 until the remaining sum is less than 9, assigning the leftmost digit with the remaining sum.
+4. **Largest Cube Formed by Deleting Minimum Digits from a Number**<br>  [Finding the Largest Cube Formed by Deleting Minimum Digits from a
+              Number](https://iq.opengenus.org/find-the-largest-cube-formed-by-deleting-minimum-digits-from-a-number/)
+            uses a greedy a technique to find the largest possible cube that can be formed by deleting a specified
+            minimum number of digits from a given number. The brute force approach involves checking every subsequence
+            of the
+            number to see if it is a cube and comparing it with the maximum cube found so far. The greedy approach
+            involves generating all perfect cubes from 1 to N, where N is the given number, and checking if the largest
+            cube is a subsequence of the given number.
+5. **Maximize Sum of Array (i)**<br>  [Maximize Sum of
+              Array (i)](https://iq.opengenus.org/maximize-sum-of-array-i/) is a problem where we are given an array of integers and we maximize the sum of a function
+            of array indices. The naive approach involves generating all permutations of the array, computing the sum of
+            the product of array elements with their respective indices for each permutation, and returning the maximum
+            value. The greedy approach involves sorting the array in increasing order, multiplying the minimum value of
+            i with the minimum value of arr[i], and computing the sum of the product of array elements with their
+            respective indices from i=0 to n-1.
+
+**Week 3: Scheduling Problems**
+===========================
+1. **Overview: Scheduling Problems**<br>  In "Scheduling Problems", you will learn about greedy algorithms which involve optimizing the scheduling of
+            tasks or events based on certain criteria. Examples include the Activity Selection Problem, Scheduling to
+            Minimize Lateness, and Shortest Job First CPU Scheduling, each using a different objective and constraints.
+2. **Activity Selection Problem**<br>  [Activity Selection Problem](https://iq.opengenus.org/activity-selection-problem-greedy-algorithm/) involves selecting the maximum number of non-overlapping
+            activities that can be performed in a single time slot, using a greedy algorithm approach. The approach
+            sorts the activities in ascending order of their finish times and selects the first activity. It then
+            selects the next activity that starts after the finish time of the previous activity, and repeats this
+            process until no more activities can be selected.
+3. **Scheduling to Minimize Lateness**<br>  [Scheduling to Minimize Lateness](https://iq.opengenus.org/scheduling-to-minimize-lateness/) involves scheduling a set of jobs with deadlines and
+            processing times such that the maximum lateness is minimized. The approach sorts the requests in increasing
+            order of their deadlines, calculates the start time for each request based on the previous requests'
+            processing times, and computes the minimum lateness for the schedule. The approach outputs the minimum
+            lateness for the schedule.
+4. **Shortest Job First (SJF) CPU scheduling algorithm**<br>  Learn about the [Shortest Job First (SJF) CPU scheduling algorithm](https://iq.opengenus.org/shortest-job-first-cpu-scheduling/), which executes the
+            process with the smallest required CPU time first. Throughput refers to the number of processes that are
+            completed per unit of time, while turnaround time is the time taken to execute a process from the moment it
+            enters the system until it completes execution. SJF algorithm aims to maximize the system's throughput and
+            minimize the turnaround time by executing smaller processes first. The algorithm sorts a set of processes by
+            their arrival and burst time. It then calculates the waiting time, completion time, and turn-around time for
+            each process.
+
+**Week 3: Graph Based Problems**
+============================
+1. **Overview: Graph Based Problems**<br>  Graph based problems involve solving problems related to graphs, such as finding the minimum spanning tree
+            or the maximum clique. These problems can be tackled using a greedy approach that iteratively makes locally
+            optimal decisions to ultimately arrive at a globally optimal solution. Examples include Graph Colouring,
+            Single Maximal Clique, and Kruskal's Minimum Spanning Tree Algorithm.
+2. **Graph
+          Colouring - Greedy Algorithm**<br>  Learn about [graph coloring algorithms](https://iq.opengenus.org/overview-of-graph-colouring-algorithms/) and understand the
+
+            [greedy
+              algorithm for graph coloring.](https://iq.opengenus.org/graph-colouring-greedy-algorithm/) The greedy approach for this problem involves coloring the vertices of a
+            graph one by one, using the smallest possible color that has not been used by any previously colored
+            vertices that are adjacent to the current vertex. This approach is greedy because it chooses the smallest
+            available color for each vertex, without considering the impact of that choice on the colors assigned to the
+            remaining vertices. You can also learn about other algorithms and techniques used to solve a variety
+            of graph problems. The[ Wigderson algorithm](https://iq.opengenus.org/wigderson-algorithm/) is a randomized algorithm used for graph coloring. The
+            [Welsh-Powell
+              algorithm](https://iq.opengenus.org/welsh-powell-algorithm/) is a greedy algorithm used for graph coloring. The [Bipartite
+              Checking BFS algorithm](https://iq.opengenus.org/bipartite-checking-bfs/) is used to check whether a given graph is bipartite or not using Breadth-First
+            Search (BFS).
+3. **Greedy
+          Approach to Find Single Maximal Clique**<br>  [Greedy Approach to Find Single Maximal Clique](https://iq.opengenus.org/greedy-approach-to-find-single-maximal-clique/) involves finding the largest complete
+            subgraph in a given graph. The approach involves starting with an arbitrary subgraph and growing it
+            one vertex at a time by looping through the remaining vertices. For each vertex, it is added to the subgraph
+            only if it is adjacent to every vertex that is already in the subgraph, and discarded otherwise. The process
+            is repeated until there are no more vertices that can be added to the subgraph. For further exploration,
+            consider learning about the [Bron-Kerbosch algorithm](https://iq.opengenus.org/bron-kerbosch-algorithm/), which is a method to find all maximal cliques in
+            an undirected graph. Also learn about an algorithm that can be used to [find only the cliques of a specific size k](https://iq.opengenus.org/algorithm-to-find-cliques-of-a-given-size-k/) in the graph.
+4. **Kruskal's Minimum Spanning Tree Algorithm**<br>  Learn about [minimum spanning trees and their applications](https://iq.opengenus.org/what-is-a-minimum-spanning-tree/). Then understand the
+            [Kruskal's Minimum Spanning Tree Algorithm](https://iq.opengenus.org/kruskal-minimum-spanning-tree-algorithm/), which is a greedy algorithm used to find the
+            minimum spanning tree in a connected weighted graph. It works by adding increasing cost edges that connect
+            disconnected trees until a spanning tree is formed.
+
+**Week 3: Mathematical Algorithms**
+===============================
+1. **Overview: Mathematical Algorithms**<br>  Learn about mathematical greedy algorithms which involve using a greedy approach to
+            solve mathematical problems. Examples include the Egyptian Fraction Problem, Split Number into K parts with
+            Maximum GCD, Make Elements Equal, and Maximum Perimeter of Triangle. In these problems, the greedy approach
+            involves iteratively selecting the best possible option that satisfies certain mathematical constraints.
+2. **Egyptian Fraction Problem**<br>  [Egyptian
+              Fraction Problem](https://iq.opengenus.org/egyptian-fraction-problem/) involves representing a positive fraction as a sum
+            of unit fractions, i.e., fractions with a numerator of 1. The solution uses a greedy algorithm approach. The
+            algorithm involves iteratively extracting the largest unit fraction and subtracting it until the remaining
+            fraction becomes a unit fraction. The original fraction can then be represented as the sum of all extracted
+            unit fractions.
+3. **Split
+          Number into K Parts such that GCD is Maximum**<br>  [Split Number into K Parts such that GCD is Maximum](https://iq.opengenus.org/split-number-into-k-parts-such-that-gcd-is-maximum/) problem involves splitting a
+            given number into K parts such that their greatest common divisor (GCD) is maximum. The first approach
+            calculates the minimum possible sum of K unique numbers and checks if the given number can be split into K
+            unique numbers. It then finds the first number that can divide the given number and returns its quotient as
+            the maximum GCD. The greedy approach uses the property of complementary numbers to find the divisors of the
+            given number, checks if they have K elements, and returns the maximum GCD.
+4. **Minimum Number of Operations to make all the Array Elements Equal**<br>  Learn how to [find the
+              minimum number of operations to make all elements of an array equal](https://iq.opengenus.org/make-elements-equal/) by finding the minimum element in
+            the array as the target value, and then for each element in the array, calculate the amount of decrement
+            operations required to reach the target value. The sum of all these operations gives the minimum number of
+            operations required to make all elements of the array equal.
+5. **Maximum Perimeter of a Triangle**<br>  [Maximum
+              Perimeter of a Triangle](https://iq.opengenus.org/maximum-perimeter-of-triangle/) problem involves finding the maximum possible perimeter of a triangle,
+            given an array of integers representing the lengths of line segments. In the greedy approach, the sides of
+            the triangle are first sorted in increasing order, and then a loop starts from the last element. For each
+            element, if the sum of the two previous elements is greater than the current element, the three sides are
+            outputted as the result and the loop is broken. If no such triplet is found, the output is -1.
+
+**Week 4: Other Greedy Algorithm Problems**
+=======================================
+1. **Overview: Other Greedy Algorithm Problems**<br>  Learn about other greedy problems that involve a common approach of iteratively making locally optimal
+            decisions to arrive at a globally optimal solution. These problems include Fitting Shelves Problem, Huffman
+            Encoding, Minimum Sum of Product of Two Arrays, Jump Game II, and many more.
+2. **Fitting Shelves Problem**<br>  [Fitting Shelves
+              Problem](https://iq.opengenus.org/fitting-shelves-problem/) involves fitting shelves of different lengths on a wall of fixed length, optimizing
+            for minimum waste space. Given a wall of length W and two shelves of lengths m and n, the task is to find
+            the minimum empty space on the wall after placing the maximum number of shelves on it. The brute force
+            method involves trying every combination of the number of shelves, while the greedy algorithm tries to
+            minimize the empty space by maximizing the use of larger shelves before using smaller ones.
+3. **Huffman Encoding**<br>  [Huffman Encoding](https://iq.opengenus.org/huffman-encoding/)
+            is a lossless data compression algorithm that assigns variable-length codes to characters based on their
+            frequency of occurrence in a message. Lossless compression is a type of data compression in which no
+            information is lost during the compression process. The greedy approach of Huffman algorithm involves
+            creating a min heap of leaf nodes with each character and its frequency, and repeatedly combining the two
+            nodes with the smallest frequency into a new internal node with a sum of their frequencies, until only one
+            node remains. The codes for each character are then printed by traversing the tree and appending a "0" or
+            "1" to the code at each left or right turn, respectively. For a deeper dive into data compression
+            algorithms, explore the [Fano-Shannon algorithm](https://iq.opengenus.org/huffman-coding-vs-fano-shannon-algorithm/).
+4. **Minimum Sum of Product of Two Arrays**<br>  [Minimum Sum of Product of Two Arrays](https://iq.opengenus.org/minimum-sum-of-product-of-two-arrays/)
+            problem uses a greedy approach to minimize the sum of the product of two arrays by sorting the arrays in
+            ascending and descending orders. This allows for multiplying the smallest number of one array with the
+            largest number of the other array. The approach involves multiplying each pair from both arrays and adding
+            the results to get the sum. The brute force approach involves calculating all possible combinations of
+            pairs, computing the sum of products for each combination, and choosing the one with the minimum sum.
+5. **Jump Game II**<br>  [Jump Game II](https://iq.opengenus.org/jump-game-ii/)
+            is the problem of finding the minimum number of jumps needed to reach the end of an array,
+            where each element represents the maximum number of steps that can be taken from that position. A few
+            approaches discussed use the concepts of [dynamic programming](https://iq.opengenus.org/introduction-to-dynamic-programming/) and finding the [nth Fibonacci number](https://iq.opengenus.org/n-th-fibonacci-number-using-dynamic-programming/).
+            The first
+            approach uses recursion to solve the problem by exploring all branches in a recursion tree and returning the
+            minimum
+            number of jumps to reach the last index. The second approach involves using [dynamic programming](https://iq.opengenus.org/introduction-to-dynamic-programming/) to optimize
+            the recursive solution by storing results of subproblems in an array to eliminate repeated work. The third
+            approach is a
+            top-down [dynamic programming](https://iq.opengenus.org/introduction-to-dynamic-programming/) approach where solutions to smaller subproblems are found recursively and
+            cached in an auxiliary array to be used for subsequent computations. The greedy approach makes an
+            optimal choice at each step by determining the next steps that will push the index closer to the last index.
+6. **Smallest Palindrome Greater Than N With Same Digits**<br>  [Smallest Palindrome Greater Than N With Same Digits](https://iq.opengenus.org/smallest-palindrome-greater-than-n-same-digits/)
+            involves finding the smallest palindrome greater than a given number N using the same
+            digits as N. The naive approach suggests generating all possible permutations of a number to find the next
+            palindrome greater than N, but this can be computationally expensive if N is very large. The greedy approach
+            involves checking if the given number N is already a palindrome, and if not, determining if a palindrome is
+            possible by checking the frequency of characters. For odd-length strings, the character occurring an odd
+            number of times is placed in the middle, and for even-length strings, the characters are placed
+            symmetrically around the middle. The algorithm then returns the smallest possible palindrome greater than N.
+7. **Closest String with No Same Consecutive Character**<br>  [Closest String with No Same Consecutive Character](https://iq.opengenus.org/closest-string-no-same-consecutive-character/)
+            is a problem of finding the closest string without any consecutive identical characters. The solution is
+            a simple greedy approach that involves iterating through the input string, and if two consecutive
+            characters are found to be the same, the current character is changed to its previous character.
+8. **Split
+          N into Maximum Composite Numbers**<br>  [Split N into Maximum Composite Numbers](https://iq.opengenus.org/split-n-into-maximum-composite-numbers/)
+            problem employs an algorithm to split a given number N into a maximum number of composite numbers, by
+            checking all possible
+            splits and selecting the one with the maximum number of composite numbers. To maximize the number of
+            composite numbers in a given number n, a greedy approach is used by dividing n by 4 and subtracting a
+            certain number based on the remainder, either 9, 6, or 15, to make it perfectly divisible by 4.
+9. **Largest Lexicographic Array with at most K Consecutive Swaps**<br>  [Largest Lexicographic Array with at most K Consecutive Swaps](https://iq.opengenus.org/largest-lexicographic-array-with-at-most-k-consecutive-swaps/)
+            challenge uses an algorithm to find the lexicographically largest permutation of an array with at most K
+            consecutive swaps allowed. The naive approach involves generating all permutations. A better, greedy
+            approach involves looping through the array and swapping each element with the largest
+            element that can be swapped with it in at most K swaps until either K swaps have been made or the array is
+            lexicographically largest.
+10. **Minimum Product Subset of an Array**<br>  [Minimum Product Subset of an Array](https://iq.opengenus.org/minimum-product-subset-of-an-array/)
+            problem utilizes an algorithm to find the minimum product subset of an array, i.e., the subset of elements
+            whose product is minimum among all possible subsets. The naive approach generates all subsets of the array,
+            whereas the greedy approach uses observations based on the number of negative numbers, zeros, and
+            positive numbers in the array to determine the minimum product subset.
+11. **Maximum Product Subset of an Array**<br>  Learn how to find the [maximum product subset of an array](https://iq.opengenus.org/maximum-product-subset-of-an-array/)
+            using a greedy algorithm to find the [maximum product subset of an array](https://iq.opengenus.org/maximum-product-subset-of-an-array/), i.e., the subset of elements
+            whose product is maximum among all possible subsets. The naive approach involves generating all subsets and
+            calculating the product for each of them. The greedy approach is based on the number of negative numbers,
+            zeros, and positive numbers in the array. Specifically, the approach considers four cases: odd number of
+            negative numbers, even number of negative numbers, zeros and no positive numbers, and all numbers negative.
+12. **Largest Palindromic Number by Rearranging Digits**<br>  Learn how to [ find the largest palindromic number that can be formed by rearranging the
+              digits](https://iq.opengenus.org/largest-palindromic-number-by-rearranging-digits/) of a given number N. The brute force approach involves finding all palindromic permutations of
+            the digits, while the greedy approach counts the occurrences of each digit and rearranges them in a specific
+            order to obtain the largest palindrome.
+
+---
+Generated by OpenGenus. Updated on 2023-11-27
