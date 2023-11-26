@@ -3,7 +3,7 @@ import datetime
 from bs4 import BeautifulSoup
 
 # Create a directory named "list" in the current working directory if it doesn't exist
-output_directory = "list"
+output_directory = "markdown_list"
 if not os.path.exists(output_directory):
     os.mkdir(output_directory)
 
