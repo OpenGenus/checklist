@@ -11,11 +11,12 @@ Automated scripts for handling OG Checklists.
 ## TODOs
 
 1. Validate output of markdown.py for different cases and identify/fix bugs
-2. Support conversion to new formats:
+2. Check generated markdown lists (v1) and fix bugs.
+3. Support conversion to new formats:
    * PDF
    * Image Preview
    * CSV with links and section headers only
-3. Script to test validity of a checklist 
+4. Script to test validity of a checklist 
 
 ## Browser Extension status
 
