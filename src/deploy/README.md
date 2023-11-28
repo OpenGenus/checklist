@@ -26,3 +26,9 @@ Automated scripts for handling OG Checklists.
 | ID | Checklist | Extension status |
 |---|---|---|
 | 1 | 100 Interview Problems | Version 1 created.<br>Cleanup needed before production. |
+
+## Markdown check status
+
+| ID | Checklist | Checked markdown on | Issues? | Re-check needed? |
+|---|---|---|---|---|
+| - | - | - | - | - |
