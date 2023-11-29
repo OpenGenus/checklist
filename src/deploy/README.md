@@ -31,4 +31,5 @@ Automated scripts for handling OG Checklists.
 
 | ID | Checklist | Checked markdown on | Issues? | Re-check needed? |
 |---|---|---|---|---|
+| 1 | 100 Must attempt Problems for Coding Interview | 29 November 2023 | ✅ | - |
 | - | - | - | - | - |
