@@ -11,7 +11,7 @@
 | 6 | System Design Checklist | **Ready**, to be deployed | Aswin Shailajan |
 | 7 | Deep Learning Checklist | [Deployed](https://iq.opengenus.org/deep-learning-checklist/) | Jiadi Huang |
 | 8 | Open Source Checklist | In progress | |
-| 9 | CSS Checklist | **Ready**, to be deployed | Mathankumar V |
+| 9 | CSS Checklist | [Deployed](https://iq.opengenus.org/css-checklist/) | Mathankumar V |
 | 10 | Operating System (OS) Checklist | In progress | |
 | 11 | Web Development Checklist | **Ready**, to be deployed | Delia Georgiana Soare |
 | 12 | Large Language Models Checklist | In progress | Alexander Nilsson |
