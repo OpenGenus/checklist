@@ -38,4 +38,5 @@ Automated scripts for handling OG Checklists.
 | 5 | Greedy Algorithms Checklist | 30 November 2023 | ❌ (Issue in format in sub-section) | - |
 | 6 | System Design Checklist | 30 November 2023 | ✅ | - |
 | 7 | Deep Learning Checklist | 30 November 2023 | ❌ (Links missing in multiple sections) | - |
+| 9 | CSS Checklist | 30 November 2023 | ✅ | - |
 | - | - | - | - | - |
