@@ -34,4 +34,5 @@ Automated scripts for handling OG Checklists.
 | 1 | 100 Must attempt Problems for Coding Interview | 29 November 2023 | ✅ | - |
 | 2 | Data Science Checklist | 30 November 2023 | ✅ | - |
 | 3 | Python Checklist | 30 November 2023 | ✅ | - |
+| 4 | Graph Algorithms Checklist | 30 November 2023 | ✅ | - |
 | - | - | - | - | - |
