@@ -35,5 +35,6 @@ Automated scripts for handling OG Checklists.
 | 2 | Data Science Checklist | 30 November 2023 | ✅ | - |
 | 3 | Python Checklist | 30 November 2023 | ✅ | - |
 | 4 | Graph Algorithms Checklist | 30 November 2023 | ✅ | - |
-| 5 | Greedy Algorithms Checklist | 30 November 2023 | ❌ | - |
+| 5 | Greedy Algorithms Checklist | 30 November 2023 | ❌ (Issue in format in sub-section) | - |
+| 6 | System Design Checklist | 30 November 2023 | ✅ | - |
 | - | - | - | - | - |
