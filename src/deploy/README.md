@@ -23,9 +23,9 @@ Automated scripts for handling OG Checklists.
 * TODO: Create extension template
 * TODO: Develop script to generate extension
 
-| ID | Checklist | Extension status |
-|---|---|---|
-| 1 | 100 Interview Problems | Version 1 created.<br>Cleanup needed before production. |
+| ID | Checklist | Extension status | Link |
+|---|---|---|---|
+| 1 | 100 Interview Problems | Version 1 created.<br>Cleanup needed before production. | [Link](https://chromewebstore.google.com/detail/100-interview-problems-ch/ohmifgcblhjiogboihfhdoimbjanooog) |
 
 ## Markdown check status
 
