@@ -31,7 +31,7 @@ for filename in os.listdir(source_directory):
     if file_extension in file_extensions:
         # Get the new file extension and destination path
         new_extension = file_extensions[file_extension]
-        destination_file_path = os.path.join(destination_path, os.path.splitext(filename)[0] + new_extension)
+        destination_file_path = os.path.join(destination_path, "page-" + os.path.splitext(filename)[0] + new_extension)
 
         # Read the content of the HTML file with UTF-8 encoding
         with open(os.path.join(source_directory, filename), "r", encoding="utf-8") as html_file:
