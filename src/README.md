@@ -15,7 +15,7 @@
 | 10 | Operating System (OS) Checklist | In progress | |
 | 11 | Web Development Checklist | **Ready**, to be deployed | Delia Georgiana Soare |
 | 12 | Large Language Models Checklist | In progress | Alexander Nilsson |
-| 13 | Java Checklist | **Ready**, to be deployed | Manish Singh |
+| 13 | Java Checklist | [Deployed](https://iq.opengenus.org/learn-java/) | Manish Singh |
 
 ## Todo features:
 - Code cleanup (checklist dynamic height logic) [_In progress_]
