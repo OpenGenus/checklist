@@ -13,7 +13,7 @@
 | 8 | Open Source Checklist | In progress | |
 | 9 | CSS Checklist | [Deployed](https://iq.opengenus.org/css-checklist/) | Mathankumar V |
 | 10 | Operating System (OS) Checklist | In progress | |
-| 11 | Web Development Checklist | **Ready**, to be deployed | Delia Georgiana Soare |
+| 11 | Web Development Checklist | [Deployed](https://iq.opengenus.org/learn-web-development/) | Delia Georgiana Soare |
 | 12 | Large Language Models Checklist | In progress | Alexander Nilsson |
 | 13 | Java Checklist | [Deployed](https://iq.opengenus.org/learn-java/) | Manish Singh |
 
