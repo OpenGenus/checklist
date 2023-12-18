@@ -4,6 +4,10 @@
 
 ---
 
+**OpenGenus Checklist** is a collection of curated checklists covering learning roadmap of a wide range of topics, including programming languages, algorithms, data structures and more. The project aims to provide learners and professionals with a structured path to acquire and reinforce their knowledge in a *self-paced manner*.
+
+Confused what to learn for a particular domain? No long, OpenGenus Checklist is the solution.
+
 | Web version | Markdown version |
 |---|---|
 | <img width="591" alt="DL-checklist" src="https://github.com/OpenGenus/checklist/assets/10634210/ed23731a-07c6-4897-95b9-45eb197a35da"> | <img width="807" alt="GA-checklist-markdown" src="https://github.com/OpenGenus/checklist/assets/10634210/f52a4e87-f292-4592-9622-0e7049d9417a"> |
@@ -24,8 +28,10 @@
 | 9 | Web Development Checklist | [Checklist](https://iq.opengenus.org/learn-web-development/) | Delia Georgiana Soare | [Markdown](src/deploy/markdown_list/web-development-checklist.md) |
 | 10 | Java Checklist | [Checklist](https://iq.opengenus.org/learn-java/) | Manish Singh | [Markdown](src/deploy/markdown_list/java-checklist.md) |
 
-Features:
+✅ Features:
 
 * Explore a domain in a structured way one by one self-paced.
-* ✅ Track your progress on the web version
-* ✅ Use the list locally offline using markdown version
+* Track your progress on the web version
+* Use the list locally offline using markdown version
+
+⏰ Need a checklist for a new domain? [Open an issue](https://github.com/OpenGenus/checklist/issues/new) mentioning the domain you need it for.
