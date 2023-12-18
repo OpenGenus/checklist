@@ -35,3 +35,16 @@ Confused what to learn for a particular domain? No long, OpenGenus Checklist is 
 * Use the list locally offline using markdown version
 
 ⏰ Need a checklist for a new domain? [Open an issue](https://github.com/OpenGenus/checklist/issues/new) mentioning the domain you need it for.
+
+
+---
+
+## Contributors:
+
+Make a [contribution](https://github.com/OpenGenus/checklist/blob/main/docs/CREATE-PULL-REQUEST.md) by understanding the [code structure](https://github.com/OpenGenus/checklist/blob/main/docs/CODE-STRUCTURE.md).
+
+Contributors (11):
+
+Akanksha Singh, Jiadi Huang, Delia Georgiana Soare, Sanjana Babu, Aswin Shailajan, Alexander Nilsson, Mathankumar V, Aadarsh Singh, Manish Bangari, Biniyam Wahima, Aditya Chatterjee.
+
+---
