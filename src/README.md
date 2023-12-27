@@ -23,3 +23,7 @@
 - Optimize page
 - Add page sharing buttons
 - Script to make checklist production-ready (file extension + relative CSS/JS path)
+
+## Features for next release
+
+- Added feature for generating text version of checklists [DONE].
