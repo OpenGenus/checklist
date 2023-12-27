@@ -1,0 +1,595 @@
+Java Bootcamp with Practical Projects.
+
+Follow this self-paced practical Java bootcamp to master Java Programming in 20 weeks. Save time and study smarter.
+
+
+Week 1: Fundamentals and Flow Control
+=====================================
+1. Compilation, Interpretation and Execution Process
+  Compilation, Interpretation and Execution Process in Java provides a detailed introduction to how Java code is executed on your computer.
+  Links (1): https://iq.opengenus.org/compilation-interpretation-execution-in-java/
+2. Flow control
+  We will now delve into the concept of
+                Flow control in Java , understanding how it allows us to manage the sequence of operations and decision-making in our programs.
+  Links (1): https://iq.opengenus.org/flow-control-in-java/
+3. Java's control statements
+  Explore
+                    Java's control statements , powerful tools for managing program flow and making decisions, in this concise introduction.
+  Links (1): https://iq.opengenus.org/control-statements-java/
+4. for loop
+  The  
+                    "for" loop in Java is a versatile and efficient construct for repeating tasks.
+  Links (1): https://iq.opengenus.org/for-loop-java/
+5. while Loop
+  Navigate the power of the 
+                    while loop for efficient code execution.
+  Links (1): https://iq.opengenus.org/while-loop-java/
+6. do-while loop
+  Learn about the  
+                    "do-while" loop in Java, a control structure that ensures at least one iteration of a task.
+  Links (1): https://iq.opengenus.org/do-while-loop-java/
+7. Switch Case
+  Uncover the elegance of the 
+                    switch case in Java.
+  Links (1): https://iq.opengenus.org/switch-case-in-java/
+8. continue
+  The  
+                    continue statement in Java is a pivotal tool for altering the flow of your program. Explore its applications.
+  Links (1): https://iq.opengenus.org/continue-statement-in-java/
+9. Absence of 'goto' statement
+  Java, does not support the 
+                    "goto" statement, emphasizing structured programming and alternatives for control flow.
+  Links (1): https://iq.opengenus.org/java-does-not-support-goto/
+10. Postfix and Prefix Increment
+  Distinguish between  
+                    postfix and prefix increment in Java to optimize your code and avoid unexpected behavior.
+  Links (1): https://iq.opengenus.org/postfix-vs-prefix-increment-java/
+11. Difference between i++ and i=i+1
+  Unravel the subtle nuances between 
+                    i++ and i=i+1 in Java, it's a journey into the art of code optimization!
+  Links (1): https://iq.opengenus.org/i-vs-ii1-java/
+12. Recursion
+  Embark on a  
+                    recursive journey and discover the power of recursive functions.
+  Links (1): https://iq.opengenus.org/recursion-java/
+13. Program Termination
+  Understanding  
+                    Program Termination based on conditions or exceptions is crucial in Java programming. Explore this aspect for effective coding.
+  Links (1): https://iq.opengenus.org/terminate-program-in-java/
+
+---
+
+Week 2: Strings
+===============
+1. Intro to Strings
+  Strings in Java are more than just text; they are versatile objects for handling and manipulating data. Discover their magic!
+  Links (1): https://iq.opengenus.org/string-in-java/
+2. Comparing strings
+  We will now delve into the fascinating world of comparing strings 
+                        comparing strings in Java, exploring various methods and their nuances.
+  Links (1): https://iq.opengenus.org/compare-string-in-java/
+3. Equality in Java Strings
+  In this article, we've ventured into the realm of 
+                        equality in Java strings . We'll unveil three distinct methods to compare them.
+  Links (1): https://iq.opengenus.org/check-string-equal-in-java/
+4. Java's java.lang.String Class
+  The Java's  
+                        java.lang.String class offers a treasure trove of methods to empower your string manipulation endeavors. Dive in!
+  Links (1): https://iq.opengenus.org/java-lang-string-class/
+5. String to character array
+  This article unveils three intriguing methods for transforming a  
+                        string into a character array in Java. Explore the possibilities!
+  Links (1): https://iq.opengenus.org/convert-string-to-char-array-in-java/
+6. The StringBuilder Class
+  StringBuilder , a versatile Java library class, revolutionizes string manipulation, providing an efficient alternative to StringBuffer and String. Explore its power!
+  Links (1): https://iq.opengenus.org/stringbuilder-in-java/
+7. String Pool
+  This article uncovers the enigmatic concept of the  
+                        String Pool in Java, demystifying its implementation in Java programming. Explore the magic within!
+  Links (1): https://iq.opengenus.org/string-pool-in-java/
+
+---
+
+Week 3: Classes
+===============
+1. Scope of Variables
+  Understand how the lifespan of  influences 
+                    variables your code's behavior.
+  Links (1): https://iq.opengenus.org/scope-of-variables-in-java/
+2. Static Initialization Block
+  Unveil the magic of Java's 
+                    static initialization blocks, where code springs to life in this intriguing journey.
+  Links (1): https://iq.opengenus.org/static-initialization-block-in-java/
+3. Understanding Classes and Objects
+  Embark on a voyage through Java's  
+                    class and object realm, where the building blocks of code come to life.
+  Links (1): https://iq.opengenus.org/classes-and-objects-in-java/
+4. Size of an Object in Java
+  Delve into the world of  
+                    object sizes in Java, where each byte tells a story about memory management.
+  Links (1): https://iq.opengenus.org/find-size-of-an-object-in-java/
+5. Using Static Members
+  Explore the dynamic world of  
+                    static members in Java, where shared knowledge and resources empower your code.
+  Links (1): https://iq.opengenus.org/static-members-in-java/
+6. Use of Constructors
+  Navigate the intricacies of  
+                    constructors for robust object creation.
+  Links (1): https://iq.opengenus.org/constructors-in-java/
+7. Wrapper Classes
+  Step into the world of 
+                    wrapper classes, where Java's core data types get an enhanced, object-oriented twist.
+  Links (1): https://iq.opengenus.org/wrapper-classes-in-java/
+
+---
+
+Week 4: OOP Concepts
+====================
+1. Differences between modifiers
+  Decode the mysteries of  
+                        access modifiers in Java, where visibility rules shape your code's behavior.
+  Links (1): https://iq.opengenus.org/public-private-protected-in-java/
+2. Access Specifiers
+  Explore the world of 
+                        access specifiers, where the keys to code security and structure are revealed.
+  Links (1): https://iq.opengenus.org/access-specifiers-in-java/
+3. Final and Abstract Modifiers
+  Delve into the world of  
+                        final and abstract modifiers in Java.
+  Links (1): https://iq.opengenus.org/final-and-abstract-java/
+4. Interface in Java
+  Uncover the powerful concept of  
+                        interfaces in Java, where software components seamlessly interact and collaborate.
+  Links (1): https://iq.opengenus.org/interface-in-java/
+5. Package in Java
+  Unravel the significance of  
+                        Java packages and demystify the organizational prowess of packages.
+  Links (1): https://iq.opengenus.org/java-package/
+6. Encapsulation
+  Unlock the essence of 
+                        encapsulation and learn how it fosters data protection and modular code design.
+  Links (1): https://iq.opengenus.org/encapsulation-in-java/
+7. Implementing HashMap using OOP
+  Unveil the power of  
+                        Hash Maps , driven by the principles of OOP and the versatility of generics.
+  Links (1): https://iq.opengenus.org/hash-map-in-java/
+8. Implementing Binary Tree using OOP
+  Dive into the realm of  
+                        binary trees, using OOP and generics.
+  Links (1): https://iq.opengenus.org/binary-tree-in-java/
+9. Graph Data Structure using OOP
+  Journey through the world of  
+                        graph data structures in Java, driven by OOP principles.
+  Links (1): https://iq.opengenus.org/graph-using-oop-java/
+10. Trie Data Structure using OOP
+  Embark on an exploration of the 
+                        Trie data structure, fueled by the principles of OOP.
+  Links (1): https://iq.opengenus.org/trie-in-java-with-oops-concepts/
+11. Covariant Return Type
+  Dive into the intricacies of  
+                        covariant return types, where Java's polymorphism takes on a fascinating twist.
+  Links (1): https://iq.opengenus.org/covariant-return-type-in-java/
+
+---
+
+Week 5: Inheritance
+===================
+1. Different Types of Inheritance
+  Journey through the 
+                    varied landscapes of inheritance in Java.
+  Links (1): https://iq.opengenus.org/types-of-inheritance-in-java/
+2. Local Inner Classes
+  Delve into the realm of  
+                    local inner classes in Java, as we explore their unique properties and applications.
+  Links (1): https://iq.opengenus.org/java-local-inner-classes/
+3. Achieving Multiple Inheritance with Interfaces
+  Explore the effective utilization of 
+                    Java interfaces to implement multiple inheritance, enabling flexible and robust code design.
+  Links (1): https://iq.opengenus.org/multiple-inheritance-java/
+4. Hierarchical Inheritance
+  Delve into the concept of    
+                    hierarchical inheritance in Java, accompanied by a practical Java code example in this OpenGenus article.
+  Links (1): https://iq.opengenus.org/hierarchical-inheritance-in-java/
+5. Java Inheritance Limitations: Multiple and Multipath Inheritance
+  Explore the 
+                    constraints imposed on inheritance, particularly in relation to multiple and multipath inheritance.
+  Links (1): https://iq.opengenus.org/java-does-not-support-multiple-and-multipath-inheritance/
+6. Best Practices in Inheritance
+  Delve into the   
+                    best practices of inheritance in Java.
+  Links (1): https://iq.opengenus.org/inheritance-in-java/
+
+---
+
+Week 6: Error Handling and Exception
+====================================
+1. Error Handling and Exceptions
+  Learn the art of  
+                        handling errors through exceptions to ensure robust and reliable code.
+  Links (1): https://iq.opengenus.org/handling-exceptions-in-java/
+2. Checked and Unchecked Exceptions
+  Dive into the world of 
+                        checked and unchecked exceptions.
+  Links (1): https://iq.opengenus.org/types-of-exceptions-in-java/
+3. Try, Catch and Throw
+  Master Exception Handling in Java using  
+                        try, catch, and throw essentials.
+  Links (1): https://iq.opengenus.org/exceptions-java/
+4. Custom User Defined Exceptions
+  Craft tailored exception handling with   
+                        custom exceptions in Java.
+  Links (1): https://iq.opengenus.org/custom-user-defined-exceptions-in-java/
+5. NullPointer Exception in Java
+  Uncover the challenge of
+                        NullPointerException, often faced by programmers.
+  Links (1): https://iq.opengenus.org/nullpointerexception-in-java/
+
+---
+
+Week 7: Multithreading and Synchronization
+==========================================
+1. Using Threads
+  Master the art of parallel execution with  
+                        threads in Java.
+  Links (1): https://iq.opengenus.org/thread-java/
+2. Multi-threaded Prime Number Finder
+  Witness the power of multi-threading as we develop a Java program to efficiently
+                        find all prime numbers less than N.
+  Links (1): https://iq.opengenus.org/multi-thread-java-program-to-find-prime-numbers/
+3. Creation and Resolution of Deadlocks
+  Delve into the world of  
+                        deadlocks in Java, understanding how they are created and exploring methods for resolution.
+  Links (1): https://iq.opengenus.org/deadlocks-in-java/
+
+---
+
+Week 8: Input and Output
+========================
+1. Input and Output Streams
+  Explore the world of  
+                        input and output streams , enabling seamless data transfer between your programs and external sources.
+  Links (1): https://iq.opengenus.org/input-and-output-streams-java/
+2. The Scanner Class
+  Delve into the  
+                        Scanner Class in Java, uncovering its functions and capabilities for input processing.
+  Links (1): https://iq.opengenus.org/scanner-class-in-java/
+3. Reading External Files in Java
+  Discover the versatility of Java as we explore various methods for 
+                        reading external files, catering to diverse needs and scenarios.
+  Links (1): https://iq.opengenus.org/reading-files-in-java/
+4. Creating and Deleting Folders
+  Join us in exploring the diverse methods for  
+                        creating and deleting folders , providing essential file management skills.
+  Links (1): https://iq.opengenus.org/creating-and-deleting-folders-in-java/
+
+---
+
+Week 9: Garbage Collection
+==========================
+1. Types of References in Java
+  Explore the world of  
+                        Java references and their connection with the Garbage Collector.
+  Links (1): https://iq.opengenus.org/types-of-references-in-java/
+2. Types of Garbage Collection
+  Dive into the realm of Java's 
+                        garbage collection techniques that influence memory management.
+  Links (1): https://iq.opengenus.org/memory-management-in-java-minor-major-and-full-garbage-collection/
+
+---
+
+Week 10: Generics and Lambda Expressions
+========================================
+1. What are Generics
+  Unleash the power of  
+                        Generic classes to amplify type safety and code flexibility.
+  Links (1): https://iq.opengenus.org/generic-class-in-java/
+2. Introducing Lambda Expressions
+  Step into the world of  
+                        Lambda Expressions in Java. Discover concise syntax and functional programming paradigms.
+  Links (1): https://iq.opengenus.org/lambda-expression-java/
+
+---
+
+Week 11: Java Memory Management
+===============================
+1. Collection of Memory Management Posts
+  Explore a curated collection of  
+                        informative posts dedicated to the intricate world of memory management in Java.
+  Links (1): https://iq.opengenus.org/tag/java-memory-management/
+2. Java Virtual Machine Memory Model
+  Gain insights into Java's memory management by unraveling the  
+                        JVM memory model and its critical role in Java applications.
+  Links (1): https://iq.opengenus.org/java-jvm-memory-model-memory-management/
+3. Java Memory Allocation for Objects
+  Dive into the inner workings of how Java allocates 
+                        memory to objects , uncovering the process step by step.
+  Links (1): https://iq.opengenus.org/how-java-allocates-memory-to-objects/
+4. Memory Management: Mark-Sweep, Compact, and Copy
+  Delve into Java's 
+                        memory management techniques , from Mark-Sweep to Compact and Copy, for efficient resource utilization.
+  Links (1): https://iq.opengenus.org/memory-management-in-java-mark-sweep-compact-copy/
+5. Garbage Collection Tuning and Optimization
+  Explore advanced techniques for 
+                        tuning and optimizing garbage collection in Java, enhancing memory management efficiency.
+  Links (1): https://iq.opengenus.org/memory-management-in-java-garbage-collection-tuning-and-optimization/
+
+---
+
+Week 12: Java Collections
+=========================
+1. Java Collection Tags
+  Explore 
+                        Java's collection tags, vital tools for managing and structuring data in your programs.
+  Links (1): https://iq.opengenus.org/tag/java-collection/
+2. Java's Iterable Interface
+  Delve into the core of Java's collection classes through the  
+                        Iterable interface, the cornerstone of collections in Java.
+  Links (1): https://iq.opengenus.org/java-collections-framework-iterable-interface/
+3. List
+  Explore the basics of 
+                        lists in Java, understanding the foundational concepts of ArrayLists and LinkedLists.
+  Links (1): https://iq.opengenus.org/list-java/
+4. ArrayList
+  Delve into the heart of Java Collections Framework with  
+                        ArrayList.
+  Links (1): https://iq.opengenus.org/java-collections-framework-arraylist/
+5. LinkedList
+  Explore  
+                        LinkedList data structure and its dynamic and versatile nature.
+  Links (1): https://iq.opengenus.org/java-collections-framework-linkedlist/
+6. Stack
+  Dive deeper into data structures by 
+                        implementing a stack, a fundamental and essential concept in computer science.
+  Links (1): https://iq.opengenus.org/stack-in-java/
+7. Queue
+  Queue up for a journey into Java Collections Framework!
+  Links (1): https://iq.opengenus.org/queue-java-collections-framework/
+8. Set
+  Explore the concept of 
+                        sets, and their unique property of no duplicates.
+  Links (1): https://iq.opengenus.org/set-in-java/
+9. Linked HashSet
+  Dive into the intricacies of  
+                        Linked HashSet in Java.
+  Links (1): https://iq.opengenus.org/linked-hash-set-in-java/
+10. Map
+  Learn about 
+                        maps in Java, diving into key-value pair data structures for efficient data retrieval and organization.
+  Links (1): https://iq.opengenus.org/map-java/
+11. HashMap
+  Journey into the heart of Java collections with 
+                        HashMap.
+  Links (1): https://iq.opengenus.org/hashmap-java/
+12. Applications of HashMap
+  Uncover the diverse 
+                        applications of hash maps and how they optimize data management and retrieval.
+  Links (1): https://iq.opengenus.org/applications-of-hashmap/
+13. TreeSet
+  Step into the advanced concept of 
+                        tree sets, for ordered and sorted data management.
+  Links (1): https://iq.opengenus.org/treeset-in-java/
+
+---
+
+Week 13: GUI in Java
+====================
+1. Exploring Java GUI
+  Embark on a journey through Java's 
+                        graphical user interface, covering AWT, Swing, JavaFX, and essential concepts.
+  Links (1): https://iq.opengenus.org/gui-in-java/
+2. Layouts: Designing User Interfaces
+  Dive into the world of 
+                        Java layouts, essential for designing and structuring user interfaces with precision.
+  Links (1): https://iq.opengenus.org/layouts-in-java/
+3. Java's Abstract Window Toolkit (AWT)
+  Begin your journey into the world of 
+                        AWT in Java, the foundation for building graphical user interfaces.
+  Links (1): https://iq.opengenus.org/basics-awt-java/
+
+---
+
+Week 14: APIs and Java Servlets
+===============================
+1. Making API Requests in Java
+  Learn the art of sending  
+                        API requests, allowing your programs to interact with external services and data sources.
+  Links (1): https://iq.opengenus.org/api-requests-in-java/
+2. Introduction to Java Servlets
+  Start your journey into the world of 
+                        Java Servlets, powerful server-side components for web applications.
+  Links (1): https://iq.opengenus.org/servlets-java/
+
+---
+
+Week 15: Design Pattern
+=======================
+1. Singleton Design Pattern in Java
+  Unlock the power of the  
+                        Singleton design pattern in Java, ensuring that a class has single instance and global access.
+  Links (1): https://iq.opengenus.org/singleton-design-pattern-java/
+
+---
+
+Week 16 and 17: Java Interview Prep
+===================================
+1. Java Topics at OpenGenus IQ
+  Explore a comprehensive list of 
+                    Java topics at OpenGenus IQ, your go-to resource for Java knowledge and learning.
+  Links (1): https://iq.opengenus.org/tag/java/
+2. Comprehensive Java Concepts with Example Code
+  Join us on a journey through essential 
+                    Java concepts, each explained with practical code examples.
+  Links (1): https://iq.opengenus.org/learn-java-in-one-post/
+3. Java Predict the Output
+  Dive into a collection of challenging  
+                    Predict the Output questions for Java coding interviews.
+  Links (1): https://iq.opengenus.org/java-predict-output-questions/
+4. Basic Java Interview Questions
+  Start your journey into Java coding interviews with this collection of fundamental 
+                    questions and answers, essential for practice and preparation.
+  Links (1): https://iq.opengenus.org/basic-java-interview-questions/
+5. Interview MCQs in Java
+  Refine Java skills with concise 
+                    MCQs—perfect for interviews.
+  Links (1): https://iq.opengenus.org/questions-in-java/
+6. 50+ Linked List Problems
+  Challenge your  
+                    Linked List prowess with this comprehensive list of 50+ problems to master linked structures.
+  Links (1): https://iq.opengenus.org/list-of-linked-list-problems/
+7. Interview Questions on OOP Concepts
+  Prepare for interviews with a comprehensive set of 
+                    OOP concept questions.
+  Links (1): https://iq.opengenus.org/oop-questions/
+8. 30+ Advanced Java Interview Questions
+  Explore a compilation of  
+                    advanced Java interview questions, designed to challenge your expertise.
+  Links (1): https://iq.opengenus.org/advanced-java-interview-questions/
+9. Spring Interview Questions
+  Prepare for  
+                    Spring interviews with a curated list of 70 questions and answers.
+  Links (1): https://iq.opengenus.org/spring-interview-questions-and-answers/
+
+---
+
+Week 18 and 19: Miscellaneous
+=============================
+1. Introduction to Spring Boot
+  This introduction lays the groundwork for creating efficient and modern 
+                        Spring applications.
+  Links (1): https://iq.opengenus.org/spring-boot/
+2. Introduction to Android Development
+  Embark on the  journey 
+                        Android development for crafting innovative and dynamic mobile applications.
+  Links (1): https://iq.opengenus.org/android-development-intro/
+3. Basics of Reflection
+  Peek into  
+                        Reflection basics to uncover the magic of inspecting and manipulating code dynamically.
+  Links (1): https://iq.opengenus.org/java-reflection-basics/
+4. Regex Expressions in Java
+  Unleash the power of  
+                        regular expressions in Java with this article to unlock the full potential of pattern matching.
+  Links (1): https://iq.opengenus.org/regex-expressions-in-java/
+5. Java Time Package
+  Explore the 
+                        Java Time Package and unravel how it simplifies date and time handling in Java.
+  Links (1): https://iq.opengenus.org/java-time-package/
+6. Difference between java, javaw, javaws, and javac
+  Dive into the world of Java commands with this article. Explore the  
+                        differences between java, javaw, javaws, and javac to master your Java programming toolkit.
+  Links (1): https://iq.opengenus.org/java-javaw-javaws-and-javac/
+7. Working with ZIP file system
+  Unlock the potential of  
+                        ZIP file systems in Java with this article. Learn how to move, copy, delete, and rename files within ZIP archives, mastering file management.
+  Links (1): https://iq.opengenus.org/zip-file-system-java/
+8. Download webpage using Java Automaton
+  Experience the magic of 
+                        web scraping with Java. Learn how to download webpages using automaton-like precision and control.
+  Links (1): https://iq.opengenus.org/download-webpage-in-java/
+9. Programming a Progress bar
+  TMaster the art of progress indicators in Java. Explore various methods to 
+                        program progress bars, whether on the command line or as part of a graphical user interface.
+  Links (1): https://iq.opengenus.org/progress-bar-indicator-in-java/
+10. Building a Java Application using Apache Maven Command Line
+  Learn the essentials of building a 
+                        Java application using Apache Maven from the command line. Streamline your development process with this guide.
+  Links (1): https://iq.opengenus.org/building-java-application-using-apache-maven-command-line/
+11. JUnit Testing Using Maven
+  Master  
+                        JUnit testing seamlessly with Maven for robust and error-tolerant Java applications.
+  Links (1): https://iq.opengenus.org/junit-testing-using-maven/
+12. SonarQube for Code Coverage Analysis
+  Enter the world of 
+                        code quality analysis with SonarQube.
+  Links (1): https://iq.opengenus.org/sonarqube-for-code-coverage-analysis/
+
+---
+
+Week 20 Onwards: Projects
+=========================
+1. Simple Interest Calculator
+  Java-based 
+                    Simple Interest Calculator project.
+  Links (1): https://iq.opengenus.org/simple-interest-in-java/
+2. Statistical Calculator
+  Explore 
+                    statistical calculations in Java : standard deviation, mean deviation, and variance, all in one OpenGenus article.
+  Links (1): https://iq.opengenus.org/java-for-standard-mean-deviation-and-variance/
+3. Minesweeper Game
+  Embark on a journey to create the classic  
+                    Minesweeper game in Java. From requirements analysis to Java implementation, we've got you covered!
+  Links (1): https://iq.opengenus.org/minesweeper-game-in-java/
+4. Console Calendar Generator
+  Join us as we craft a dynamic  
+                    calendar console application in Java. Easily generate calendars for any year with this project.
+  Links (1): https://iq.opengenus.org/calendar-application-in-java/
+5. Snake Game
+  Experience the thrill of designing and implementing the classic 
+                    Snake Game using OOP in Java. Let's slither into fun!
+  Links (1): https://iq.opengenus.org/snake-game-java/
+6. Basic Pong Game
+  Let's dive into game development with this Java project. We'll build a prototype of the classic 
+                    Pong game . Game on!
+  Links (1): https://iq.opengenus.org/pong-in-java/
+7. Interactive Console Input-Output Application with Multithreading
+  Explore an  
+                    stopwatch application that juggles input and output seamlessly with multithreading, offering features like pausing, restarting, and more.
+  Links (1): https://iq.opengenus.org/stopwatch-in-java/
+8. Advanced Calculator Console App with Shunting Yard
+  Dive into Java programming as we create a powerful 
+                    calculator app . It utilizes the previous result and employs the Shunting Yard Algorithm for advanced calculations.
+  Links (1): https://iq.opengenus.org/calculator-console-application-in-java/
+9. Memory Game Exploration
+  Discover the world of  
+                    memory games and delve into a Java implementation, using provided code as your guide at OpenGenus.
+  Links (1): https://iq.opengenus.org/memory-game-in-java/
+10. Tetris Game in Java
+  Experience the joy of 
+                    Tetris in Java to unravel the magic of this classic game 🎮.
+  Links (1): https://iq.opengenus.org/tetris-in-java/
+11. Password Tools
+  Unleash the power of Java with our 
+                    password toolkit . Generate, check strength, and estimate crack times with this versatile project.
+  Links (1): https://iq.opengenus.org/password-generator-and-strength-checker-in-java/
+12. Numeral Converter with Java GUI
+  Explore the world of   
+                    number systems with this Java project. Convert numerals effortlessly using a user-friendly GUI.
+  Links (1): https://iq.opengenus.org/numerical-converter-in-java/
+13. Countdown Timer Console App
+  Dive into the world of  
+                    time management with this Java project. Simulate countdown timers complete with progress bars and displays.
+  Links (1): https://iq.opengenus.org/timer-console-application-in-java/
+14. Student Management System
+  Manage students and their data efficiently using this Java-based 
+                    Student Management System . Simplify administration tasks with ease.
+  Links (1): https://iq.opengenus.org/student-management-system-in-java/
+15. Library Management System
+  Explore a comprehensive 
+                    Library Management System , built with JavaFX and MySQL, offering a robust solution for libraries and book enthusiasts.
+  Links (1): https://iq.opengenus.org/library-management-system-in-java/
+16. Maze Generation and Solving Application
+  Embark on a  
+                    maze-solving adventure in Java. Create mazes and conquer them using Depth-First Search with Backtracking.
+  Links (1): https://iq.opengenus.org/maze-generator-in-java/
+17. Spell Checker Application
+  Join us in crafting a  
+                    spell checker in Java. Detect spelling errors and receive suggestions for accurate writing.
+  Links (1): https://iq.opengenus.org/spell-checker-in-java/
+18. Typing Speed Tester Tool
+  Put your typing skills to the test with our 
+                    Java-based command line tool . Measure your typing speed and accuracy.
+  Links (1): https://iq.opengenus.org/typing-speed-test-in-java/
+19. Chrome Dinosaur Game in Java with Processing
+  Bring the  
+                    Chrome Dinosaur to life with this Java project using Processing. Jump, duck, and dodge obstacles for high scores. 🦖🎮
+  Links (1): https://iq.opengenus.org/t-rex-game-java/
+20. CRUD Operation Using Hibernate in MySQL Database
+  Master  
+                    CRUD operations using Hibernate in MySQL to implement a persistent storage application with a relational database.
+  Links (1): https://iq.opengenus.org/crud-using-hibernate-in-mysql/
+21. Basic Full Stack Calculator Project Using DevOps Tools
+  Elevate your skills with a hands-on 
+                    full-stack calculator project using DevOps tools.
+  Links (1): https://iq.opengenus.org/basic-full-stack-calculator-project-using-devops-tools/
+
+---
+Generated by OpenGenus. Updated on 2023-12-28

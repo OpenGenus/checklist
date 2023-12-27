@@ -1,0 +1,763 @@
+Deep Learning Checklist: 13 Months course
+
+Deep Learning is not hard. With correct approach, order and intuition, you can master it easily.This checklist will guide you in the journey.
+
+
+Week 1: Basics of DL
+====================
+1. Deep Learning
+  Deep Learning has become quite a buzzword in recent years. It has taken over in all applications from tasks like image recognition, chatbots like Alexa and Google Assistant to defeating world champions in a complex games like Go and Dota 2.
+                        So what exactly is deep learning and neural networks all about?
+  Links (1): https://iq.opengenus.org/neural-network/
+2. Relation to Data Science and ML
+  Relation of Data Science to Deep Learning is fundamental. In data science and machine learning, engineers had to select the features related to a task but in Deep Learning, the features are identified and learnt automatically.
+  Links (1): https://iq.opengenus.org/relation-of-data-science
+3. Linear Regression
+  Linear Regression is a fundamental concept even high school students are aware of. This is the most basic Deep Learning model. It is just a straight line that divides a plane into two parts (think of two categories like pass or fail).
+                        Understand the advantages and disadvantages of Linear Regression.
+  Links (2): https://iq.opengenus.org/linear-regression/, https://iq.opengenus.org/advantages-and-disadvantages-of-linear-regression/
+4. Line + Activation functions
+  Simply adding multiple straight lines do not help create complex function as the result remains a straight line.
+                        A straight line is limited so a simple operation known as activation function merge multiple straight lines to form a complex function. This introduces non-linearity and makes a strong DL model.
+  Links (1): https://iq.opengenus.org/activation-functions-ml/
+5. Perceptron (1st breakthrough)
+  Perceptron is the first major breakthrough in DL.
+Perceptron was invented in 1957 by Frank Rosenblatt and sought to binary classify an input data. It was inspired by the ability of the central nervous system of the humans to be able to do the tasks that we do. The perceptron was one of the building blocks of modern artificial intelligence as we know it today.
+  Links (1): https://iq.opengenus.org/perceptron-ai/
+6. Multilayer Perceptron (MLP)
+  Multilayer perceptron is a fundamental concept in Machine Learning (ML) that lead to the first successful DL model, Artificial Neural Network (ANN). We have explored the idea of Multilayer Perceptron in depth.
+  Links (1): https://iq.opengenus.org/multilayer-perceptron/
+7. Neural Network (NN)
+  Neural Network act as a ‘black box’ that takes inputs and predicts an output.
+                        It’s different and ‘better’ than most traditional Machine Learning algorithms because it learns complex non-linear mappings to produce far more accurate output classification results.
+  Links (1): https://iq.opengenus.org/understand-neural-networks-intuitively/
+8. Artificial Neural Network (ANN)
+  Artificial Neural Network is a form of computing system that vaguely resembles the biological nervous system. It is composed of very many neurons that are centres of computation and learn by a sort of hit and trial method over the course of many epochs.
+  Links (2): https://iq.opengenus.org/artificial-neural-networks/, https://iq.opengenus.org/artificial-neural-networks/
+9. Deep Learning Frameworks
+  No knowledge is useful if you cannot use it practically. Deep Learning is a complex subject if you need to work on minute details. The developer community is strong so several software utilities/ frameworks have been developed which aid one to implement DL ideas quickly.
+ Deep Learning Frameworks are crucial for developing models and we will explore the different kinds of frameworks in this article and you will find
+                        the ones that suit you the most. TensorFlow is one of the best choice of DL framework.
+  Links (1): https://iq.opengenus.org/top-deep-learning-frameworks
+10. Training and Inference
+  Given a DL model like ANN, it require specific values like weights. These are crucial for solving a task using DL efficiently. These values can be identified using training process.
+                        Once a DL model is training, it can be run on any input to solve a task. This execution is known as Inference.
+  Links (0): 
+
+---
+
+Week 2: Basic operations (ops)
+==============================
+1. Different Layers / operations (ops)
+  A DL model is made up of different layers. Understanding the significance or purpose or importance of each Layer in a DL model is important.
+                        Different layers include convolution, pooling, normalization and much more. 
+                        For example: the significance of MaxPool is that it decreases sensitivity to the location of features.
+  Links (1): https://iq.opengenus.org/purpose-of-different-layers-in-ml
+2. Dot Product and Matrix Multiplication
+  Dot Product are used in neural networks to tweak the different weights. It is used for calculating the simularities between vectors, computing the ouput of a convolutional layer, and training neural networks.
+                        Matrix Multiplication is another core mathematical operation that is used within Convolution operation (the most used fundamental operation in DL).
+  Links (2): https://iq.opengenus.org/dot-product-in-deep-learning/, https://iq.opengenus.org/matrix-multiplication-vs-dot-product//
+3. Add op
+  Add operation 
+                        is a crucial operation in deep learning. Intuitively, you can imagine addition to move features in a place.
+  Links (1): https://iq.opengenus.org/add-operation-in-deep-learning/
+4. Hidden Layer
+  The input layer contains input neurons that send information to the hidden layer  
+                        The hidden layer sends data to the output layer.
+                        Every neuron has weighted inputs, an activation function, and one output.
+                        The input layer takes inputs and passes on its scores to the next hidden layer for 
+                        further activation and this goes on till the output is reached. 
+                        Synapses are the adjustable parameters that convert a neural network 
+                        to a parameterized system.
+  Links (1): https://iq.opengenus.org/hidden-layers/
+5. Bias op
+  Bias 
+                        is an constant parameter in the Neural Network which is used in adjusting the output. Therefore, Bias is a additional parameter which helps the model so that it can perfectly fit for the given data.
+  Links (1): https://iq.opengenus.org/bias-machine-learning/
+6. Convolution ops
+  Convolution is the most fundamental operations in DL models that focus on extracting visual information. This is a variant of Matrix Dot Product and enables to highlight different features in a data. Convolution has a filter data that DL models have to learn based on the task in hand.
+                        In CNN models, 70% of time is spent in these category of ops.
+  Links (1): https://iq.opengenus.org/convolution-layer/
+7. Convolution Filters
+  Convolution filters
+                        are filters (multi-dimensional data) used in Convolution layer which helps in extracting specific features from input data. There are different types of Filters like Gaussian Blur, Prewitt Filter and many more which we have covered along with basic idea.
+  Links (1): https://iq.opengenus.org/convolution-filters/
+8. Flatten and Squeeze ops
+  Flatten and Squeeze 
+                        are two important operations used in the manipulation of tensors in Deep Learning. These operations come into play when we want to reshape tensors. Reshaping operations are extremely important because the layers in a neural network only accept dimensional specific inputs.
+  Links (1): https://iq.opengenus.org/flatten-and-squeeze-tensors/
+9. Padding ops
+  All operations tend to decrease the size of the data. Sometimes, we need to increase data size.  Padding ops are used to increase the size of the intermediate data by adding default values across the edges.
+  Links (1): https://iq.opengenus.org/same-and-valid-padding/
+10. Fully Connected ops
+  Fully Connected layer is the last op of most models which is a compute intensive matrix multiplication.
+  Links (1): https://iq.opengenus.org/fully-connected-layer/
+11. Activation Functions
+  Activation Functions
+                        are functions that give dimensions to the model. There are different variants like sigmoid, tanh. GELU and RELU.
+  Links (1): https://iq.opengenus.org/activation-functions-ml/
+12. Linear Activation Functions
+  Linear Activation Functions
+                        linear mathematical equations that determine the output of a neural network.
+  Links (1): https://iq.opengenus.org/linear-activation-function/
+13. Sigmoid Function
+  Sigmoid Functions
+                        also known as logistic function is considered as the primary choice as an activation function since it’s output exists between (0,1).
+  Links (1): https://iq.opengenus.org/sigmoid-logistic-activation/
+14. ELU
+  ELU
+                        are different from other linear units and activation functions because ELU's can take negetive inputs. Meaning, the ELU algorithm can process negetive inputs(denoted by x), into usefull and significant outputs.
+  Links (1): https://iq.opengenus.org/exponential-linear-unit/
+15. ReLU
+  ReLU Activation Function
+                        is a non-linear function or piecewise linear function that will output the input directly if it is positive, otherwise, it will output zero.
+  Links (1): https://iq.opengenus.org/relu-activation/
+16. SeLU
+  SeeLU Activation Functions
+                        are activation functions that induce self-normalization. SELU network neuronal activations automatically converge to a zero mean and unit variance.
+  Links (1): https://iq.opengenus.org/scaled-exponential-linear-unit/
+17. GeLU
+  In BERT, GeLU is used as the activation function instead of ReLU and ELU. In this article, we have explained (both based on experiments and theoretically) why GELU is used in BERT model.
+  Links (1): https://iq.opengenus.org/activation-function-in-bert/
+18. Swish Activation Function
+  Swish Activation Functions
+                        becomes a simple sigmoid-weighted linear unit function when β = 1. But when β = 0 then the swish function simply scales the input by 1/2 .
+  Links (1): https://iq.opengenus.org/swish-activation-function/
+19. Pooling Layers
+  Pooling Layers such as maximum pool, min pool, average pool and adaptive pool will be covered in this article.
+  Links (1): https://iq.opengenus.org/pooling-layers/
+20. Global Average Pooling (Global AvgPool)
+  Global Average Pooling condenses all of the feature maps into a single one, pooling all of the relevant information into a single map that can be easily understood by a single dense classification layer instead of multiple layers.
+  Links (1): https://iq.opengenus.org/global-average-pooling/
+21. Region of Interest Pooling (ROI Pooling)
+  ROI Pooling is a technique used in convolutional neural networks (CNNs) for object detection tasks. It is commonly used in the popular Faster R-CNN and Mask R-CNN architectures for detecting objects in images.
+  Links (1): https://iq.opengenus.org/region-of-interest-and-roi-pooling/
+22. Unpooling op
+  Unpooling is the reverse of pooling
+                        Pooling is a method for downsampling an image or feature map's spatial dimensions while preserving the crucial data. After pooling has downscaled the feature maps spatial dimensions, unpooling is used to restore them to their original size.
+  Links (1): https://iq.opengenus.org/unpooling-op-in-ml-models/
+23. MaxPool op
+  Maxpool
+                        is one of the most classic operations in deep learning. Pooling layer is an important building block of a Convolutional Neural Network. Max pooling and Average Pooling layers are some of the most popular and most effective layers.
+  Links (1): https://iq.opengenus.org/maxpool/
+24. Normalization
+  Normalization
+                        is a technique applied during data preparation so as to change the values of numeric columns in the dataset to use a common scale. This is especially done when the features your Machine Learning model uses have different ranges.
+  Links (1): https://iq.opengenus.org/normalization-in-detail/
+25. Layer Normalization
+  Layer Normalization
+                        operates on a single training example at a time, rather than a batch of examples. It normalizes the activations of each layer by subtracting the mean and dividing by the standard deviation of the layer's activations. This approach has been shown to be effective in a wide range of tasks, including image recognition, natural language processing, and speech recognition.
+  Links (1): https://iq.opengenus.org/layer-normalization/
+
+---
+
+Week 3: Concepts in Inference
+=============================
+1. Basics of Inference
+  Inference is the process of running a DL model. It may look to be simple but is technically, rich direction. The main focus is on performance optimization and keep the accuracy (rate of correct output) of the model intact.
+  Links (1): https://iq.opengenus.org/inference-process/
+2. Training vs Inference
+  Training and Inference 
+                        are the two parts of deep learning models. Inference is the simplier part where we run a model. Remember inference can be done on CPUs but training require special hardware like GPUs, TPUs, FPGAs and others. Training can be done on CPUs but it may take years to complete.
+  Links (1): https://iq.opengenus.org/training-vs-inference/
+3. Throughput
+  Throughput
+                        is a measurement in DL to determine the performance of various models for a specific application. Throughput refers to the number of data units processed in one unit of time.
+  Links (1): https://iq.opengenus.org/throughput-ml/
+4. Latency
+  Latency
+                        is a measurement in Machine Learning to determine the performance of various models for a specific application. Latency refers to the time taken to process one unit of data provided only one unit of data is processed at a time.
+  Links (1): https://iq.opengenus.org/latency-ml/
+5. Floating Point (FP32) Format
+  Floating Point Format
+                        is the format where the data is represented in different floating point formats.
+  Links (1): https://iq.opengenus.org/fp32-in-ml/
+6. Instruction set AVX2, AVX512-VNNI
+  Different instruction sets like SIMD, SSE, AVX512 enable competitive performance of DL models. For example,  AVX512-VNNI instructions result in 4X performance with INT8 model.s
+                        is the format where the data is represented in different floating point formats.
+GCC intrinsics are an important concept to enable use of different instructions and not rely on compiler.
+  Links (4): https://iq.opengenus.org/simd-sse-instruction-sets/, https://iq.opengenus.org/avx512/, https://iq.opengenus.org/avx512-vnni/, https://iq.opengenus.org/gcc-compiler-intrinsics/
+7. Pb Format
+  Models need to be saved so that you can use it directly anytime. This is done using specific file formats like Pb format, ONNX format and many others.
+                        Pb file is a serialized version of a TensorFlow model that can be saved to disk and loaded back into memory. It contains all the information needed to reconstruct the TensorFlow model, including the model's architecture, variables, and operations.
+  Links (0): 
+8. ONNX Format
+  ONNX Format 
+                        is designed to allow framework interoporability. There are many excellent machine learning libraries in various languages.
+  Links (1): https://iq.opengenus.org/onnx-format-for-interchangeable-ai-model/
+
+---
+
+Week 4: Concepts in Training DL models
+======================================
+1. Basics of Training
+  Training is the most challenging part as it requires significant computing power. Due to this, DL was stuck for nearly 30 years. Once systems like GPU made training feasible, DL took off.
+  Links (1): https://iq.opengenus.org/training-process-of-deep-learning-models/
+2. Epoch Iteration and Batch
+  Epoch, Iteration and Batch
+                        are included in this article. In this article, we will explore three fundamental concepts in deep learning: epoch, iteration, and batch. These concepts are essential in training deep neural networks and improving their accuracy and performance.
+  Links (1): https://iq.opengenus.org/epoch-iteration-and-batch-in-deep-learning
+3. Feature Selection?
+  Feature Selection
+                        can help in improving maching learning model performance, reducing dimensionality, enhancing interpretability, and preventing overfitting. Throughout the article, we will touch more on why feature selection is so important, how to implement feature selection, and the broader impact of feature selection.
+DL usually do not need feature selection which makes it a powerful technique.
+  Links (1): https://iq.opengenus.org/feature-selection-problem/
+4. Backpropagation
+  Backpropagation 
+                        is an algorithm used in supervised learning to train the neural networks. The algorithm works by adjusting the weights and biases of the nodes.It entails sending input data into the network forward to produce an output, comparing it to the desired output, and then propagating the mistake back through the network to change the nodes' weights and biases.
+ Back propagation through time is the the generalization of this algorithm to recurrent neural networks
+ Deep Belief Networks are unsupervised learning models that overcome these limitations. We will explore them in details in this article at OpenGenus.
+  Links (3): https://iq.opengenus.org/types-of-backpropagation/, https://iq.opengenus.org/back-propagation-through-time/, https://iq.opengenus.org/deep-belief-network/
+5. Gradient Descent
+  Gradient Descent
+                        algorithm is one of the most popular algorithms for finding optimal parameters for most machine learning models including neural networks.
+  Links (1): https://iq.opengenus.org/gradient-descent/
+6. Cost Functions
+  Cost Function calculates the individual losses and eventually overall cost.
+  Links (1): https://iq.opengenus.org/cost-functions-in-machine-learning/
+7. Gradient Optimizers
+  Gradient Optimizers
+                        are crucial in deep learning. In the article, we explored the concept of Gradient optimization and the different types of Gradient Optimizers present in Deep Learning such as Mini-batch Gradient Descent Optimizer.
+  Links (1): https://iq.opengenus.org/types-of-gradient-optimizers/
+8. Overfitting
+  Overfitting 
+                        refers to a phenomenon that occurs when our models learn the training data more than expected and perform poor in validation dataset.
+  Links (1): https://iq.opengenus.org/overfitting-problem/
+9. AUC and ROC
+  AUC and ROC 
+                        are important metrics in deep learning. AUC is a numerical metric that measures the performance of the classifier, whereas ROC is a graphical plot that shows the performance of a binary classifier.
+  Links (1): https://iq.opengenus.org/auc-and-roc/
+10. Residual Connections
+  Residual connections work by introducing shortcut connections that allow the gradient to flow directly from one layer to another without any alteration.
+  Links (1): https://iq.opengenus.org/residual-connections/
+11. Variance
+  Variance refers to the variability or inconsistency of the model's performance when trained on different subsets of the training data.
+  Links (1): https://iq.opengenus.org/variance-in-dl/
+12. Bias Variance Tradeoff
+  Bias and Variance Tradeoff 
+                        speaks to the connection between a model's complexity and its precision in fitting the data. It specifically discusses the compromise between a model's bias, or systematic error, and variance, or random error.
+  Links (1): https://iq.opengenus.org/bias-variance-tradeoff/
+13. Cross Validation
+  Cross Validation 
+                        is a procedure used to evaluate your machine learning model on limited sample of data. With the help of this, we can actually tell how well our model performs on unseen data.
+  Links (1): https://iq.opengenus.org/cross-validation/
+14. F Test
+  F Test 
+                        get their name from the F test statistic, which was named after Sir Ronald Fisher. The F-statistic is just a two-variance ratio. Variances are a metric for dispersion, or how far the data deviates from the mean. Greater dispersion is shown by higher values.
+  Links (1): https://iq.opengenus.org/f-test/
+15. Precision, Recall, Sensitivity and Specificity
+  Precision, Recall, Sensitivity and Specificity 
+                        are key metrics to evaluate how well a model performs. And in this article we will go over each of them and their meaning.
+  Links (1): https://iq.opengenus.org/precision-recall-sensitivity-specificity/
+16. Calibration
+  Calibration 
+                        is defined as a way of making a pre-trained model predict probability of outputs more accurately and increasing its confidence about outputs.
+  Links (1): https://iq.opengenus.org/calibration-in-machine-learning/
+17. Adadelta
+  Adadelta
+                        proposed by Matthew D. Zeiler in the paper "ADADELTA: An Adaptive Learning Rate Method" in 2012, is an extension of AdaGrad that seeks to overcome this limitation. It aims to adaptively adjust the learning rate without the need for a monotonically decreasing learning rate over time.
+  Links (1): https://iq.opengenus.org/adadelta/
+18. Dimensionality Reduction
+  Dimensional Reduction Techniques 
+                        are covered in this article. It is important to reduce the dimensionality of the model to make the model simpler.
+  Links (1): https://iq.opengenus.org/types-of-dimensionality-reduction-techniques/
+19. Decision boundary
+  Decision boundary 
+                        is a crucial concept in machine learning and pattern recognition. It refers to the boundary or surface that separates different classes or categories in a classification problem.
+  Links (1): https://iq.opengenus.org/decision-boundary/
+20. Label Smoothing
+  Label Smoothing
+                        aims to address this limitation by incorporating a degree of uncertainty into the training process, leading to more calibrated and confident predictions.
+  Links (1): https://iq.opengenus.org/label-smoothing/
+21. Delta Rule in Neural Network
+  Delta Rule in Neural Network. 
+                        is one algorithm that can be used repeatedly during training to modify the network weights to reduce loss error.
+  Links (1): https://iq.opengenus.org/delta-rule-in-neural-network/
+
+---
+
+Week 5: CNN Models
+==================
+1. Convolution Neural Networks (CNN)
+  Convolution Neural Network
+                        is an neural network which extracts or identifies a feature in a particular image. This forms one of the most fundamental operations in Machine Learning and is widely used as a base model in majority of Neural Networks like GoogleNet, VGG19 and others for various tasks such as Object Detection, Image Classification and others.
+  Links (1): https://iq.opengenus.org/convolutional-neural-networks/
+2. CNN vs DCNN
+  CNN and DNN are models for deep learning.
+                        Powerful deep learning architectures known as convolutional neural networks (CNNs) and deep convolutional neural networks (DCNNs) have revolutionised the field of computer vision. These networks are extremely effective for a variety of image and video recognition tasks due to their capacity to automatically learn and extract key features from images and videos.
+  Links (1): https://iq.opengenus.org/advantages-of-cnn-and-dcnn/
+3. Disadvantages of CNN
+  Disadvantages of CNN  
+                        is covered in this article. There are some drawbacks in CNN which we have to be aware of.
+  Links (1): https://iq.opengenus.org/disadvantages-of-cnn/
+4. Downsampling and Upsampling in CNN
+  Downsampling and Upsampling in CNN
+                        are key operations in CNN and we will dive into what they are and how to do them in this article.
+  Links (1): https://iq.opengenus.org/downsampling-and-upsampling-in-cnn/
+5. Multi-Output Learning and Multiple Output CNN Models
+  Multi output Learning and Multiple Output CNN Models 
+                        are covered in this article. Unlike traditional learning and CNN Models, we will cover how multiple outputs are achieved by tweeking the orginial model.
+  Links (1): https://iq.opengenus.org/multi-output-learning-and-multi-output-cnn-models/
+6. Flattened CNN
+  Flattened CNN 
+                        were able to obtain performance comparable to that of conventional Convolutional Neural Networks without much loss in accuracy, despite being about two times faster during feed-forward passes owing to the significant reduction in the number of learning parameters. Let us have a look at how this is implemented mathematically
+  Links (1): https://iq.opengenus.org/flattened-cnn/
+7. Evolution of CNN Architectures
+  Evolution of CNN Architectures 
+                        will be covered in the article and we will go over LeNet, AlexNet, ZFNet, GoogleNet, VGG and ResNet.
+  Links (1): https://iq.opengenus.org/evolution-of-cnn-architectures/
+8. Instance Segmentation
+  Instance Segmentation 
+                        will start by combining a semantic segmentation approach to the object detection one, So instead of just a bounding box a round the object, now will be a precise mask a round each object and also differentiate between instances of the same class.
+  Links (1): https://iq.opengenus.org/instance-segmentation/
+9. ConvNeXT
+  ConvNeXT
+                        is a convolutional neural network (CNN) architecture that was proposed in the paper "ConvNeXt: A ConvNet for the 2020s". It is designed to be efficient, scalable, and accurate. This article at OpenGenus will explain about the ConvNeXT model and its architecture.
+  Links (1): https://iq.opengenus.org/convnext-model/
+10. RefineNet
+  RefineNet 
+                        blocks are 3-stage processing entities each handling and learning features of data on different levels of the model. The 3-stages of each block comprise the following components.
+  Links (1): https://iq.opengenus.org/refinenet/
+11. AlexNet
+  AlexNet 
+                        is a Deep Convolutional Neural Network (CNN) for image classification that won the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry.
+                         Local response Normalization 
+                        become first utilized in AlexNet architecture, with ReLU serving because the activation function rather than the more common tanh and sigmoid. In addition to the reasons described above, LRN was used to enhance lateral inhibition.
+  Links (2): https://iq.opengenus.org/architecture-and-use-of-alexnet/, https://iq.opengenus.org/local-response-normalization/
+12. SqueezeNet
+  SqueezeNet is a CNN architecture which has 50 times less parameters than AlexNet but still maintains AlexNet level accuracy. We also showcased the architecture of the model alongwith the implementation on the ImageNet dataset.
+  Links (1): https://iq.opengenus.org/squeezenet-model/
+13. SpineNet
+  SpineNet 
+                        is an image recognition deep learning Convolutional Neural Network (CNN).
+  Links (1): https://iq.opengenus.org/spinenet/
+14. GoogleNet
+  GoogleNet 
+                        is from Google. It achieved a top-5 error rate of 6.67%! This was very close to human level performance which the organisers of the challenge were now forced to evaluate. As it turns out, this was actually rather hard to do and required some human training in order to beat GoogLeNets accuracy.
+  Links (1): https://iq.opengenus.org/googlenet/
+15. VGG
+  VGG 11 
+                        is a pre-trained model, on a dataset and contains the weights that represent the features of whichever dataset it was trained on. Using a pre-trained model one is saving time. Already an ample amount of the time and computation resources has been spent to learn a lot of features and the model will likely benefit from it.
+                         VGG 16 
+                        is a variant of VGG model with 16 convolution layers and we have explored the VGG16 architecture in depth.
+                         VGG 19 
+                        is a variant of VGG model which in short consists of 19 layers (16 convolution layers, 3 Fully connected layer, 5 MaxPool layers and 1 SoftMax layer). There are other variants of VGG like VGG11, VGG16 and others. VGG19 has 19.6 billion FLOPs.
+                         VGG 54 and VGG 22 
+                        are loss metrics to compare high and low resolution images by considering the feature maps generated by VGG19 neural network model.
+  Links (4): https://iq.opengenus.org/vgg-11/, https://iq.opengenus.org/vgg16/, https://iq.opengenus.org/vgg19-architecture/, https://iq.opengenus.org/vgg54-and-vgg22/
+16. Single Shot Detection Algorithm
+  Single Shot Detection Algorithm 
+                        is an object detection algorithm that is a modification of the VGG16 architecture. It was released at the end of November 2016 and reached new records in terms of performance and precision for object detection tasks, scoring over 74% mAP (mean Average Precision) at 59 frames per second on standard datasets such as PascalVOC and COCO.
+  Links (1): https://iq.opengenus.org/single-shot-detection-ssd-algorithm/
+17. Inception Model
+  Inception ResNet V1 
+                        models are covered in this article and we will cover the architecture of Inception-Resnet. We will also cover the development of Inception Resnet including v1, v2, v3, v4.
+                         Inception V3 
+                        is a deep learning model based on Convolutional Neural Networks, which is used for image classification. 
+                         For Inception V4 
+                        , the Inception model of deep convolutional neural network, the initial set of operations before the inception layer is introduced is modified.
+  Links (3): https://iq.opengenus.org/inception-resnet-v1/, https://iq.opengenus.org/inception-v3-model-architecture/, https://iq.opengenus.org/inception-v4-architecture/
+18. ShuffleNeT
+  ShuffleNet 
+                        is simple yet highly effective CNN architecture which was contrived specially for devices with low memory and computing power, i.e. 10-150 MFLOPs(Mega Floating-point Operations Per Second). It became highly popular due to its outstanding experimental results and hence top universities have included it in their coursework. Many algorithms inspired or closely related to this have been mentioned in the Other similar Architectures section of this article.
+                         Comparison of ShuffleNet 
+                        and other popular artchitecture is included in this article.
+  Links (2): https://iq.opengenus.org/inception-resnet-v1/, https://iq.opengenus.org/shufflenet-series-part-2/
+19. Resnet 50
+  Resnet 50 
+                        is a variant of ResNet model which has 48 Convolution layers along with 1 MaxPool and 1 Average Pool layer.
+  Links (1): https://iq.opengenus.org/resnet50-architecture/
+20. MobileNets
+  MobileNet
+                        is a CNN architecture that was developed by researchers at Google in 2017 that is used to incorporate Computer Vision efficiently into small, portable devices like mobile phones and robots without significantly reducing accuracy.
+                         MobileNet V1
+                        is a variant of MobileNet model which is specially designed for edge devices. We have explored the MobileNet V1 architecture in depth.
+                         MobileNet V2
+                        model has 53 convolution layers and 1 AvgPool with nearly 350 GFLOP.
+  Links (3): https://iq.opengenus.org/mobilenet/, https://iq.opengenus.org/mobilenet-v1-architecture/, https://iq.opengenus.org/mobilenetv2-architecture/
+21. PoseNet
+  PoseNet 
+                        Posenet was trained in MobileNet Architecture. MobileNet is a Covolutional Neural Network developed by Google on the ImageNet dataset, majorly being used for image classification and target estimation using confidence scores.
+  Links (1): https://iq.opengenus.org/posenet-model/
+
+---
+
+Week 6: Other DL Architecture
+=============================
+1. Gradient Boosting Machines
+  Gradient Boosting Machines
+                        are a type of machine learning ensemble algorithm that combines multiple weak learning models, typically decision trees, in order to create a more accurate and robust predictive model.
+  Links (1): https://iq.opengenus.org/gradient-boosting-machines/
+2. Autoencoder
+  Autoencoder
+                        is a type of artificial neural network used to learn efficient data codings in an unsupervised manner.
+  Links (1): https://iq.opengenus.org/types-of-autoencoder/
+3. Variational Autoencoder
+  Variational Autoencoder. 
+                        is a probabilistic model that compresses high-dimensional input data into a more manageable representation.
+  Links (1): https://iq.opengenus.org/variational-autoencoder-tf/
+4. Feed Forward Neural Networks
+  Feedfoward Neural Network
+                        is an Artificial Neural Network in which connections between the nodes do not form a cycle. The feedforward neural network was the first and simplest type of artificial neural network. In this network, the information moves in only one direction, forward, from the input nodes, through the hidden node and to the output nodes.It does not form a cycle.
+                         RBFNN  is a feed-forward neural network, composed from : an input layer representing the source of data, exactly one hidden layer with high dimension and an output layer to render the results of the network.
+  Links (2): https://iq.opengenus.org/feed-forward-neural-networks/, https://iq.opengenus.org/radial-basis-neural-network/
+5. Neural Architecture Search (NAS)
+  NAS 
+                        is a technique for automating the design of artificial neural networks (ANN), a widely used model in the field of machine learning. NAS has been used to design networks that are on par or outperform hand-designed architectures.
+  Links (1): https://iq.opengenus.org/neural-architecture-search/
+6. Kohonen Neural Network
+  Kohonen Neural Network
+                        is a type of unsupervised artificial neural network. This network can be used for clustering analysis and visualization of high-dimension data.
+  Links (1): https://iq.opengenus.org/kohonen-network/
+7. Wide and Deep Model
+  The Wide and Deep Learning Model 
+                       is often used a recommender system for various platforms. This can be viewed as a searched ranking system 
+                       where input is user and contextual features and output is a ranked list of items.
+  Links (1): https://iq.opengenus.org/wide-and-deep-model
+8. GANs
+  GAN
+                    is a machine learning algorithm that is capable of generating new training datasets.
+  Links (2): https://iq.opengenus.org/types-of-gans/, https://iq.opengenus.org/conditional-generative-adversarial-net/
+9. Super Resolution GAN
+  Super Resolution
+                        imaging is referred to as using different techniques to convert a lower resolution image to higher resolution image, it is mostly performed on upsampled images. Super Resolution GAN (SRGAN) is generative adversarial network that can generate high resolution images from low resolution images using perceptual loss function that is made of the adversarial loss as well as the content loss.
+  Links (1): https://iq.opengenus.org/super-resolution-gan/
+10. Xception
+  Xception
+                        is a deep convolutional neural network architecture that involves Depthwise Separable Convolutions. This network was introduced Francois Chollet who works at Google, Inc. (Fun-Fact: He is the creator of keras).
+  Links (1): https://iq.opengenus.org/xception-model/
+11. EfficientNet
+  EfficientNet 
+                        suggest to start with a baseline network (N) and try to expand the length of the network (L), the width of the network (C) and the resolution (W,H) without changing the baseline architecture.
+  Links (1): https://iq.opengenus.org/efficientnet/
+12. YOLO
+  YOLO 
+                        , You Only Learn One Representation is a machine learning/deep learning algorithm used for computer vision tasks mainly object detection. Object detection can be defined as finding the boundary box of the object and classifying what object it is.
+ YOLO V1, V2 and V3 
+                        architecture are covered in this article.
+ YOLO V4 
+                        outperforms the other object detection models in terms of the inference speeds. It is the ideal choice for Real-time object detection, where the input is a video stream.
+ YOLO V5 
+                        is a state of the art, real-time object detection algorithm created by Joseph Redmon, Santosh Divvala, Ross Girshick, and Ali Farhadi in 2015 and was pre-trained on the COCO dataset.
+  Links (4): https://iq.opengenus.org/yolor/, https://iq.opengenus.org/architecture-of-yolov3/, https://iq.opengenus.org/yolov4-model-architecture/, https://iq.opengenus.org/yolov5/
+13. Seq2seq
+  Seq2seq 
+                        is a kind of model that was born to solve "Many to many" problem. Seq2Seq has many applications,perhaps the most common one is Machine Translation.
+  Links (1): https://iq.opengenus.org/yolov5/
+14. RetinaNet
+  RetinaNet 
+                        is widely used for Object Detection tasks. This is a strong alternative to YOLO, SSD and Faster R-CNN. It has over 32 million parameters for ResNet-50 as baseline model.
+  Links (1): https://iq.opengenus.org/retinanet-model-architecture/
+
+---
+
+Week 7: DL use cases
+====================
+1. Object Detection
+  Medical imaging diagnosis is changing with the help of deep learning. Nowadays, deep learning
+                            can be used to alert the patient that their body is ill or helping doctors to identify that the patient
+                            has a certain disesase.
+  Links (1): https://iq.opengenus.org/deep-learning-for-medical-imaging-diagnosis/
+2. Transportation
+  Transportation is a crucial part of human activities, and with the help of deep learning.
+                            We can increase the efficiency in transportation control and we can also use the power of deep learning
+                            to help us control traffic flows.
+  Links (1): https://iq.opengenus.org/deep-learning-in-transportation/
+3. Differentiating Fake Faces
+  Fake images and deepfakes are a common problem on the internet. Learn how to differentiate fake faces using machine learning and computer vision.
+                            This project uses Jupyter Notebook along with OpenCV, NumPy,
+                            Matplotlib and Scikit-Learn
+                            libraries.
+  Links (1): https://iq.opengenus.org/differentiate-fake-faces-ml/
+4. Medical Imaging Diagnosis
+  Object Detection is an image processing task that refers to the identification of objects in digital images. It is also referred to by synonymous concepts such as object recognition, object identification & image detection.
+  Links (1): https://iq.opengenus.org/object-detection/
+5. Health Care
+  Machine learning  may assist in the analysis of huge amounts of data, the identification of patterns and trends, and the prediction of outcomes based on that data. Machine learning has the potential to enhance patient outcomes, lower costs, and boost efficiency in healthcare.
+  Links (1): https://iq.opengenus.org/benefits-of-using-machine-learning-in-healthcare/
+6. Pancreatic Volumetry
+  Pancreatic Volumetry  can be predicted usign deep learning and it can help increase the efficiency of the process.
+  Links (1): https://iq.opengenus.org/pancreatic-volumetry-using-deep-learning/
+7. Chest X Rays
+  Chest X Rays  can be predicted usign deep learning and it can help increase the efficiency of the process.
+  Links (1): https://iq.opengenus.org/pneumonia-detection-on-chest-x-rays-with-deep-learning/
+8. Laptops
+  Difference uses of deep learning in laptop  are covered and we will go over 6 different cases on how deep learning is helping the lab top industry.
+  Links (1): https://iq.opengenus.org/use-of-deep-learning-in-laptop/
+9. Media
+  Media Industry is also affected by deep learning. This article at OpenGenus delves into how deep learning is being applied in the media industry, revolutionizing the way we create, consume, and interact with media content.
+  Links (1): https://iq.opengenus.org/deep-learning-for-media/
+
+---
+
+Week 8: TensorFlow/ PyTorch
+===========================
+1. Build Install Tensorflow
+  Procedures on how to install tensorflow is covered in this article. Follow this guide and start your DL journey!
+  Links (1): https://iq.opengenus.org/build-install-tensorflow-from-source-with-mkl-dnn-support-and-avx-enabled/
+2. Basic Tensorflow Programming
+  Basic Tensorflow Programming ideas are covered in this article. This will be the starting point of your tensorflow library. Find out what graph, operation and tensor means.
+  Links (1): https://iq.opengenus.org/understand-basic-tensorflow-programming/
+3. Key Ideas in Tensorflow
+  Key ideas in tensorflow is covered in this article. You will explore the basics and fundamentals to get you started in using tensorflow.
+  Links (1): https://iq.opengenus.org/key-ideas-in-tensorflow/
+4. Initializing Tensors
+  Initializating Tensors are covered in the article. We will go over what tensors are in tensorflow and go over how to use them.
+  Links (1): https://iq.opengenus.org/initializing-tensors-in-tensorflow/
+5. Tensorflow Reshape
+  Tensorflow Reshape operation is used to change the shape of a tensor. The general definition of the operation is as follows:
+  Links (1): https://iq.opengenus.org/tf-reshape/
+6. Tensorflow CNN Benchmark
+  The official Tensorflow CNN Benchmark CPU will be run in this tutorial.
+  Links (1): https://iq.opengenus.org/run-tensorflow-cnn-benchmarks-cpu/
+7. Tensorflow.js
+  Tensorflow-js will be covered in this article. Intergrate Deep learning into your web applications!
+  Links (1): https://iq.opengenus.org/tensorflow-js/
+8. Matmul Tensorflow
+  Matmul Tensorflow function is used for 2 dimention matrix multiplication.
+  Links (1): https://iq.opengenus.org/matmul-tf/
+9. Dropout in Tensorflow
+  Dropout in Tensorflow is a function used to fight overfitting in the model.
+  Links (1): https://iq.opengenus.org/dropout-in-tensorflow/
+10. Graphs with Tensorflow
+  Graphs in Tensorflow is covered. We will go over how to use graphs to make your DL models more easy to be understood.
+  Links (1): https://iq.opengenus.org/graphs-with-tensorflow/
+11. ShuffleNET Implmentation with Pytorch
+  Shufflenet implementation is covered in this article by using pytorch.
+  Links (1): https://iq.opengenus.org/shufflenet-implementation-using-pytorch/
+12. Deep Convolution GANs with Pytorch
+  Deep Convolution GANs with Pytorch is covered. Generative Adversarial Networks are a deep learning architecture based on generative modeling. Their main objective is to generate new data, given lots of similar data as training material.
+  Links (1): https://iq.opengenus.org/deep-convolutional-gans-pytorch/
+13. Pytorch and Torch Differences
+  Pytorch and Torch are compared and contrasted in this article. We will talk about the differences and similarities between the two popualr frameworks.
+  Links (1): https://iq.opengenus.org/differences-between-torch-and-pytorch-deep-learning-libraries/
+
+---
+
+Week 9: Optimization
+====================
+1. Convolution Algorithms
+  Indirect Convolution Algorithm 
+                        is as efficient as the GEMM primitive without the overhead of im2col transformations - instead of reshuffling the data, an indirection buffer is introduced (a buffer of pointers to the start of each row of image pixels). It can similarly support arbitrary Convolution parameters and leverage previous research on high-performance GEMM implementation.
+ Separable Convolution 
+                        The spatial separable convolution works on the spatial features of an image: its width and its height. These features are the spatial dimensions of the image hence the name, spatial separable.
+ Kn2row 
+                        is based on the fact that a KxK convolution may be computed by first shifting and combining the partial outputs from K.K 1x1 convolutions. MxHxW is the additional buffer space necessary for this.
+ Im2row 
+                        is an approach to perform Convolution by modifying the layout of image and filter. It is a better alternative to Im2col.
+  Links (4): https://iq.opengenus.org/indirect-convolution-algorithm/, https://iq.opengenus.org/separable-convolution/, https://iq.opengenus.org/kn2row-kn2col-convolution/, https://iq.opengenus.org/im2row-convolution/
+2. Winograd Convolution
+  Winograd Convolution 
+                        proved a lower bound on the number of multiplications required for convolution, and used Chinese Remainder Theorem to construct optimal algorithm to achieve minimum number of multiplies.
+  Links (1): https://iq.opengenus.org/winograds-convolution-theorem/
+3. Residual Connection
+  Residual connections, 
+                        also known as skip connections, as a simple yet effective technique to improve the training and performance of deep neural networks. In this article, we will take a comprehensive look at residual connections, their motivation, implementation, and their impact on deep learning models.
+  Links (1): https://iq.opengenus.org/residual-connections/
+4. Wake Sleep Algorithm
+  Wake Sleep Algorithm 
+                        is a stack of layers that represents the data. In this process, each layer learns to represent the activities of the adjacent hidden layers. This algorithm allows the representations to be efficient and the inputs to be adjusted accurately.
+  Links (1): https://iq.opengenus.org/wake-sleep-algorithm/
+5. Gradient Accumulation
+  Gradient Accumulation
+                        is an optimization technique that is used for training large Neural Networks on GPU and help reduce memory requirements and resolve Out-of-Memory OOM errors while training.
+  Links (1): https://iq.opengenus.org/gradient-accumulation/
+6. Adaptive Gradient Algorithm
+  Adaptive Gradient Algorithm for Optimization 
+                        is a gradient-based optimization algorithm first introduced in 2011. The research paper that talks about it explains that Adagrad is designed to adapt the learning rate for each parameter during the optimization process, based on the past gradients observed for that parameter.
+  Links (1): https://iq.opengenus.org/adagrad/
+7. Dialted Convolution
+  Dialted Convolution 
+                        also known as Atrous Convolution or convolution with holes, first came into light by the paper "Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs". The idea behind dilated convolution is to "inflate" the kernel which in turn skips some of the points.
+  Links (1): https://iq.opengenus.org/dilated-convolution/
+8. Pointwise Convolution
+  Pointwise Convolution is an optimized approach of doing Convolution and is used in MobileNet variants.
+  Links (1): https://iq.opengenus.org/pointwise-convolution/
+9. Separable Convolution
+  Separable Convolution is a core innovation approach building over Pointwise Convolution to optimize convolution to improve performance and reduce power consumption at the same time.
+  Links (1): https://iq.opengenus.org/separable-convolution/
+10. Exploration Exploitation Dilema
+  Exploration Exploitation Dilema 
+                        is a concept that describes the challenge of deciding between exploring new options or exploiting already known options to maximize rewards.
+  Links (1): https://iq.opengenus.org/exploration-exploitation-dilemma/
+11. Pruning
+  Pruning 
+                        in Deep Learning is an optimization technique for Neural Network models. These models are usually smaller and efficient. Pruning aims to optimize the model by eliminating the values of weight tensors to gain computationally cost efficient model that takes less time in training.
+  Links (1): https://iq.opengenus.org/pruning-in-ml/
+12. Quantization
+  Quantization Basics 
+                        are covered in this article. Quantization in Machine Learning (ML) is the process of converting data in FP32 (floating point 32 bits) to a smaller precision like INT8 (Integer 8 bit) and perform all critical operations like Convolution in INT8 and at the end, convert the lower precision output to higher precision in FP32.
+  Links (1): https://iq.opengenus.org/basics-of-quantization-in-ml/
+13. Challenges of Quantization
+  Quantization 
+                        is the area of Machine Learning with the most intense research but there are significant challenges in Quantization that is stopping wide adoption.
+  Links (1): https://iq.opengenus.org/challenges-of-quantization/
+
+---
+
+Week 10: Advanced Concepts
+==========================
+1. Transposed Convolution
+  Transposed Convolution 
+                        is also known as upsampled convolution, which refers to the task it accomplishes, which is to upsample the input feature map.
+  Links (1): https://iq.opengenus.org/transposed-convolution/
+2. TVM
+  TVM
+                        is an open source deep learning compiler stack for CPUs, GPUs, and specialized accelerators. It aims to close the gap between the productivity-focused deep learning frameworks, and efficiency-oriented hardware backends. We have provided a brief introduction to the TVM Stack.
+  Links (1): https://iq.opengenus.org/tvm-deep-learning-compiler-stack/
+3. Floating Point Operations Per Second
+  FLOPs 
+                        are values of various machine learning models like VGG19, VGG16, GoogleNet, ResNet18, ResNet34, ResNet50, ResNet152 and others. The FLOPS range from 19.6 billion to 0.72 billion.
+  Links (1): https://iq.opengenus.org/floating-point-operations-per-second-flops-of-machine-learning-models/
+4. Refinedet
+  refinedet 
+                        generates a predetermined number of bounding boxes and scores indicating the existence of distinct kinds of items in those boxes, followed by non-maximum suppression (NMS).
+  Links (1): https://iq.opengenus.org/refinedet/
+5. Image Segementation
+  Image Segementation 
+                        evaluation metrics are covered in this article. It includes Panoptic quality (PQ), segmentation quality (SQ) and recognition quality (RQ).
+  Links (1): https://iq.opengenus.org/pq-sq-rq/
+6. Hinge Loss for SVM
+  Hinge Loss for SVM 
+                        is a type of loss function that is used to penalize the SVM for misclassifying data points.
+  Links (1): https://iq.opengenus.org/hinge-loss-for-svm/
+7. One Shot Learning
+  One Shot Learning 
+                        is a classification task where one, or a couple, examples are used to classify many new examples in the future. Let us learn about it with the help of an example.
+  Links (1): https://iq.opengenus.org/one-shot-learning-in-ml/
+8. He initialization
+  He initialization 
+                        , also known as Kaiming Initialization, is a widely used technique in deep learning for initializing the weights of neural networks
+  Links (1): https://iq.opengenus.org/he-initialization-in-deep-learning/
+9. Top 50 Interview Questions
+  50 Most interviewed questions 
+                        will be covered in this article
+  Links (1): https://iq.opengenus.org/deep-learning-practice-questions/
+
+---
+
+Week 11: NLP Model
+==================
+1. 25 Must Read NLP Papers
+  Top 25 Most read NLP Papers in Deep Learning. 
+                        are included in this article. To have a basic understanding of deep learning, you should read over those papers and know how basic models are formulated.
+  Links (1): https://iq.opengenus.org/nlp-papers-in-dl/
+2. BART vs BERT
+  BART and BERT. 
+                        are both transformer based models used to work on NLP tasks. We will cover difference and advtanges of each of the models.
+  Links (1): https://iq.opengenus.org/bart-vs-bert/
+3. Scaled Dot Product Attention
+  Scaled Dot Product Attention. 
+                        Attention Mechanism have revolutionized the way NLP & Deep Learning models function by introducing the ability to mimic cognitive attention the way humans do in order to make predictions. There are several approaches to achieve this and this article at OpenGenus aims to walk you through the core operations of one of the most efficient approaches: The Scaled Dot-Product Attention technique.
+  Links (1): https://iq.opengenus.org/scaled-dot-product-attention/
+4. Stop Words
+  Stop Words. 
+                        are commonly used in a language but do not carry much meaning or significance. They are often used to connect other words or to form grammatical structures.
+  Links (1): https://iq.opengenus.org/stop-words/
+5. Word Representations
+  Word Representations 
+                        , a popular concept in Natural Language Processing, are often used to improve the performance characteristics of text classification algorithms. As the name suggests, it is used to represent words with an alternative form which is easier to process and understand.
+  Links (1): https://iq.opengenus.org/word-representations/
+6. Topic Modeling Techniques
+  Topic Modeling 
+                        is an algorithm for extracting the topic or topics for a collection of documents. It is the widely used text mining method in Natural Language Processing to gain insights about the text documents. The algorithm is analogous to dimensionality reduction techniques used for numerical data.
+  Links (1): https://iq.opengenus.org/topic-modelling-techniques/
+7. Byte Pair Encoding
+  Byte Pair Encoding 
+                        is originally a compression algorithm that was adapted for NLP usage.
+  Links (1): https://iq.opengenus.org/byte-pair-encoding/
+8. Zipfs Law
+  Zipfs Law 
+                        is an empirical law, that was proposed by George Kingsley Zipf, an American Linguist.
+  Links (1): https://iq.opengenus.org/zipfs-law/
+9. Attention Mechanism
+  Attention Mechanism 
+                        has been a powerful tool for improving the performance of Deep Learning and NLP models by allowing them to extract the most relevant and important information from data, giving them the ability to simulate cognitive abilities of humans
+  Links (1): https://iq.opengenus.org/different-types-of-attention-mechanism/
+10. XLNet
+  XLnet 
+                        is a state-of-the-art language model architecture for natural language processing (NLP) tasks. The base version of XLNet has a model size of 340 MB, while the large version has a model size of 1.3 GB. It was proposed by Yang et al. in 2019, and it achieved state-of-the-art results on several NLP benchmarks.
+  Links (1): https://iq.opengenus.org/xlnet-model-architecture/
+11. 40 NLP Project Ideas
+  40 Cutting-Edge NLP Project Ideas with source code are covered in this article and you can pick one project idea and start workign on it today!
+  Links (1): https://iq.opengenus.org/nlp-project-ideas/
+
+---
+
+Week 12: LLMs
+=============
+1. Large Language Models (LLMs)
+  Large Language Models 
+                            have been one of the most significant and disruptive innovations of the 21st Century in the field of technology, with the potential to revolutionize a wide range of domains, from natural language processing and machine translation to content creation and even distant- seemingly non related domains such as literature and finance.
+  Links (1): https://iq.opengenus.org/large-language-models/
+2. People Who Started LLM Revolution
+  People who started LLM Revolution will be discussed in the article. We will go over how each individual revolutionized the industry.
+  Links (1): https://iq.opengenus.org/people-who-started-llm-revolution/
+3. Transformers
+  Transforers 
+                        questions are explored in this article. After goign through the article, you will have a thorough understanding of the model.
+                         Vision Transformer   is a transformer model to build a new network for image recognition
+  Links (2): https://iq.opengenus.org/interview-questions-on-transformers/, https://iq.opengenus.org/vision-transformer/
+4. Self Attention
+  Self Attention 
+                        is a process that trying to make each single input to pay attention to the other inputs in the same sequence. this attention is weighted to each other input and this weight is trainable.
+  Links (1): https://iq.opengenus.org/self-attention-in-transformer/
+5. ERNIE 3.0 TITAN LLM
+  ERNIE 3.0 TITAN LLM is a model developed by BAIDU.
+                        Pre-trained language models such as ERNIE, GPT, BERT have revolutionized the field of Natural Language Processing (NLP) by improving language generation, analysis and understanding. This article at OpenGenus aims to provide you an overview of Baidu's ERNIE 3.0 TITAN LLM and briefly explore its architecture.
+  Links (1): https://iq.opengenus.org/ernie-titan-llm/
+6. ChatGPT vs BARD
+  ChatGPT and Google BARD , were created by two separate businesses, OpenAI and Google, respectively. Even if they have certain things in common, they also differ greatly.uage Processing (NLP) by improving language generation, analysis and understanding. This article at OpenGenus aims to provide you an overview of Baidu's ERNIE 3.0 TITAN LLM and briefly explore its architecture.
+  Links (1): https://iq.opengenus.org/chatgpt-vs-google-bart/
+7. GPT Models
+  All GPT Models are covered in this article. And we will compare the developments and the different advantages and the disadvantages of the individual models.
+                         while distilled GPT 2 is a light version of GPT-2 and has 6 layers and 82 million parameters. The word embedding size for distilGPT2 is 768.
+                         GPT 3.5is a fined-tuned version of the GPT3 (Generative Pre-Trained Transformer) model. GPT-3.5 was developed in January 2022 and has 3 variants each with 1.3B, 6B and 175B parameters.
+  Links (3): https://iq.opengenus.org/gpt2-vs-gpt3-vs-gpt35-vs-gpt4/, https://iq.opengenus.org/distilled-gpt2/, https://iq.opengenus.org/gpt-3-5-model/
+
+---
+
+Week 13: DL Projects
+====================
+1. 109 Deep Learning project ideas
+  Having a strong idea of different  Deep Learning project ideas (check it out) is the first starting point for creating your own portfolio project.
+  Links (1): https://iq.opengenus.org/deep-learning-projects/
+2. Handwritten digit recognition using CNN
+  Recognizing  Handwritten digits is one of the first use-cases of Deep Learning. This problem is solved efficiently using CNN models like ResNet50. Extending this, one can do Optical Character Recognition on a regional language as well.
+  Links (2): https://iq.opengenus.org/mnist-handwritten-recognition-dataset/, https://iq.opengenus.org/hindi-ocr/
+3. Sentiment Analysis using LSTM with Keras
+  Understanding  the sentiment of a user based on a comment or written text that is where the user is happy, sad or angry is one of the core DL projects based on text. You can also, work on a project to generate text using LSTM.
+  Links (2): https://iq.opengenus.org/sentiment-analysis-in-lstm-keras/, https://iq.opengenus.org/text-generation-lstm/
+4. Face Aging using Conditional GANs
+  DL can generate new data and using this feature, one can generate a face  considering years of aging. This is not just a fun project but shall several applications in finding missing person or wanted criminals.
+  Links (1): https://iq.opengenus.org/face-aging-cgan-keras/
+5. Deep Learning on 2 Dimensional Images
+  2 dimensional images are one of the most common input data types. In this article, we will take a look at the deep learning techniques that can be applied on 2 dimensional images to extract useful information and develop ground breaking applications from face recognition to medical imaging.
+  Links (1): https://iq.opengenus.org/deep-learning-on-2-dimensional-images/
+6. Tic Tac Toe with RL
+  Tic Tac Toe with RL is being covered. Follow the tutorial and build your own reinforcement model.
+  Links (1): https://iq.opengenus.org/tic-tac-toe-with-rl/
+7. Snake Game with RL
+  Snake Game with RL is being covered. We will try to beat the classic snake game by using RL. Follow alone and build your own agents!
+  Links (1): https://iq.opengenus.org/snake-game-with-rl/
+8. Differentiating Fake Faces using Simple ML and Computer Vision
+  Fake images and deepfakes are a common problem on the internet. Learn how to differentiate fake faces using machine learning and computer vision.
+                        This project uses Jupyter Notebook along with OpenCV, NumPy,
+                        Matplotlib and Scikit-Learn
+                        libraries.
+  Links (1): https://iq.opengenus.org/differentiate-fake-faces-ml/
+9. Application Projects for RNN
+  Applications of RNN are covered in this article and you can pick one of the application ideas and try to implement it yourself.
+  Links (1): https://iq.opengenus.org/applications-of-rnn/
+10. Global Temperature Change Prediction
+  ML and DL subfields of artificial intelligence, have demonstrated great promise in predictive modeling and data analysis. This article at OpenGenus explores how ML and DL can be effectively utilized for global temperature change prediction.
+  Links (1): https://iq.opengenus.org/global-temperature-change-prediction/
+11. GPT Code Assistant
+  A GPT Code Assistant will be built in this tutorial to help you with real life problems.
+  Links (1): https://iq.opengenus.org/gpt-code-assistant/
+12. Detecting GPT
+  How to detecting GPT will be covered in this article. Nowadays, more and more GPT generated contents are being produced and it is essential for us to find ways to detect the materials that are generated by GPT.
+  Links (1): https://iq.opengenus.org/detect-gpt/
+
+---
+Generated by OpenGenus. Updated on 2023-12-28

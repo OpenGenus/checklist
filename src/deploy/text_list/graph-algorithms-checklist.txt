@@ -1,0 +1,717 @@
+Graph Algorithms Checklist: 13 weeks free course
+
+Only concepts that you need to review to master Graph algorithms
+
+
+Week 1: Graph Algorithm Basics
+==============================
+1. Graph
+          Representation: Adjacency Matrix & Adjacency List
+  Graph Representation: Adjacency Matrix & Adjacency List is a technique used to
+            represent graphs in computer science, where an adjacency matrix is a square matrix used to represent a
+            finite graph, and an adjacency list is a collection of unordered lists used to represent a finite graph.
+  Links (2): https://iq.opengenus.org/graph-representation-adjacency-matrix-adjacency-list/, https://iq.opengenus.org/adjacency-matrix/
+2. Directed Graph vs Undirected Graph
+  Directed
+              Graph vs Undirected Graph explains the difference between these two types of graphs and how they can
+            be represented mathematically.
+  Links (1): https://iq.opengenus.org/directed-vs-undirected-graph/
+3. Depth
+          First Search
+  Depth-First Search
+            is an algorithm used to traverse a graph or tree in which the search moves down a branch as far as possible.
+  Links (1): https://iq.opengenus.org/depth-first-search/
+4. Breadth First Search
+  Breadth-First
+              Search (BFS) is an algorithm used to traverse a graph or tree in which the search visits all the
+            vertices at
+            the same level before moving down to the next level. BFS is also a popular algorithm
+            used to find shortest paths between nodes.
+  Links (2): https://iq.opengenus.org/breadth-first-search/, https://iq.opengenus.org/bfs-graph-traversal/
+5. Depth
+          First Search vs Breadth First Search
+  Depth First Search vs Breadth
+              First Search is a comparison of two traversal algorithms used in graph theory.
+  Links (1): https://iq.opengenus.org/dfs-vs-bfs/
+6. Bidirectional Search Algorithm
+  Bidirectional Search
+              Algorithm is a graph traversal algorithm that searches for a path between two nodes in a graph by
+            simultaneously running two breadth-first searches, one from the start node and one from the end node, until
+            the two searches meet in the middle.
+  Links (1): https://iq.opengenus.org/bidirectional-search/
+
+---
+
+Week 2: Topological Sorting
+===========================
+1. Topological Sort (BFS)
+  Topological
+              Sort using BFS works by initially finding all the nodes in the graph with zero incoming edges and
+            adding them to a queue. Then it repeatedly removes the first node from the queue, adds it to the
+            topologically sorted list, and removes all of its outgoing edges. If any nodes have zero incoming edges as a
+            result of this removal, they are added to the queue. This process continues until the queue is empty and all
+            nodes have been added to the topologically sorted list.
+  Links (1): https://iq.opengenus.org/topological-sort-bfs/
+2. Topological Sorting (DFS)
+  Learn how to perform Topological Sorting using DFS. The algorithm works by recursively visiting each node in
+            the graph using DFS and keeping track of a list of nodes in the order in which they finish being visited.
+  Links (1): https://iq.opengenus.org/topological-sorting-dfs/
+3. Kahn's
+          Algorithm for Topological Sorting
+  Kahn's
+              algorithm
+              for topological sorting works by initially finding nodes in the graph with zero incoming edges,
+            removing them and their outgoing edges from the graph, and repeating the process with the updated graph.
+            This continues until all nodes have been removed and the algorithm outputs the nodes in the order in which
+            they were removed.
+  Links (1): https://iq.opengenus.org/kahns-algorithm-topological-sort/
+4. Applications of Topological Sort
+  Applications of Topological Sort
+            discusses various real-world applications of topological sorting. It provides examples of how the
+            technique can be used in areas such as project scheduling, build systems, and task management. Additionally,
+            it discusses the benefits of using topological sorting in these contexts, such as improved efficiency and
+            reduced errors.
+  Links (1): https://iq.opengenus.org/applications-of-topological-sort/
+
+---
+
+Week 3: Shortest Path in Graph
+==============================
+1. Shortest path using topological sort
+  Shortest path using topological sort article explains an algorithm to find the shortest
+            path between two vertices in a directed acyclic graph (DAG), using a topological sorting technique and
+            dynamic programming.
+  Links (1): https://iq.opengenus.org/shortest-path-using-topological-sort/
+2. Counting Paths in a Matrix
+  Counting Paths in a Matrix is a dynamic programming algorithm that counts the number of
+            unique paths from the top left corner to the bottom right corner of a matrix, moving only right or down, by
+            computing a table of intermediate counts for each position in the matrix and using this table to gradually
+            update the total count. In the context of matrices, intermediate counts refer to the number of elements that
+            are present between two specific elements in a matrix.
+  Links (1): https://iq.opengenus.org/count-paths-from-top-left-to-bottom-right-of-a-matrix/
+3. Print
+          all the paths between two vertices
+  Print all the paths between two vertices article explains how to find and print all
+            possible paths between two vertices in a graph, including paths that pass through other vertices, using
+            Depth First Search(DFS) and backtracking.
+  Links (1): https://iq.opengenus.org/print-all-the-paths-between-two-vertices/
+4. Shortest path with k edges
+  Learn how to find the shortest path with k edges using an algorithm to find the shortest path between two
+            vertices in a graph, with a constraint that the path must have a fixed number of edges, using dynamic
+            programming.
+  Links (1): https://iq.opengenus.org/shortest-path-with-k-edges/
+5. Path
+          between nodes in a directed graph
+  Path
+              between nodes in a directed graph article explains a recursive graph traversal algorithm used to find
+            all possible paths between two nodes in a directed graph using DFS.
+  Links (1): https://iq.opengenus.org/path-between-nodes-directed-graph/
+6. Dijkstra's Algorithm
+  Dijkstra's Algorithm is a pathfinding algorithm that finds the shortest
+            path between a starting node and all other nodes in a weighted graph, using a priority queue to efficiently
+            explore the graph and update the distances to each node. Also learn about the algorithm's time and space complexity.
+  Links (2): https://iq.opengenus.org/dijkstras-algorithm-finding-shortest-path-between-all-nodes/, https://iq.opengenus.org/time-and-space-complexity-of-dijkstra-algorithm/
+7. Shortest Path Faster Algorithm
+  Shortest
+              Path Faster Algorithm is an improvement on Dijkstra's algorithm for finding the shortest path in a
+            weighted graph that allows negative edge weights. It uses a queue-based approach to efficiently explore the
+            graph and update the distances to each node.
+  Links (1): https://iq.opengenus.org/shortest-path-faster-algorithm/
+8. Floyd-Warshall Algorithm
+  Floyd-Warshall Algorithm is a dynamic programming algorithm that finds
+            the shortest path between all pairs of nodes in a weighted graph, by computing a table of intermediate
+            distances between all pairs of nodes and using this table to gradually update the shortest path.
+  Links (1): https://iq.opengenus.org/floyd-warshall-algorithm-shortest-path-between-all-pair-of-nodes/
+9. Bellman-Ford Algorithm
+  Bellman-Ford
+              Algorithm is an algorithm for finding the shortest path between a starting node and all other nodes in
+            a weighted graph, even when the graph has negative edge weights. It works by iteratively relaxing the edges
+            of the graph to gradually find the shortest path. In addition, also understand the time and space complexity of the algorithm.
+  Links (2): https://iq.opengenus.org/bellman-ford-algorithm/, https://iq.opengenus.org/time-and-space-complexity-of-bellman-ford-algorithm/
+10. Johnson Algorithm
+  Johnson Algorithm
+            is an algorithm for finding the shortest path between all pairs of nodes in a weighted graph. It works by
+            first reweighting the edges of the graph using a potential function, and then using Dijkstra's algorithm to
+            find the shortest path between each pair of nodes.
+  Links (1): https://iq.opengenus.org/johnson-algorithm/
+11. DeSopo-Pape algorithm
+  DeSopo-Pape
+              algorithm article explains a single-source shortest path algorithm that handles negative edge weights
+            by using a stack and a priority queue, and can work on both directed and undirected graphs. It is an
+            improvement over Dijkstra's algorithm.
+  Links (1): https://iq.opengenus.org/desopo-pape-algorithm/
+
+---
+
+Week 4: Minimum Spanning Tree
+=============================
+1. Introduction to Minimum Spanning Trees
+  Minimum
+              Spanning Tree is a tree that spans all the vertices of a connected, weighted graph with the least
+            possible total edge weight.
+  Links (1): https://iq.opengenus.org/what-is-a-minimum-spanning-tree/
+2. Kruskal's Minimum Spanning Tree Algorithm
+  Kruskal's Minimum Spanning Tree Algorithm involves sorting the edges by weight and
+            adding them one by one to the tree as long as they don't create a cycle. Also analyse the time and space complexity of the algorithm.
+  Links (2): https://iq.opengenus.org/kruskal-minimum-spanning-tree-algorithm/, https://iq.opengenus.org/time-and-space-complexity-of-kruskal-algorithm/"
+3. Prim's
+          Minimum Spanning Tree Algorithm
+  Prim's Minimum Spanning Tree Algorithm involves starting with an arbitrary vertex and
+            adding the edge with the smallest weight to the growing tree until all vertices are included. Additionally,
+            learn about the algorithm's time and space complexity.
+  Links (2): https://iq.opengenus.org/prim-minimum-spanning-tree-algorithm/, https://iq.opengenus.org/time-and-space-complexity-of-prims-algorithm/
+4. Boruvka's Minimum Spanning Tree Algorithm
+  Boruvka's
+              Minimum Spanning Tree Algorithm involves creating a forest of trees where each tree is a single
+            vertex, and then repeatedly adding the cheapest edge that connects two different trees until all vertices
+            are in a single tree.
+  Links (1): https://iq.opengenus.org/boruvka-minimum-spanning-tree/
+5. Reverse Delete Algorithm
+  Reverse Delete
+              Algorithm involves starting with all edges in a graph and removing them one by one in non-increasing
+            order of weight until the remaining edges form a tree.
+  Links (1): https://iq.opengenus.org/reverse-delete-algorithm/
+
+---
+
+Week 5: Maximum Flow Problem
+============================
+1. Introduction to Maximum Flow Problem
+  Maximum
+              Flow Problem involves finding the maximum flow that can be sent through a network from a source to a
+            sink. Here, the term "flow" refers to some quantity, such as data, that is being transported
+            through a network represented as a directed graph. Solving the maximum flow problem has many real-world
+            applications, such as optimizing transportation networks, managing internet traffic, and designing water
+            distribution systems.
+  Links (1): https://iq.opengenus.org/maximum-flow-problem-overview/
+2. Ford-Fulkerson Algorithm
+  Ford-Fulkerson
+              Algorithm is based on the concept of augmenting paths and works by iteratively finding augmenting
+            paths from the source to the sink until no more paths can be found. This algorithm makes use of Depth First
+            Search (DFS). In a flow network, an augmenting path is a path that can be used to increase the amount of
+            flow that can be sent from the source to the sink.
+  Links (1): https://iq.opengenus.org/ford-fulkerson-algorithm/
+3. Dinic's Algorithm
+  Dinic's Algorithm
+            is based on the concept of layered graphs and works by iteratively building a layered graph and finding
+            blocking flows until no more blocking flows can be found. A layered graph is a type of graph where the nodes
+            are partitioned into layers, with each layer representing a different distance from the source. In other
+            words, nodes in the same layer are at the same distance from the source.
+  Links (1): https://iq.opengenus.org/dinics-algorithm/
+4. Edmonds-Karp Algorithm
+  Edmonds-Karp Algorithm for Maximum Flow uses a breadth-first search to find
+            augmenting paths and then calculates the maximum amount of flow that can be sent from the source to the
+            sink.
+  Links (1): https://iq.opengenus.org/edmonds-karp-algorithm-for-maximum-flow/
+5. Push-Relabel Algorithm
+  Push-Relabel
+              Algorithm works by maintaining a preflow, which is a partial flow that satisfies certain
+            conditions, and then iteratively pushing flow from nodes with excess flow to nodes with deficit flow.
+  Links (1): https://iq.opengenus.org/push-relabel-algorithm/
+
+---
+
+Week 6: Graph Coloring Problem
+==============================
+1. Overview of Graph Colouring Algorithms
+  Graph Colouring Algorithms involve assigning colors to the vertices of a graph such
+            that adjacent vertices do not have the same color.
+  Links (1): https://iq.opengenus.org/overview-of-graph-colouring-algorithms/
+2. Bipartite Checking using BFS
+  Learn about Bipartite Checking
+              using BFS. A graph is bipartite if it is possible to divide its vertices into two independent sets
+            such that every edge connects a vertex from one set to a vertex from the other set. We use Breadth
+            First Search (BFS) to color the vertices of the graph in two colors, starting from an arbitrary vertex. If,
+            during this process, an edge is found that connects two vertices of the same color, then the graph is not
+            bipartite. If all edges can be colored without any conflicts, then the graph is bipartite.
+  Links (1): https://iq.opengenus.org/bipartite-checking-bfs/
+3. Graph
+          Colouring using Greedy Algorithm
+  Graph
+              Colouring using Greedy Algorithm is a widely used algorithm for graph coloring that assigns colors to
+            vertices in a way that minimizes the total number of colors used.
+  Links (1): https://iq.opengenus.org/graph-colouring-greedy-algorithm/
+4. Wigderson Algorithm for Graph Coloring
+  Wigderson
+              algorithm is a randomized algorithm for coloring graphs. The algorithm
+            works by randomly partitioning the vertices of the graph into subsets, and then recursively coloring each
+            subset using a reduced color palette.
+  Links (1): https://iq.opengenus.org/wigderson-algorithm/
+5. Welsh-Powell Algorithm
+  Welsh-Powell
+              Algorithm for Graph Coloring is a simple heuristic algorithm
+            used to color graphs that sorts the vertices in decreasing order of degree and assigns colors to each
+            vertex, making sure that no adjacent vertices have the same color.
+  Links (1): https://iq.opengenus.org/welsh-powell-algorithm/
+6. Flood
+          Fill Algorithms
+  Explore the flood
+              fill algorithm, a technique used to fill a connected region of pixels with a
+            particular color.
+  Links (1): https://iq.opengenus.org/flood-fill-algorithms/
+
+---
+
+Week 7: Maximum Matching Problem
+================================
+1. Introduction to Maximum Matching
+  Maximum matching is
+            a graph theory problem that involves finding the largest set of edges in a graph such that no two edges
+            share a common vertex. It has applications in fields such as computer networking, image processing, and
+            social network analysis.
+  Links (1): https://iq.opengenus.org/maximum-matching/
+2. Hungarian Maximum Matching Algorithm
+  The
+              Hungarian algorithm is a well-known algorithm for solving the maximum matching problem in bipartite
+            graphs. It works by augmenting the matching until no further improvement is possible.
+  Links (1): https://iq.opengenus.org/hungarian-maximum-matching-algorithm/
+3. Hopcroft-Karp Algorithm
+  The Hopcroft-Karp
+              algorithm is an efficient algorithm for finding the maximum matching in a bipartite graph. It works by
+            alternating between finding augmenting paths and updating the matching, and has been used in applications
+            such as online advertising and recommendation systems.
+  Links (1): https://iq.opengenus.org/hopcroft-karp-algorithm/
+4. Blossom Maximum Matching Algorithm
+  The
+              Blossom algorithm is a graph theory algorithm for finding maximum matchings in general graphs. It
+            works by finding augmenting paths in a way that reduces the size of the graph, and has applications in areas
+            such as transportation and supply chain management.
+  Links (1): https://iq.opengenus.org/blossom-maximum-matching-algorithm/
+
+---
+
+Week 7: Stable Marriage Problem
+===============================
+1. Stable
+          Matching and Gale-Shapley algorithm
+  Stable
+              matching is a problem in which two groups of individuals have preferences for members of the other
+            group, and the goal is to find a stable pairing of individuals such that no two individuals prefer each
+            other to their current partners. Also learn about the Gale-Shapley
+              algorithm, which is a popular algorithm
+            for solving this problem.
+  Links (2): https://iq.opengenus.org/basics-of-stable-matching/, https://iq.opengenus.org/gale-shapley-algorithm/
+2. Variants of Stable Matching
+  Variants of
+              stable matching are modifications to the original stable matching problem that involve additional
+            constraints or objectives. This article discusses two common variants: incomplete preference lists, in which
+            some individuals do not have preferences for all members of the other group, and weighted preferences, in
+            which individuals have numerical rankings of their preferences that are used to compute a weighted stability
+            score for each pairing.
+  Links (1): https://iq.opengenus.org/variants-of-stable-matching/
+
+---
+
+Week 8: Maximum / Minimum Cut Problems
+======================================
+1. Maximum Cut Problem
+  Maximum Cut
+              Problem article discusses the maximum cut problem in graph theory, which involves dividing the nodes
+            of a graph into two disjoint sets with the maximum number of edges between them.
+  Links (1): https://iq.opengenus.org/maximum-cut-problem/
+2. Minimum Cut Problem
+  Minimum Cut
+              Problem article explains the minimum cut problem in graph theory, which involves finding the smallest
+            cut in a graph that divides the nodes into two disjoint sets.
+  Links (1): https://iq.opengenus.org/minimum-cut-problem/
+3. Articulation Points or Cut Vertices in a Graph
+  Understand how to find articulation points or cut vertices in a graph. In a graph, connected components are
+            groups of vertices that are connected to each other by edges. Articulation points are the vertices in a graph that, if removed, would increase the
+            number of connected components in the graph. If you remove this vertex, the graph might split into multiple
+            smaller pieces, and each piece would become a connected component on its own.
+  Links (2): https://iq.opengenus.org/find-articulation-points-or-cut-vertices-in-a-graph/, https://iq.opengenus.org/find-articulation-point-in-graph/
+4. Cut
+          Edges in a Graph
+  Learn how to find cut edges
+              in a graph and how to identify them. Cut edges are the edges in a graph that, if removed, would
+            increase the number of connected components in the graph.
+  Links (1): https://iq.opengenus.org/find-cut-edges-in-a-graph/
+5. Karger
+          Algorithm
+  Karger Algorithm to Find Minimum Cut is a randomized algorithm used to find the minimum
+            cut in a graph. The algorithm works by iteratively contracting two randomly chosen vertices until only two
+            vertices are left. The cut that corresponds to these two vertices is the minimum cut of the original graph.
+  Links (1): https://iq.opengenus.org/karger-algorithm-to-find-minimum-cut/
+
+---
+
+Week 8: Strongly Connected Components
+=====================================
+1. Euler
+          or Eulerian Tour
+  Euler or
+              Eulerian Tour is a path that visits every edge exactly once. Euler tour can be found in both directed
+            and undirected graphs.
+  Links (1): https://iq.opengenus.org/what-is-a-euler-or-eulerian-tour/
+2. Tarjan's Algorithm
+  Tarjan's Algorithm
+            is a graph traversal algorithm used to find strongly connected components in a directed graph. It uses a
+            stack-based approach and a recursive depth-first search.
+  Links (1): https://iq.opengenus.org/tarjans-algorithm/
+3. Kosaraju's Algorithm
+  Kosaraju's Algorithm for Strongly Connected Components is an algorithm used to find
+            strongly connected components in a directed graph. It uses two depth-first searches and a stack-based
+            approach.
+  Links (1): https://iq.opengenus.org/kosarajus-algorithm-for-strongly-connected-components/
+
+---
+
+Week 9: Transitive Closure
+==========================
+1. Transitive Closure using Floyd Warshall Algorithm
+  Learn how to find transitive closure using Floyd Warshall Algorithm. The Floyd Warshall
+            algorithm computes the shortest path between all pairs of vertices in a graph. By modifying the algorithm to
+            compute boolean values instead of distances, we can use it to find the transitive closure of a graph, which
+            indicates whether there is a path between every pair of vertices.
+  Links (1): https://iq.opengenus.org/transitive-closure-using-floyd-warshall-algorithm/
+2. Transitive Closure using Graph Powering
+  Transitive Closure using Graph Powering explains how to find the
+            transitive closure of a graph. In this method, the transitive closure matrix is computed
+            iteratively by raising the adjacency matrix of the graph to increasingly higher powers.
+  Links (1): https://iq.opengenus.org/transitive-closure-graph-powering/
+
+---
+
+Week 9: Travelling Salesman Problem
+===================================
+1. Travelling Salesman Problem - Brute Force
+  Travelling Salesman Problem - Brute Force explains one of the
+            simplest approaches for finding the shortest possible route that visits every city on a given list exactly
+            once and returns to the starting city. The brute force algorithm involves generating all possible
+            permutations of the cities and
+            calculating the distance of each permutation.
+  Links (1): https://iq.opengenus.org/travelling-salesman-problem-brute-force/
+2. Travelling Salesman Problem - Branch and Bound
+  Travelling Salesman Problem - Branch and Bound explains an
+            optimization algorithm for solving the Travelling Salesman Problem. The Branch and Bound algorithm uses a
+            tree structure to explore the possible solutions to the problem, pruning branches that cannot possibly lead
+            to the optimal solution. This algorithm is more efficient and can handle
+            larger sets of cities.
+  Links (1): https://iq.opengenus.org/travelling-salesman-branch-bound/
+3. Travelling Salesman Problem - Dynamic Programming
+  Travelling
+              Salesman Problem - Dynamic Programming explains another optimization algorithm for
+            solving the Travelling Salesman Problem. The Dynamic Programming algorithm works by breaking down the
+            problem into smaller sub-problems and solving them recursively.
+  Links (1): https://iq.opengenus.org/travelling-salesman-problem-dp/
+4. Travelling Salesman Problem - Approximation Algorithm
+  Travelling
+              Salesman Problem - Approximation algorithm uses the concept of Minimum Spanning Tree to solve this
+            problem. This approach involves finding the best way to connect the
+            cities, creating a circle that goes through all the cities and finding the shortest way to do so
+  Links (1): https://iq.opengenus.org/approximation-algorithm-for-travelling-salesman-problem/
+
+---
+
+Week 10: Islands in a Grid
+==========================
+1. Making
+          a Large Island
+  Explore the problem of making a large island by changing the value of some 0s to 1s in a given
+            matrix.
+  Links (1): https://iq.opengenus.org/making-a-large-island/
+2. Maximum
+          Area of Island
+  Maximum Area of
+              Island is a common problem in computer science where you need to find the largest connected group of
+            1's in a grid of 1's and 0's. This problem can be solved using techniques such as depth-first search or
+            breadth-first search.
+  Links (1): https://iq.opengenus.org/maximum-area-of-island/
+3. Number
+          of Islands
+  Learn about the problem of finding the number of islands in a given matrix, where an island is a group of connected 1s
+            (representing land) surrounded by 0s (representing water). Explore two approaches to solve this
+            problem: depth-first search (DFS) and breadth-first search (BFS).
+  Links (1): https://iq.opengenus.org/number-of-islands/
+4. Number
+          of Closed Islands
+  Explore the Number
+              of Closed Islands article that explains an algorithm to determine the number of isolated regions
+            within a
+            binary matrix where 0 represents water and 1 represents land.
+  Links (1): https://iq.opengenus.org/number-of-closed-islands/
+
+---
+
+Week 11: Other Graph Theory Algorithms
+======================================
+1. Cycle
+          in Graphs using Degree of Nodes
+  In Cycle
+              using Degree of Nodes in a Graph, you'll learn how to detect cycles in a graph
+            using the degree of nodes.
+  Links (1): https://iq.opengenus.org/cycle-using-degree-of-nodes-graph/
+2. Fleury
+          Algorithm: Finding Eulerian Tours in a Graph
+  Fleury Algorithm: Finding Eulerian Tours in a Graph introduces the Fleury algorithm,
+            which finds an Eulerian tour in a graph. Eulerian tour is a path in a graph that visits every edge exactly
+            once and returns to its starting point.
+  Links (1): https://iq.opengenus.org/fleury-algorithm-finding-eulerian-tours-in-a-graph/
+3. Hamiltonian Path and Cycle
+  Learn about Hamiltonian
+              Path and Hamiltonian
+              Cycle and explore algorithms to find them.
+  Links (2): https://iq.opengenus.org/hamiltonian-path/, https://iq.opengenus.org/hamiltonian-cycle/
+4. Vertex
+          Cover Problem
+  Vertex Cover
+              Problem explains how to find the smallest set of vertices that covers
+            all edges in a graph.
+  Links (1): https://iq.opengenus.org/vertex-cover-problem/
+5. Clique
+          in Graphs
+  Clique in Graphs
+            are a subset of vertices where every vertex is connected to every other vertex in the subset. Learn about
+            the basics of cliques, including properties, types and algorithms for finding
+            cliques in a graph, such as brute force, Bron-Kerbosch algorithm, and cliquer algorithm. Explore some
+            applications of cliques, such as in social networks, gene expression networks, and computational biology.
+  Links (1): https://iq.opengenus.org/clique-in-graphs/
+6. Bron-Kerbosch Algorithm
+  Bron-Kerbosch
+              algorithm is a recursive algorithm for finding all maximal cliques in an undirected graph. The
+            algorithm works by selecting a pivot vertex and iterating through all possible combinations of
+            vertices that are adjacent to the pivot, checking whether each combination forms a clique, and recursively
+            calling the algorithm on the remaining vertices.
+  Links (1): https://iq.opengenus.org/bron-kerbosch-algorithm/
+7. Algorithm to Find Cliques of a Given Size k
+  Learn how to find all cliques of a given size k in an undirected graph. The algorithm is based on
+            the Bron-Kerbosch algorithm, and it involves iterating through all possible subsets of vertices, checking
+            whether each subset forms a clique of size k, and keeping track of all such cliques.
+  Links (1): https://iq.opengenus.org/algorithm-to-find-cliques-of-a-given-size-k/
+8. Greedy
+          Approach to Find Single Maximal Clique
+  Explore  a greedy algorithm for finding a single maximal clique in an undirected graph. The
+            algorithm starts with a random vertex and iteratively adds adjacent vertices to the clique until no more
+            vertices can be added.
+  Links (1): https://iq.opengenus.org/greedy-approach-to-find-single-maximal-clique/
+9. Farach-Colton and Bender Algorithm (LCA)
+  Farach-Colton and Bender Algorithm (LCA) describes the Farach-Colton and Bender
+            algorithm, which can be used to solve the lowest common ancestor problem in trees.
+  Links (1): https://iq.opengenus.org/farach-colton-and-bender-algorithm-lca/
+10. Mother
+          Vertex in Graph
+  Mother Vertex in
+              Graph explains how to find a vertex that can reach all other vertices in a directed
+            graph, using Tarjan's algorithm which involves identifying strongly connected components.
+  Links (1): https://iq.opengenus.org/mother-vertex-in-graph/
+11. Number
+          of Paths with K Edges
+  Number of
+              Paths with K Edges explains how to count the number of paths in a graph with a fixed number of
+            edges, using dynamic programming to build a matrix of counts for each pair of vertices and number of edges.
+  Links (1): https://iq.opengenus.org/number-of-paths-with-k-edges/
+12. Fundamentals of Euler Path
+  In Fundamentals
+              of Euler Path, understand the concepts and properties of Euler paths and
+            circuits in graphs, including the conditions for their existence and how to construct them.
+  Links (1): https://iq.opengenus.org/fundamentals-of-euler-path/
+13. Transpose Graph
+  Learn how to create the transpose of a graph, which is a new graph with all the edges reversed, using an
+            adjacency matrix or an adjacency list.
+  Links (1): https://iq.opengenus.org/transpose-graph/
+14. Find
+          All Bridges in Graph
+  Learn how to find
+              all the bridges in an undirected graph, which are edges whose removal would
+            disconnect the graph, using Tarjan's algorithm and depth-first search.
+  Links (1): https://iq.opengenus.org/find-all-bridges-in-graph/
+15. Karp's
+          Minimum Mean Cycle Algorithm
+  Karp's
+              Minimum Mean Cycle Algorithm first finds the shortest paths to all vertices
+            using Bellman-Ford, and then iteratively adds edges to the graph to find the minimum mean weight cycle. The
+            mean weight of a cycle is the sum of the weights of the edges in the cycle divided by the number of edges.
+            The minimum mean weight cycle is the cycle with the smallest mean weight in the graph. It is useful in
+            various applications such as transportation and logistics.
+  Links (1): https://iq.opengenus.org/karp-minimum-mean-cycle-algorithm/
+16. Detect
+          Cycle in an Undirected Graph
+  Learn how to detect cycles in an undirected graph using Depth First Search (DFS) algorithm and the
+            disjoint-set data structure.
+  Links (1): https://iq.opengenus.org/detect-cycle-in-undirected-graph/
+17. Biconnected Graph
+  Biconnected Graph
+            is a connected graph that remains connected even after any vertex (or node) is removed. The article explains
+            the concepts of biconnected components and biconnected graphs and presents algorithms for finding them.
+  Links (1): https://iq.opengenus.org/biconnected-graph/
+18. Entropy of Graph
+  Entropy of Graph
+            explains
+            how to calculate the entropy of a graph, which measures the degree of randomness or uncertainty in the
+            graph,
+            using information theory.
+  Links (1): https://iq.opengenus.org/entropy-of-graph/
+19. Biconnected Components
+  Biconnected
+              Components article explains an algorithm used in graph theory to identify the set of edges that would
+            remain if any single vertex was removed from the graph.
+  Links (1): https://iq.opengenus.org/biconnected-components/
+
+---
+
+Week 12: Other Tree based Problems
+==================================
+1. Centroid
+          Decomposition of Tree
+  In Centroid
+              Decomposition of Tree a tree is recursively divided into smaller subtrees
+            by finding its centroid (i.e., the node that minimizes the maximum subtree size), and each subtree is
+            processed separately. We can use this to solve tree based problems like finding the diameter of a tree,
+            computing the distance between two nodes etc.
+  Links (1): https://iq.opengenus.org/centroid-decomposition-of-tree/
+2. Diameter
+          using Height of Node
+  Diameter
+              Using Height of Node article explains how to find the diameter of a tree using the height of its
+            nodes, by computing the heights of each node and finding the pair of nodes with the maximum distance between
+            them.
+  Links (1): https://iq.opengenus.org/diameter-using-height-of-node/
+3. Diameter
+          of n-ary Tree (DP)
+  Diameter of
+              n-ary Tree (DP) article explains how to find the diameter of an n-ary tree using dynamic programming.
+            An n-ary tree is a tree data structure in which each node can have at most n children.
+  Links (1): https://iq.opengenus.org/diameter-of-n-ary-tree-dp/
+4. Ancestors of Node in Binary Tree
+  Learn how to find Ancestors of Node in Binary Tree using iterative and recursive approaches.
+  Links (2): https://iq.opengenus.org/ancestors-of-node-in-binary-tree/, https://iq.opengenus.org/ancestors-of-node-in-binary-tree-recursive/
+5. Nodes
+          which are at distance K from root
+  Nodes which are at distance K from root article explains how to find all nodes in a
+            binary tree that are at a distance of K from the root node, using a simple depth-first search approach and
+            maintaining the level of each node in the tree.
+  Links (1): https://iq.opengenus.org/nodes-which-are-at-distance-k-from-root/
+6. Nodes
+          at Distance K from Given Node
+  Learn how to find all nodes in a binary tree that are at a distance of K from a given node
+            , using a combination of depth-first search and breadth-first search.
+            The algorithm first finds the target node and then performs a breadth-first search to find all nodes at a
+            distance of K from it.
+  Links (1): https://iq.opengenus.org/nodes-at-distance-k-from-given-node/
+7. Minimum Nodes Removed (No Subtree More than K Nodes)
+  Learn how to find the minimum number of nodes that need to be removed from a
+              tree in order to ensure that no subtree in the resulting tree has more than K nodes. The algorithm
+            recursively computes the size of each subtree and performs a post-order traversal to mark the nodes that
+            need to be removed. Traversal begins first the left subtree, then the right subtree, and finally the root
+            node.
+  Links (1): https://iq.opengenus.org/minimum-nodes-removed-no-subtree-more-than-k-nodes/
+8. Maximum Sum Leaf to Root Path
+  Maximum Sum
+              Leaf
+              to Root Path article discusses an algorithm for finding the maximum sum leaf-to-root path in a binary
+            tree, which is the path with the highest sum of node values from any leaf node to the root node. A "leaf
+            node"
+            refers to a node in a tree data structure that does not have any branches or sub-nodes stemming from it.
+  Links (1): https://iq.opengenus.org/maximum-sum-leaf-to-root-path/
+9. Find
+          Height
+          or Depth of Binary Tree
+  Explore how to find height or depth of Binary Tree using an algorithm to find the height or depth of a
+            binary tree, a tree data structure where each node has at most two child nodes.
+  Links (1): https://iq.opengenus.org/find-height-or-depth-of-binary-tree/
+10. Minimum
+          Number of Swaps Required to Convert Binary Tree to
+          Binary Search Tree
+  Minimum Number of Swaps Required to Convert Binary Tree to Binary Search
+              Tree explains an algorithm that converts a binary tree into a binary search tree with minimum
+            swaps, using a combination of in-order traversal and a modified selection sort.
+  Links (1): https://iq.opengenus.org/algorithm-for-finding-minimum-number-of-swaps-required-to-convert-binary-tree-to-binary-search-tree/
+11. Find
+          Level of Node from Root
+  Learn how to find the level or depth of a node in a binary tree from the root node using recursion
+            and depth-first search.
+  Links (1): https://iq.opengenus.org/find-level-of-node-from-root/
+12. Find
+          Maximum or Minimum Element in Binary Search Tree
+  Learn how to find maximum or minimum element in Binary Search Tree
+            using an algorithm used to find the maximum or minimum element in a binary search tree, a data
+            structure that allows for efficient searching, insertion, and deletion operations.
+  Links (1): https://iq.opengenus.org/find-maximum-or-minimum-element-in-binary-search-tree/
+
+---
+
+Week 13.a: Other Graph Traversal Algorithms
+===========================================
+1. Depth
+          Limited Search
+  Depth Limited
+              Search is a variant of depth-first search where a maximum depth limit is set for the search. This is
+            useful in cases where we don't want the search to go too deep and want to limit the amount of resources used
+            by the search algorithm.
+  Links (1): https://iq.opengenus.org/depth-limited-search/
+2. Iterative Deepening Search
+  Iterative
+              Deepening Search is a search algorithm that combines the benefits of both depth-first search and
+            breadth-first search. It starts with a depth limit of 0 and gradually increases the depth limit until the
+            goal is found. This algorithm is useful in cases where the search space is large and the depth of the
+            solution is unknown.
+  Links (1): https://iq.opengenus.org/iterative-deepening-search/
+3. Iterative Inorder Traversal
+  Iterative
+              Inorder Traversal is a method for traversing a binary tree in an inorder fashion (i.e., visiting the
+            left subtree, then the root, then the right subtree) without using recursion. It uses a stack data structure
+            to simulate the recursive calls used in the recursive version of the inorder traversal algorithm.
+  Links (1): https://iq.opengenus.org/iterative-inorder-travesal/
+
+---
+
+Week 13.b: Miscellaneous Graph Theory Problems
+==============================================
+1. Alien
+          Dictionary
+  Understand how to create an alien dictionary given a list of words in a specific order. It presents
+            an approach to solve this problem using topological sorting, which is a technique used to order the vertices
+            in a directed graph.
+  Links (1): https://iq.opengenus.org/alien-dictionary/
+2. De
+          Bruijn Sequences
+  De Bruijn
+              Sequences are special sequences that contain every possible k-length sequence of a given alphabet
+            exactly once as a substring. They have applications in various fields such as coding theory, cryptography,
+            and bioinformatics.
+  Links (1): https://iq.opengenus.org/de-brujin-sequences/
+3. Graph
+          and Subgraph Isomorphism
+  Graph and
+              Subgraph Isomorphism is the problem of determining whether a given graph contains a subgraph that is
+            structurally identical to a given graph. It is an important problem in computer science and has applications
+            in various fields such as chemistry, biology, and computer vision.
+  Links (1): https://iq.opengenus.org/graph-and-subgraph-isomorphism/
+
+---
+
+Week 13.c: Graph Data Structure using Java
+==========================================
+1. Graph
+          using OOP in Java
+  Graph using OOP
+              Java tutorial explains how to implement a graph data structure using object-oriented programming
+            principles in Java, a popular programming language.
+  Links (1): https://iq.opengenus.org/graph-using-oop-java/
+
+---
+
+Week 13.d: Applications of Graph in Real life
+=============================================
+1. Algorithm Behind Bill Splitting App
+  Learn about the algorithm behind Bill Splitting App which involves dividing bills among friends based
+            on their respective shares, and ensuring that everyone pays and receives the correct amount.
+  Links (1): https://iq.opengenus.org/algorithm-behind-bill-splitting-app/
+2. Two
+          Sum Problem in Binary Search Tree
+  Two
+              Sum Problem in Binary Search Tree explains how to solve the two sum problem for a binary
+            search tree, which involves finding two nodes in the tree that add up to a given target value. Learn a
+            simple recursive approach that utilizes the properties of binary search trees to achieve linear
+            time complexity. This problem is applicable in real-life scenarios such as financial transactions,
+            data analysis, engineering, and image processing.
+  Links (1): https://iq.opengenus.org/two-sum-problem-in-binary-search-tree/
+3. Use of Graph data structure in TensorFlow
+  Learn about the applications of Graph in TensorFlow. Tensorflow is an open-source machine learning
+            framework that uses a computation graph to represent a machine learning or deep learning model,
+            with each node in the graph representing an operation and each edge representing the flow of data between
+            these operations.
+  Links (1): https://iq.opengenus.org/two-sum-problem-in-binary-search-tree/
+
+---
+Generated by OpenGenus. Updated on 2023-12-28
