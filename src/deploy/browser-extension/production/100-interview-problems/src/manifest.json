@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "100 Interview Problems Checklist",
+  "version": "1.0",
+  "description": "100 algorithmic problems to give you all core concepts and insights.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/1.jpg"
+    }
+  },
+  "permissions": [
+    "contextMenus", "alarms", "notifications"
+  ],
+  "icons": {
+    "16": "images/1.jpg"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
