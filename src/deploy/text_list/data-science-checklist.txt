@@ -1,0 +1,299 @@
+Data Science Checklist: 10 Weeks Free Bootcamp
+
+Only concepts that you need to review to ace your Data Science Interview
+
+
+Week 1: Basics
+==============
+1. Introduction to Data Science
+  Data Science is an interdisciplinary field  related to many other emerging fields and has  different phases involved.
+  Links (3): https://iq.opengenus.org/introduction-to-data-science/, https://iq.opengenus.org/relation-of-data-science/, https://iq.opengenus.org/phases-of-data-science/
+2. Mathematics for Data Science
+  Mathematics is widely used in Data Science.  This article gives us an overview of the few topics of mathematics that are profusely used.
+  Links (1): https://iq.opengenus.org/mathematics-for-data-science/
+3. Over and under sampling
+  Over and under sampling are two ways to randomly sample an imbalanced dataset to make it balanced.
+  Links (1): https://iq.opengenus.org/over-and-under-sampling/
+4. Supervised, Unsupervised and Semi-Supervised Learning
+  In machine learning, the tasks are broadly categorized into supervised,unsupervised and semi-supervised learning which forms the foundation of our understanding of machine learning.
+  Links (1): https://iq.opengenus.org/supervised-unsupervised-and-semi-supervised-learning/
+5. Neural Network and Deep learning
+  Deep learning is a subset of machine learning. It extensively uses neural networks to imitate the learning techniques of the human brain. There are different types of neural networks available.
+  Links (2): https://iq.opengenus.org/neural-network/, https://iq.opengenus.org/types-of-neural-networks/
+6. Beginner's Guide to Google Colaboratory
+  Google colaboratory  is a free, web-based Jupyter notebook environment. It allows you to write and execute Python code, document your code using Markdown, visualize datasets, and is an excellent tool for data scientists.
+  Links (1): https://iq.opengenus.org/google-colab/
+7. Data analysis tools
+  The process of Data analysis  is the process of collection, organization, transformation and modeling of data to draw conclusions, make predictions and also make informed decisions. Data scientists mostly use python for data analysis and also other tools like tableau  for visualization.
+  Links (3): https://iq.opengenus.org/data-analysis-tools/, https://iq.opengenus.org/python-for-data-analysis/, https://iq.opengenus.org/data-visualization-using-tableau/
+
+---
+
+Week 2: Machine Learning Basics
+===============================
+1. Feature engineering
+  Feature engineering is done is to make data better for the problem you are trying to solve using machine learning.  LASSO is a popular technique used to select features.
+  Links (2): https://iq.opengenus.org/feature-engineering/, https://iq.opengenus.org/feature-selector-using-lasso/
+2. Regularization
+  Regularization is a method used to reduce the variance of your model and increase the bias. L1 and L2 regularizations are some of the widely used techniques. However, it is  different  from other techniques like standardization.
+  Links (3): https://iq.opengenus.org/regularization/, https://iq.opengenus.org/l1-and-l2-regularization-methods/, https://iq.opengenus.org/standardization-regularization-vs-normalization/
+3. Frequently used terminologies
+  Some of the frequently used terms in ML are normalization, latency, throughput, quantization, pruning, bias and early stopping.
+  Links (7): https://iq.opengenus.org/normalization-in-detail/, https://iq.opengenus.org/latency-ml/, https://iq.opengenus.org/throughput-ml/, https://iq.opengenus.org/basics-of-quantization-in-ml/, https://iq.opengenus.org/pruning-in-ml/, https://iq.opengenus.org/bias-machine-learning/, https://iq.opengenus.org/early-exit-in-ml-models/
+4. Model evaluation
+  In machine learning, model evaluation is used to find the algorithm is best suited to solve our problem. It is done by calculating the performance metrics; some of which are precision, recall, sensitivity and specificity.
+  Links (3): https://iq.opengenus.org/model-evaluation/, https://iq.opengenus.org/performance-metrics-in-classification-regression/, https://iq.opengenus.org/precision-recall-sensitivity-specificity/
+5. Hyperparameters
+  Hyperparameters express “higher-level” properties of the model such as its complexity or how fast it should learn and are usually fixeed before training. Learning rate  is an example. Hyperparameter tuning is choosing a set of optimal hyperparameters for a learning algorithm.
+  Links (2): https://iq.opengenus.org/learning-rate/, https://iq.opengenus.org/different-hyperparameter-optimization-techniques/
+6. Gradient descent
+  Gradient Descent  is an essential optimization algorithm that helps us finding optimum parameters of our machine learning models. It has different types  of which stochastic gradient descent  is widely used. The reverse process is called  gradient ascent .
+  Links (4): https://iq.opengenus.org/gradient-descent/, https://iq.opengenus.org/types-of-gradient-descent/, https://iq.opengenus.org/stochastic-gradient-descent-sgd/, https://iq.opengenus.org/gradient-ascent/
+7. Ensemble methods
+  Ensemble methods combines predictions from several models into a single one. Boosting, stacking and voting classifier are some ensembling techniques.
+  Links (4): https://iq.opengenus.org/ensemble-methods-machine-learning/, https://iq.opengenus.org/boosting-ensemble-algorithm/, https://iq.opengenus.org/stacking-in-machine-learning/, https://iq.opengenus.org/voting-classifier/
+
+---
+
+Week 3: Classification
+======================
+1. Classification
+  Classification is categorizing data into different classes. This is based on making predictions using past examples. We feed some examples where we know what the correct prediction is into the model and the model learns from these examples to make accurate predictions in the future.
+  Links (1): https://iq.opengenus.org/classification-used-in-data-science/
+2. Logistic Regression
+  Logistic Regression is an efficient algorithm that aims to predict categorical values, often binary.It has its own   advantages & disadvantages. It can be implemented using  scikit learn and  tensorflow.
+  Links (4): https://iq.opengenus.org/logistic-regression/, https://iq.opengenus.org/advantages-and-disadvantages-of-logistic-regression/, https://iq.opengenus.org/logistic-regression-using-scikit-learn/, https://iq.opengenus.org/logistic-regression-tensorflow-python/
+3. K-Nearest Neighbours
+  K-Nearest Neighbours is an algorithm which is used for classification and regression and is based on the idea of considering the nearest K data points for calculations.  This example uses KNN for text classification.
+  Links (2): https://iq.opengenus.org/k-nearest-neighbors-algorithm/, https://iq.opengenus.org/text-classification-using-k-nearest-neighbors/
+4. Decision tree
+  Decision tree is a popular machine learning algorithm mainly used for classification. Usually, ID3 algorithm is used to build a decision tree.
+  Links (2): https://iq.opengenus.org/decision-trees/, https://iq.opengenus.org/id3-algorithm/
+5. Support Vector Machine
+  SVMs are a particularly powerful and flexible class of supervised algorithms for both classification and regression. It has many advantages and applications. It can be easily implemented
+  Links (4): https://iq.opengenus.org/understand-support-vector-machine-in-depth/, https://iq.opengenus.org/advantages-of-svm/, https://iq.opengenus.org/applications-of-svm/, https://iq.opengenus.org/svm-by-improving-classifier/
+
+---
+
+Week 4: Regression
+==================
+1. Regression
+  Regressionis a statistical method used in various fields to find out how strong the relationship between a dependent variable and one or more independent variable is.
+  Links (1): https://iq.opengenus.org/regression-used-in-data-science/
+2. Linear Regression
+  Linear Regression is regression technique modelling relationship between dependent variable and one or more independent variables by using a linear approach. It has its own   advantages & disadvantages. It can be implemented using  scikit learn and  tensorflow.
+  Links (4): https://iq.opengenus.org/logistic-regression/, https://iq.opengenus.org/advantages-and-disadvantages-of-linear-regression/, https://iq.opengenus.org/linear-regression-using-scikit-learn/, https://iq.opengenus.org/linear-regression-tensorflow-python/
+3. Random forest
+  Random forest are an ensemble learning method for classification and regression.  It has various applications. This example uses random forest for regression.
+  Links (3): https://iq.opengenus.org/random-decision-forest/, https://iq.opengenus.org/applications-of-random-forest/, https://iq.opengenus.org/random-forests-using-scikit-learn/
+4. Polynomial regression
+  Polynomial regression is a form of linear regression in which the relationship between the independent variable x and dependent variable y is not linear but it is the nth degree of polynomial.
+  Links (1): https://iq.opengenus.org/polynomial-regression-using-scikit-learn/
+5. Elastic Net regression
+  Elastic Net regression uses Elastic Net regularization.
+  Links (1): https://iq.opengenus.org/elastic-net-regularization/
+6. Ridge and Lasso regression
+  Ridge and LASSO regressions use L2 and L1 regularizations that we saw previously.
+  Links (1): https://iq.opengenus.org/ridge-regression/
+7. Data analysis using regression techniques
+  This article explains how regression analysis is done.
+  Links (1): https://iq.opengenus.org/data-analysis-using-regression/
+
+---
+
+Week 5: Unsupervised learning
+=============================
+1. K-means clustering
+  K-means clustering is a prime example of unsupervised learning and partitional clustering. An improved version of this is   K+ means clustering algorithm.
+  Links (2): https://iq.opengenus.org/k-means-clustering-algorithm/, https://iq.opengenus.org/k-plus-means-algorithm/
+2. DBSCAN clustering
+  DBSCAN clustering is a density-based clustering that identify clusters in the dataset by finding regions which are more densely populated than others.
+  Links (1): https://iq.opengenus.org/dbscan-clustering-algorithm/
+3. Spectral clustering
+  Spectral clustering is a technique with roots in graph theory, where the approach is used to identify communities of nodes in a graph based on the edges connecting them.
+  Links (1): https://iq.opengenus.org/spectral-clustering/
+4. Apriori algorithm
+  Apriori algorithm is a associative learning algorithm which is generally used in data mining.
+  Links (1): https://iq.opengenus.org/apriori-associative-learning/
+5. Manifold learning
+  Manifold learning is the process of modeling manifolds where the data lies. It is a technique used for dimensionality reduction.
+  Links (1): https://iq.opengenus.org/manifold-learning/
+6. Principal component analysis
+  Principal component analysis is a technique to bring out strong patterns in a dataset by supressing variations. You can check out why PCA works to get a basic idea behind its working. KPCA is a variant of PCA.
+  Links (3): https://iq.opengenus.org/algorithm-principal-component-analysis-pca/, https://https://iq.opengenus.org/why-principal-component-analysis-pca-works/, https://iq.opengenus.org/kernal-principal-component-analysis/
+
+---
+
+Week 6: Deep Learning
+=====================
+1. Different layers and activation functions
+  There are many different layers  in a deep learning model like fully connected layer  . Hidden layers  are the most intriguing ones. We also have certain activation functions that decides the state of the neuron.
+  Links (4): https://iq.opengenus.org/purpose-of-different-layers-in-ml/, https://iq.opengenus.org/fully-connected-layer/, https://iq.opengenus.org/hidden-layers/, https://iq.opengenus.org/types-of-activation-function//
+2. Top Deep learning frameworks
+  Top deep learning frameworks include Tensorflow, Keras, Caffe2, PyTorch and many more.
+  Links (1): https://iq.opengenus.org/top-deep-learning-frameworks/
+3. Commonly Used Neural Networks
+  Commonly Used Neural Networks include various networks such as RBFNN, KNN and Hopfield Network
+.
+  Links (4): https://iq.opengenus.org/commonly-used-neural-networks/, https://iq.opengenus.org/radial-basis-neural-network/, https://iq.opengenus.org/kohonen-network/, https://iq.opengenus.org/hopfield-network/
+4. CNN models
+  The CNN  models have evolved and some of the commonly used models now include AlexNet,  ResNet ,  GoogleNet ,  Xception ,  DenseNet  and many more. CNNs are also widely used in   image recognition and classification .
+  Links (8): https://iq.opengenus.org/evolution-of-cnn-architectures/, https://iq.opengenus.org/different-types-of-cnn-models/, https://iq.opengenus.org/architecture-and-use-of-alexnet/, https://iq.opengenus.org/resnet/, https://iq.opengenus.org/googlenet/, https://iq.opengenus.org/xception-model/, https://iq.opengenus.org/architecture-of-densenet121/, https://iq.opengenus.org/understanding-convolutional-neural-networks-through-image-classification/
+5. Data Augmentation
+  Data Augmentation, is the technique of increasing the size of data used for training a model.
+  Links (1): https://iq.opengenus.org/data-augmentation/
+6. GAN
+  Generative Adversarial Networks is an architecture for training a generative model. There are many   types of GANs like  SRGAN,  Deep convolutional GAN,  CycleGANs and  Conditional GAN.
+  Links (6): https://iq.opengenus.org/beginners-guide-to-generative-adversarial-networks/, https://iq.opengenus.org/types-of-gans/, https://iq.opengenus.org/super-resolution-gan/, https://iq.opengenus.org/deep-convolutional-gans-pytorch/, https://iq.opengenus.org/image-to-image-translation-cyclegan/, https://iq.opengenus.org/conditional-generative-adversarial-net/ target=
+7. Inception models
+  Inception architecture is an important milestone in the development of CNN classifiers. It consists of many architectures like Inception-ResNet V1, Inception V3 and Inception V4.
+  Links (4): https://iq.opengenus.org/inception-pre-trained-cnn-model/, https://iq.opengenus.org/inception-resnet-v1/, https://iq.opengenus.org/inception-v3-model-architecture/, https://iq.opengenus.org/inception-v4-architecture/
+8. VGG models
+  VGG came into picture as it addresses the depth of CNNs. It consists of many architectures like VGG-11, VGG-19 and VGG-16.
+  Links (3): https://iq.opengenus.org/vgg-11/, https://iq.opengenus.org/vgg19-architecture/, https://iq.opengenus.org/vgg16/
+9. Boltzmann Machines
+  Boltzmann Machines are models used to discover features in datasets composed of binary vectors. A  Restricted Boltzmann Machine is a variant in which a visible node is not connected to any other visible node and is used in  deep belief networks.
+  Links (3): https://iq.opengenus.org/boltzmann-machines/, https://iq.opengenus.org/restricted-boltzmann-machine/, https://iq.opengenus.org/deep-belief-network/
+10. YOLO
+  YOLO is a object detection algorithm that has variants like, YOLOv3, YOLOv4, Scaled YOLOv4, YOLOR and YOLOv5.
+  Links (6): https://iq.opengenus.org/you-look-only-once-yolo-algorithm/, https://iq.opengenus.org/architecture-of-yolov3/, https://iq.opengenus.org/yolov4-model-architecture/, https://iq.opengenus.org/scaled-yolov4/, https://iq.opengenus.org/yolor/, https://iq.opengenus.org/yolov5/
+11. SSD
+  Single shot detection is an object detection algorithm and it's architecture is a modified version of VGG. It is used in  SSD MobileNetV1 and RefineDet model .
+  Links (4): https://iq.opengenus.org/single-shot-detection-ssd-algorithm/, https://iq.opengenus.org/ssd-model-architecture/, https://iq.opengenus.org/ssd-mobilenet-v1-architecture/, https://iq.opengenus.org/refinedet/
+
+---
+
+Week 7: NLP
+===========
+1. Introduction
+  NLP   refers to the ability of the computers to understand human speech or text as it is spoken or written. Some  core topics are listed here. TF-IDF  is an important metric used in NLP mostly used to find similarities between documents .
+  Links (4): https://iq.opengenus.org/use-of-deep-learning-in-nlp/, https://iq.opengenus.org/nlp-topics-with-nltk/, https://iq.opengenus.org/tf-idf/, https://iq.opengenus.org/document-similarity-tf-idf/
+2. NLP models
+  There are different types of NLP models present. Some of them are BERT, GPT, XLNet, RoBERTa and ALBERT.
+  Links (4): https://iq.opengenus.org/types-of-nlp-models/, https://iq.opengenus.org/bert-for-text-summarization/, https://iq.opengenus.org/introduction-to-gpt-models/, https://iq.opengenus.org/advanced-nlp-models/
+3. Text Preprocessing
+  Text preprocessing process of converting a human language text into a machine-interpretable text for further usage. Stemming (Porter Stemmer algorithm) is an example.
+.
+  Links (2): https://iq.opengenus.org/commonly-used-neural-networks/, https://iq.opengenus.org/porter-stemmer/
+4. Text summarization
+  Text summarization is the process of creating a compact yet accurate summary of text documents. Some techniques include Luhn's Heuristic Method, Edmundson Heuristic Method,  SumBasic algorithm ,  KL-Sum,  LexRank ,  TextRank ,  Reduction ,  Latent Semantic Analysis and  use of RNN.
+  Links (10): https://iq.opengenus.org/text-summarization-techniques/, https://iq.opengenus.org/luhns-heuristic-method-for-text-summarization/, https://iq.opengenus.org/edmundson-heuristic-method-for-text-summarization/, https://iq.opengenus.org/sumbasic-algorithm-for-text-summarization/, https://iq.opengenus.org/k-l-sum-algorithm-for-text-summarization/, https://iq.opengenus.org/lexrank-text-summarization/, https://iq.opengenus.org/textrank-for-text-summarization/, https://iq.opengenus.org/graph-based-approach-for-text-summarization/, https://iq.opengenus.org/latent-semantic-analysis-for-text-summarization/, https://iq.opengenus.org/text-summarization-using-rnn/
+5. Topic Modelling
+  There are different techniques for topic modelling. Some include Latent Dirichlet Allocation , Non Negative Matrix Factorization, Pachinko Allocation Model and  Latent Semantic Analysis.
+  Links (5): https://iq.opengenus.org/topic-modelling-techniques/, https://iq.opengenus.org/latent-dirichlet-allocation/, hhttps://iq.opengenus.org/topic-modeling-nmf/, https://iq.opengenus.org/pachinko-allocation-model//, https://iq.opengenus.org/topic-modeling-lsa/#:~:text=Latent%20Semantic%20Model%20is%20a,from%20the%20corpus%20of%20text.
+6. Information Retrieval
+  Information Retrieval can be defined as finding material of an unstructured nature that satisfies the information need from within large collections. It uses the concept of indexing .  PageRank algorithm is used to rank web pages used for Google Search Engine.
+  Links (2): https://iq.opengenus.org/idea-of-indexing-in-nlp/, https://iq.opengenus.org/pagerank/
+7. Sentiment analysis
+  There are  various techniques to perform sentiment analysis. Using Naive Bayes classifier, Lexicon-based techniques, ML approaches and LSTM are some of them.
+  Links (5): https://iq.opengenus.org/sentiment-analysis-techniques/, https://iq.opengenus.org/naive-bayes-sentiment-analysis/, https://iq.opengenus.org/lexicon-based-sentiment-analysis/, https://iq.opengenus.org/ml-for-sentiment-analysis/, https://iq.opengenus.org/sentiment-analysis-in-lstm-keras/
+8. Miscellaneous
+  Some other important topics in NLP are  document clustering, language identification techniques, spell correction, word embedding, word representations and byte pair encoding.
+  Links (6): https://iq.opengenus.org/document-clustering-nlp-kmeans/, https://iq.opengenus.org/language-identification-techniques/, https://iq.opengenus.org/different-spell-correction-techniques-in-nlp/, https://iq.opengenus.org/word-embedding/, https://iq.opengenus.org/word-representations/, https://iq.opengenus.org/byte-pair-encoding/
+
+---
+
+Week 8: Time series
+===================
+1. Introduction to Time Series Data
+  In  time series data we have a collection of observations of a single entity at different time intervals. Weather records, economic indicators and patient health evolution metrics — all are time series data.
+  Links (1): https://iq.opengenus.org/time-series-data/
+2. Basics of Time Series Prediction
+  Time series prediction involves concepts like stationarity, moving averages, seasonality and many more which you should be familiar with in order to better understand time series forecasting.
+  Links (1): https://iq.opengenus.org/time-series-prediction/
+3. Time series forecasting models and techniques
+  Future trend prediction is made by discovering and analyzing underlying patterns in the time series data. Various methods and models are used for the same.
+  Links (1): https://iq.opengenus.org/time-series-analysis-methods/
+4. Time series prediction techniques
+  Various artificial neural network models are put to use when performing a time series prediction. This article elaborates on a few models.
+  Links (1): https://iq.opengenus.org/time-series-prediction-techniques/
+5. Time series forecasting-Example
+  This is an example of time series forecasting where we put into use the techniques we saw in the previous articles.
+  Links (1): https://iq.opengenus.org/time-series-forecasting-using-python/
+
+---
+
+Week 9: Statistics and probability
+==================================
+1. Statistical features
+  In  Statistical features are those features of the dataset that can be defined and calculated via statistical analysis. It is the statistical concept that is probably most used in data science.
+  Links (1): https://iq.opengenus.org/statistical-features/
+2. Types of hypotheses
+  A hypothesis is a precise, testable statement of what a researcher predicts will be the outcome of an experiment or study. There are  different types of hypotheses that are widely used.
+  Links (1): https://iq.opengenus.org/different-types-of-hypothesis/
+3. Hypothesis testing
+  Hypothesis testing is used to determine whether there is enough evidence to infer for a certain sample that a certain condition is true for the entire population.  F Test is one such hypothesis test.
+  Links (2): https://iq.opengenus.org/hypothesis-testing/, https://iq.opengenus.org/f-test/
+4. CLT and LLN
+  Central limit theorem and Law of large numbers are the two important statistical rules that's often put to use in Data Science.
+  Links (2): https://iq.opengenus.org/central-limit-theorem/#:~:text=It%20states%20that%20%22As%20the,greater%20than%2030%20are%20considered., https://iq.opengenus.org/law-of-large-numbers/
+5. Confidence intervals
+  Confidence intervals expresses a range of values within which we are pretty sure that the population parameter lies.
+  Links (1): https://iq.opengenus.org/confidence-intervals/
+6. Bayesian model
+  A Bayesian model is a statistical model where we use probability to represent all uncertainty within the model, both the uncertainty regarding the output but also the uncertainty regarding the input to the model.
+  Links (1): https://iq.opengenus.org/bayesian-model/
+7. Markov model
+  A Markov chain is a stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. Another variant of this is the hidden markov model.
+  Links (2): https://iq.opengenus.org/markov-chain/, https://iq.opengenus.org/hidden-markov-model/
+8. A/B testing
+  A/B testing is a famous testing technique used to compare two variants to determine the best of the two based on user experience. It is a randomized experimentation process.
+  Links (1): https://iq.opengenus.org/a-b-testing/
+9. Simulated annealing
+  Simulated annealing is a algorithm used in probability based on the physical annealing process used in metallurgy.
+  Links (1): https://iq.opengenus.org/simulated-annealing/
+10. Monte carlo sampling techniques
+  Monte Carlo techniques  are a group of computational algorithms for sampling probability distributions in a random manner.
+  Links (1): https://iq.opengenus.org/monte-carlo-sampling-techniques/
+
+---
+
+Week 10: Projects
+=================
+1. Project ideas
+  In  This article contains a list of unique data science project ideas that you can explore.
+  Links (1): https://iq.opengenus.org/project-ideas-for-data-science/
+2. Face recognition
+  Face recognition can be implemented in python using Eigenfaces or Fisherfaces.
+  Links (2): https://iq.opengenus.org/eigenfaces-for-face-recognition/, https://iq.opengenus.org/face-recognition-using-fisherfaces/
+3. Fraud detection
+  Fraud detection is the process of detecting fraudulent feats in credit card transactions and can be classified into anomaly detection.
+  Links (1): https://iq.opengenus.org/fraud-detection-using-keras/
+4. Native Language Identification
+  Native language identification is the task of determining an author's native language based only on their writings or speeches in a second language.
+  Links (1): https://iq.opengenus.org/native-language-identification-dl/
+5. Person re-identification
+  Person re-identification is the task of using a picture of a person to identify the presence of the same person is a set of images or video. It is used to identify a person in a CCTV footage.
+  Links (1): https://iq.opengenus.org/person-reidentification/
+6. Hindi Optical Character Recognition
+  Hindi OCR  is basically a model which is used to recognize handwritten Hindi (Devanagari) characters.
+  Links (1): https://iq.opengenus.org/hindi-ocr/
+7. Face reconstruction
+  In this project we find the set of faces when combined, resulting in face of person 'A' using machine learning techniques like PCA, face reconstruction and much more.
+  Links (1): https://iq.opengenus.org/project-on-reconstructing-face/
+
+---
+
+Practice interview questions
+============================
+1. Basic data science questions
+  This article contains a list of basic data science interview questions.
+  Links (1): https://iq.opengenus.org/interview-questions-on-data-science/
+2. Advanced data science questions
+  This article contains a list of advanced data science interview questions.
+  Links (1): https://iq.opengenus.org/advanced-interview-questions-on-data-science/
+3. Python
+  Python is the most-tested programming language during data science interviews.
+  Links (1): https://iq.opengenus.org/python-for-data-science-interview-questions/
+4. Machine learning
+  Knowledge on various ML topics such as TensorFlow (basic level), TensorFlow (advanced level), convolution, regression, random forest and PCA  are widely tested.
+  Links (6): https://iq.opengenus.org/questions-on-tensorflow/, https://iq.opengenus.org/advanced-questions-on-tensorflow/, https://iq.opengenus.org/questions-on-convolution-in-ml/, https://iq.opengenus.org/regression-questions/, https://iq.opengenus.org/questions-on-random-forest/, https://iq.opengenus.org/principal-component-analysis-questions/
+5. Deep learning
+  Deep learning  topics such as RNN , fully connected layer , convolution layer , GAN  and autoencoders  are frequently tested.
+  Links (6): https://iq.opengenus.org/deep-learning-practice-questions/, https://iq.opengenus.org/recurrent-neural-network-questions/, https://iq.opengenus.org/fully-connected-layer-questions/, https://iq.opengenus.org/convolution-layer-questions/, https://iq.opengenus.org/interview-questions-on-gan/, https://iq.opengenus.org/interview-questions-on-autoencoders/
+6. NLP
+  NLP topics such as text summarization , transformers  and BERT  are important for interviews.
+  Links (3): https://iq.opengenus.org/interview-questions-on-text-summarization/, https://iq.opengenus.org/interview-questions-on-transformers/, https://iq.opengenus.org/bert-interview-questions/
+
+---
+Generated by OpenGenus. Updated on 2023-12-28

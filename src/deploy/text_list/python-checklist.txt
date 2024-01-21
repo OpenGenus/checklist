@@ -1,0 +1,487 @@
+Python fluency Checklist with Practical Projects
+
+Only topics that you need to practice to get to an advanced level in Python.Nothing more,
+        Nothing less.
+
+
+Variables
+=========
+1. Introduction to Variables
+  There are several types of variables like Scalar variables which contains Integer, float and many
+                        other variable sub types.
+                        Variables help us to store information which we can then use in a program.
+  Links (2): https://iq.opengenus.org/scalar-variable-types-in-python/, https://iq.opengenus.org/integer-in-python/
+
+---
+
+Control Flow
+============
+1. If-else statements
+  If-else
+                            statements help us to check whether certain
+                        conditions are met or not. Code inside the if statement only runs when the
+                        if condition is true.
+                        Otherwise, the code inside the else condition runs.
+  Links (1): https://iq.opengenus.org/if-else-python/
+2. While loops
+  While loops
+                        run
+                        the code inside them repeatedly as long as the while condition evaluates to true. When the
+                        condition evaluates to false, the code inside the while loop stops running.
+  Links (1): https://iq.opengenus.org/while-loop-python/
+3. For Loops
+  When we want to run our code for a specific number of times, we use for
+                            loops. We can also use these loops for many other purposes.
+  Links (1): https://iq.opengenus.org/for-loop-python/
+4. is and is not operators in Python
+  The is
+                            and is not operators help in comparing values and objects in our programs.
+  Links (1): https://iq.opengenus.org/boolean-and-none-python/
+
+---
+
+Functions
+=========
+1. Introduction to Functions
+  Instead of writing the same code repeatedly, we can create
+                        
+                            functions and use them whenever we need to throughout the program. This
+                        saves time in writing code. Functions also sometimes require the use of
+                        arguments which we need to pass into the function.
+  Links (2): https://iq.opengenus.org/functions-in-python/, https://iq.opengenus.org/python-function-arguments/
+2. Variable and Function Scope
+  Whether we can access a variable throughout the program depends on its
+                            scope. This has important implications whenever we create any program. The
+                        same logic applies when we create any function.
+                        One of the most commonly used functions is the 
+                            range  function. The i
+                        variable in this function is always local-scoped.
+  Links (3): https://iq.opengenus.org/python-variable-scope/, https://iq.opengenus.org/function-scope-in-python/, https://iq.opengenus.org/range-function-python/
+3. Lambda Functions
+  Generally, we have to name our functions to use them. But we can also create nameless functions,
+                        also known as anonymous functions. In Python, we call them
+                            Lambda
+                            functions. We can also use these to shorten statements like if-else.
+  Links (2): https://iq.opengenus.org/lambda-function-python/, https://iq.opengenus.org/python-lambda-if-else/
+
+---
+
+Modules
+=======
+1. What are modules?
+  For any task like data analysis, machine learning, image or audio
+                        processing etc, specifically created and grouped utilities and functions exist, which we call as
+                        libraries. In Python, we call them modules. Many Python modules exist for a variety of
+                        purposes. An example of a module is the Random module, which
+                        generates random values in our programs.
+  Links (2): https://iq.opengenus.org/module-in-python/, https://iq.opengenus.org/python-random-module/
+
+---
+
+Classes
+=======
+1. Introduction to Classes and Objects
+  Classes
+                        are like templates for creating objects in Python. What are objects? Every element in Python is
+                        an object. Every object is an instance of some class. The concept of
+                        class variable
+                        discusses this in brief.
+  Links (2): https://iq.opengenus.org/classes-in-python/, https://iq.opengenus.org/static-class-variable-in-python/
+2. Abstraction
+  Abstraction helps us to represent objects in our programs with the required essential features
+                        and without unnecessary details. Abstract classes
+                         help us use abstraction in our programs.
+  Links (1): https://iq.opengenus.org/abstract-base-class-in-python/
+3. Decorators
+  We can alter how classes or functions work in our programs using Decorators in Python.
+  Links (1): https://iq.opengenus.org/decorators-in-python/
+4. Descriptors
+  As classes may have different class attributes, Descriptors help to create, control and manage such attributes.
+  Links (1): https://iq.opengenus.org/descriptors-in-python/
+
+---
+
+Data Structures
+===============
+1. Lists
+  Data structures like lists store objects of different data types together in
+                        one place. We can also access and change items inside lists using indexing.
+  Links (2): https://iq.opengenus.org/lists-in-python/, https://iq.opengenus.org/negative-index-in-python/
+2. Arrays
+  Arrays
+                        store objects of the same data type, which we can access later on in our programs.
+  Links (1): https://iq.opengenus.org/array-in-python/
+3. Tuples
+  We can store multiple objects inside Tuples. Once we put items inside a tuple,
+                        we cannot change them.
+  Links (1): https://iq.opengenus.org/tuple-python/
+4. Dictionaries
+  We can store information in key-value pairs using dictionaries. Like lists, we can also access and change items inside
+                        them.
+  Links (1): https://iq.opengenus.org/dictionary-python/
+5. Set
+  Sets help
+                        us store information like lists, the difference being that we
+                        cannot put duplicate values inside them. Also, sets will automatically
+                        sort the data we put inside them.
+  Links (1): https://iq.opengenus.org/set-in-python/
+6. Deque
+  Double Ended Queue, also known as  Deque, helps us store information which we can then
+                        modify from both sides of the queue, from the start or end.
+  Links (1): https://iq.opengenus.org/deque-python/
+7. Mutable and Immutable Objects
+  When we can modify objects, we call them mutable. Otherwise, we call them immutable. We have to
+                        design our programs carefully with a proper knowledge of mutable and immutable objects.
+  Links (1): https://iq.opengenus.org/mutable-and-immutable-in-python/
+8. Create a custom Binary Tree structure
+  Binary trees are a popular data structure used widely in many applications. Learn how to create
+                        a binary tree in Python.
+  Links (1): https://iq.opengenus.org/implement-binary-tree-in-python/
+
+---
+
+Regular Expressions
+===================
+1. Introduction to Regular Expressions
+  Regular
+                            expressions help us to match or search for a particular pattern
+                        in data. We can also use these to shorten our code.
+  Links (1): https://iq.opengenus.org/regex-python/
+
+---
+
+Unit Testing
+============
+1. Introduction to Unit Testing
+  For bug-free code, test driven development is of vital importance. Unit Testing helps us to test individual components in our program and
+                        ensure that it's error-free.
+  Links (1): https://iq.opengenus.org/unit-testing-in-python-with-unittest/
+
+---
+
+NumPy Library
+=============
+1. Arrays in NumPy
+  Learn how to create arrays in NumPy and get a firm grasp on 2-D
+                            arrays. Also learn how to display NumPy arrays as Images.
+  Links (3): https://iq.opengenus.org/create-numpy-arrays/, https://iq.opengenus.org/2d-array-in-numpy//, https://iq.opengenus.org/display-numpy-array-as-image/
+2. Array and Matrix Manipulation
+  NumPy allows you to round numbers in matrices. Learn how to round elements of a matrix in NumPy. Also learn how to find absolute sum of elements in a matrix. Get a grasp on performing matrix multiplication and matrix multiplication by a scalar. Finally, learn about vector norm method in NumPy, which is widely used for machine learning.
+  Links (5): https://iq.opengenus.org/round-elements-in-numpy-matrix/, https://iq.opengenus.org/absolute-sum-of-elements-in-numpy-matrix/, https://iq.opengenus.org/matrix-multiplication-in-python/, https://iq.opengenus.org/numpy-matrix-multiply-by-scalar/, https://iq.opengenus.org/norm-method-of-numpy-in-python/
+3. Errors in NumPy
+  Running into errors is pretty common in programming. Learn how to solve the TypeError: only integer scalar arrays can be converted to a scalar index
+                        and the RuntimeError: module compiled against api version 0x10 but
+                            this version of
+                            numpy is 0xe in NumPy.
+  Links (2): https://iq.opengenus.org/integer-scalar-array-index-error/, https://iq.opengenus.org/module-compiled-against-api-version-0x10-but-this-version-of-numpy-is-0xe/
+
+---
+
+Python Interview Questions
+==========================
+1. Median of Two Sorted Arrays
+  Median of two sorted arrays is a common problem that uses basic
+                        algorithmic thinking concepts.
+                        Learn how solve it using different approaches and using the binary search method.
+  Links (2): https://iq.opengenus.org/median-of-two-sorted-arrays/, https://iq.opengenus.org/binary-search-algorithm/
+2. Longest substring without repeating characters
+  Longest substring without repeating characters  is an important algorithm which teaches
+                        practical applications of dictionaries and loops in Python.
+  Links (1): https://iq.opengenus.org/longest-substring-without-repeating-characters/
+3. Merge K sorted Linked Lists
+  The concepts of classes and functions find their applications in the merge K
+                            sorted linked lists algorithm. It also teaches how to use a heap (a type of binary tree)
+                        data structure in Python.
+  Links (1): https://iq.opengenus.org/merge-k-sorted-linked-lists/
+4. Intersection of two arrays
+  The algorithm of intersection of two arrays teaches how to use lists in python for
+                        effective problem solving.
+  Links (1): https://iq.opengenus.org/intersection-of-two-arrays/
+5. Predict the Output Questions
+  Test your knowledge of Python with over 50 Predict the Output Python interview questions.
+  Links (1): https://iq.opengenus.org/python-predict-output/
+6. Lambda Questions
+  Lambda functions offer a simple way to create anonymous functions in Python. Find your knowledge
+                        gaps and practice using over 40 Lambda interview questions in Python.
+  Links (1): https://iq.opengenus.org/lambda-interview-qna-in-python/
+7. NumPy Questions
+  NumPy is a vital Python library for machine learning, scientific computing, and
+                        data analysis purposes.
+                        Evalute your NumPy skills with a comprehensive list of Numpy interview questions.
+  Links (1): https://iq.opengenus.org/interview-questions-on-numpy/
+
+---
+
+Scripts
+=======
+1. Open CSV files in Python
+  For daily data or analysis tasks working with CSV files in Python is a handy tool.
+  Links (1): https://iq.opengenus.org/csv-files-in-python/
+2. Convert PDF to Image
+  Learn how to convert PDF to image in
+                        Python and gain an understanding of an image library.
+  Links (1): https://iq.opengenus.org/pdf_to_image_in_python/
+3. Convert video to images
+  Build a simple video to images converter in Python. Also learn how to
+                        use the OpenCV library.
+  Links (1): https://iq.opengenus.org/convert-video-to-images-in-python/
+4. Create a script to search web using Google Custom Search API
+  Improve your skills by creating a custom Python script to search the web using Google Custom Search API.
+  Links (1): https://iq.opengenus.org/python-script-to-search-web/
+5. Get IP Address
+  Learn what public and private IP addresses are and create a script to get IP
+                            address in Python.
+  Links (1): https://iq.opengenus.org/ip-address-in-python/
+6. Retweet recent tweets with a particular hashtag
+  Learn about APIs and build a script to retweet recent tweets with a particular hashtag
+                         on Twitter.
+  Links (1): https://iq.opengenus.org/python-script-to-retweet-recent-tweets-with-a-particular-hashtag/
+7. Post a tweet
+  Create a python script to post your tweets
+                         using twitter API.
+  Links (1): https://iq.opengenus.org/tweet-using-twitter-api/
+8. Get details on CPU and Ram Usage
+  Implement a script in Python to get CPU and Ram Usage
+                         details of your computer.
+  Links (1): https://iq.opengenus.org/cpu-and-ram-usage-python/
+9. Open Webpage and Login
+  Learn how to open a webpage and log in
+                         using Python and some other applications. Also learn about web scraping in brief.
+  Links (1): https://iq.opengenus.org/python-script-to-open-webpage-login/
+10. Refresh URL/Tab using Python
+  Create a Python script to refresh any URL or tab
+                         in your browser.
+  Links (1): https://iq.opengenus.org/python-refresh-script/
+11. Scroll on a webpage
+  Understand how to simulate a scroll on any webpage
+                         using Python.
+  Links (1): https://iq.opengenus.org/python-script-to-scroll-on-webpage/
+12. Control cursor using Python
+  Learn how to build a Python script that can control your cursor
+                        and simulate actions like click, drag etc.
+  Links (1): https://iq.opengenus.org/python-script-to-control-cursor/
+13. Control Keyboard using Python
+  Implement a script in Python that can control a keyboard
+                         and simulate typing.
+  Links (1): https://iq.opengenus.org/python-script-to-control-keyboard/
+14. Create a GitHub repository
+  Learn how to create a github repository
+                         using GitHub REST API.
+  Links (1): https://iq.opengenus.org/create-github-repository-python/
+15. Create GitHub issues
+  Implement a script in Python to create github issues
+                         and other actions like commenting, adding a label etc.
+  Links (1): https://iq.opengenus.org/python-script-to-create-github-issues/
+16. Get currency exchange rates
+  Learn how to get currency exchange rates
+                         and create a basic graph in Python.
+  Links (1): https://iq.opengenus.org/python-script-to-get-currency-exchange-rates/
+17. Create archive for large files
+  Large files take up a lot of space and archiving each file can be tedious. Learn how to create an archive for large files
+                         using Python scripting.
+  Links (1): https://iq.opengenus.org/archive-for-large-files-python/
+18. Read and write JSON file
+  Accessing data objects requires handling of JSON files. Understand how to read and write JSON file
+                         using Python.
+  Links (1): https://iq.opengenus.org/python-script-to-read-and-write-json-file/
+19. Send email in Gmail
+  Learn how to send email in Gmail
+                         using a Python script with the help of the Smtplib and the email
+                        modules.
+  Links (1): https://iq.opengenus.org/python-script-to-send-email-in-gmail/
+20. Read email from Gmail
+  Implement a script that can read any email from Gmail
+                         using Python along with the email and the imaplib modules.
+  Links (1): https://iq.opengenus.org/read-gmail-python/
+21. Send file/attachments in Gmail
+  Manually sending many files or attachments in Gmail may become time consuming. Learn how to send files and attachments in Gmail
+                         using a script in Python.
+  Links (1): https://iq.opengenus.org/send-file-attachment-in-gmail-in-python/
+22. Generate Wiki Summary
+  Learn how to generate a  summary of any Wikipedia article
+                         using Python and the Wikipedia module.
+  Links (1): https://iq.opengenus.org/generate-wiki-summary-python/
+23. Send WhatsApp Message
+  Understand how you can  send any WhatsApp message
+                         using a Python script with the help of PyWhatKit library and Selenium web
+                        driver tool.
+  Links (1): https://iq.opengenus.org/python-script-to-send-whatsapp-message/
+24. Send Bulk WhatsApp Messages
+  You can also create a script send bulk WhatsApp messages
+                         using Python. You will also use the PyWhatKit library along with Selenium and
+                        the
+                        ChromeDriver tool.
+  Links (1): https://iq.opengenus.org/python-script-to-send-bulk-whatsapp-message/
+25. Download files from Google Drive
+  Learn how to download files from Google Drive
+                         using Python and the Google Drive API.
+  Links (1): https://iq.opengenus.org/google-drive-file-download-upload/
+26. Get CO2 Emissions data
+  Implement a script in Python to access  CO2 emissions data
+                         using an API.
+  Links (1): https://iq.opengenus.org/carbon-intensity-api/
+27. Get Current Stock Price
+  Learn how to get the current price of any stock
+                         from Yahoo Finance using Python.
+  Links (1): https://iq.opengenus.org/current-stock-price-in-python/
+28. Wait for Page Load
+  Implement a script to wait for any page to load
+                         and simulate the loading time in Python.
+  Links (1): https://iq.opengenus.org/wait-for-page-load-selenium-python/
+29. Delete unused files
+  Learn how to save space and create a script to delete files not accessed for a long time
+                         using Python.
+  Links (1): https://iq.opengenus.org/delete-not-recently-accessed-files-python/
+30. Zip a File
+  Understand how to create a script that zips any file
+                         using Python along with the zipfile and the shutil modules.
+  Links (1): https://iq.opengenus.org/ways-to-zip-file-using-python/
+
+---
+
+Projects
+========
+1. CRUD application using Django
+  CRUD applications make use of basic functions of create, read, update and delete. These form the
+                        building blocks of any application. Learn how to create a simple CRUD app in Python using the Django framework. Also gain an
+                        understanding of the try-else statements.
+  Links (2): https://iq.opengenus.org/crud-application-with-django/, https://iq.opengenus.org/try-else-in-python/
+2. 2048 Game
+  Learn how to create your own 2048 game. This will also give you a firm grasp on loops.
+  Links (1): https://iq.opengenus.org/2048-in-python/
+3. Flappy Bird Game
+  Gain a conceptual understanding of programming and python concepts by building your own flappy
+                            bird game.
+  Links (1): https://iq.opengenus.org/flappy-bird-in-python/
+4. Snake Game
+  Get a firm grasp on the concept of classes and learn how to develop a snake
+                            game using Python.
+  Links (1): https://iq.opengenus.org/snake-game-in-python/
+5. Minesweeper Game
+  Implement your own version of the minesweeper game. Learn how to handle events using the
+                        Tkinter module.
+  Links (1): https://iq.opengenus.org/minesweeper-using-python/
+6. Tic Tac Toe Game
+  Learn how to build your own Tic Tac Toe game using Python. You will also learn about
+                        getting input from users and error handling.
+  Links (1): https://iq.opengenus.org/tic-tac-toe-game-in-python/
+7. Command Line Countdown Timer
+  Build on your understanding of object oriented programming by creating a command line countdown timer.
+  Links (1): https://iq.opengenus.org/python-countdown-timer/
+8. Typing Speed Test
+  Learn how to create your own typing speed test right inside your terminal. Develop a
+                        deeper understanding of the curses module.
+  Links (1): https://iq.opengenus.org/typing-speed-test-in-python/
+9. Simple Text Editor
+  Create a simple text editor using Python with the help of the Tkinter
+                        library.
+  Links (1): https://iq.opengenus.org/text-editor-in-python/
+10. Online C Code Compiler Using Flask
+  Learn how to create an online C Code compiler using Flask. You will get a solid
+                        grasp of the flask web framework, the subprocess module and the os
+                        module.
+  Links (1): https://iq.opengenus.org/online-c-code-compiler-flask/
+11. Live Sketching App
+  Build a live sketching app in Python using OpenCV
+                        and NumPy
+                        libraries.
+  Links (1): https://iq.opengenus.org/developing-a-live-sketching-app-using-opencv-and-python/
+12. Static webpage application using Flask
+  Learn how to create a static webpage application using Flask. This project
+                        also uses basic HTML, JavaScript and CSS knowledge.
+  Links (1): https://iq.opengenus.org/static-webpage-flask-no-database/
+13. Create Login Page using Flask
+  Implement a basic version of a login page using Flask. Also learn how to use the
+                        sessions extension in Flask.
+  Links (1): https://iq.opengenus.org/login-page-in-flask/
+14. Deploy a Python Web app on Heroku
+  Deploying your apps is important so that others can interact with your project. Learn how to
+                        deploy a simple Python Web app on Heroku.
+  Links (1): https://iq.opengenus.org/deploy-python-web-app-on-heroku/
+15. A Static Portfolio Website
+  Learn how to create a static website for your portfolio using the Django
+                        framework. This project also requires basic understanding of HTML and CSS.
+  Links (1): https://iq.opengenus.org/static-portfolio-django/
+16. File Hosting Service in Django
+  Build a file hosting service in Django where you can upload your files and get a
+                        link to share them.
+  Links (1): https://iq.opengenus.org/file-hosting-service-in-django/
+17. Reconstructing Face using PCA
+  Learn how to reconstruct a face from a set of faces using PCA. Principal Component
+                        Analysis (PCA) is a common machine learning technique used for handling large datasets and
+                        deducing patterns from such datasets.
+  Links (1): https://iq.opengenus.org/project-on-reconstructing-face/
+18. Time Series Forecasting
+  Python is widely used for forecasting and building data models. Learn how to perform time series forecasting using NIFTY50 stock market data and analyse
+                        stock market trends of HDFC.
+  Links (1): https://iq.opengenus.org/time-series-forecasting-using-python/
+19. Time Series Classification
+  Get a grasp on the topic of time series classification and create a time series classification project. Make use of Pandas,
+                        NumPy and the
+                        Sklearn libraries along with the Tsfresh Python package.
+  Links (1): https://iq.opengenus.org/time-series-classification/
+20. Predicting Air Pollution Levels
+  Perform an analysis of the air pollution levels in New Delhi using Python and
+                        Jupyter Notebook.
+  Links (1): https://iq.opengenus.org/predicting-air-pollution-levels-part3/
+21. EEG Signal Analysis
+  EEG stands for Electroencephalography. It is a technique used to record brain activity,
+                        and helpful in evaluating brain disorders. Learn how to perform EEG signal analysis with the help of the MNE-Python library.
+  Links (1): https://iq.opengenus.org/eeg-signal-analysis-with-python/
+22. Image Captioning using Keras
+  Learn how to implement your own deep learning project by building an image captioning project using Keras. Keras is a popular API used for
+                        deep learning projects.
+  Links (1): https://iq.opengenus.org/image-captioning-using-keras/
+23. Implement Document Clustering using K Means
+  Get a practical understanding of document clustering
+                        by implementing your own document clustering using K means project. You will use the popular
+                        Scikit-Learn
+                        machine learning library along with NumPy, Pandas and the
+                        CSV module.
+  Links (1): https://iq.opengenus.org/implement-document-clustering-python/
+24. TextRank for Text Summarization
+  In Natural Language Processing, TextRank is an important technique for producing document
+                        summaries. Learn how to implement
+                        textrank for text summarization using
+                        modules like math and __future__ along with NumPy and
+                        Summarizer
+                        libraries.
+  Links (1): https://iq.opengenus.org/textrank-for-text-summarization/
+25. NLP Project: Compare Text Summarization Models
+  Learn more about the concept of Text Summarization and build a project comparing text summarization models. You will use libraries like
+                        Gensim,
+                        Transformers, Pytorch, NLTK, Sumy and
+                        Rouge along with
+                        the
+                        SentencePiece tokenizer and the
+                        JSON module.
+  Links (1): https://iq.opengenus.org/compare-text-summarization-models/
+26. Flask Web App for a Machine Learning model
+  Learn how to deploy a machine learning model by creating a web application using Flask. This project uses NumPy,
+                        Pandas and the
+                        Sklearn libraries along with the Pickle module.
+  Links (1): https://iq.opengenus.org/web-app-ml-model-using-flask/
+27. Differentiating Fake Faces using Simple ML and Computer Vision
+  Fake images and deepfakes are a common problem on the internet. Learn how to differentiate fake faces using machine learning and computer vision.
+                        This project uses Jupyter Notebook along with OpenCV, NumPy,
+                        Matplotlib and Scikit-Learn
+                        libraries.
+  Links (1): https://iq.opengenus.org/differentiate-fake-faces-ml/
+28. Build and Use an Image Denoising Autoencoder model in Keras
+  Learn how to build an Image Denoising Autoencoder model using Python and
+                        libraries like Keras, NumPy and Matplotlib.
+  Links (1): https://iq.opengenus.org/image-denoising-autoencoder-keras/
+29. Build ShuffleNet using Python
+  Implement a neural network called ShuffleNet using Python. Utilize libraries and modules like 
+                                Pytorch, NumPy, os, math, datetime, tqdm, tarfile, warning, Matplotlib and PIL.
+  Links (1): https://iq.opengenus.org/shufflenet-implementation-using-pytorch/
+30. Native Language Identification (NLI)
+  In Natural Language Processing (NLP), NLI is an important concept. Get a grasp on NLI by
+                        building a native language identification model that identifies the native language
+                        of the author. This model makes use of the Sklearn library and the re
+                        module for
+                        regular expressions.
+  Links (1): https://iq.opengenus.org/native-language-identification-dl/
+
+---
+Generated by OpenGenus. Updated on 2023-12-28

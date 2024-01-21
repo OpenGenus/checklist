@@ -1,0 +1,347 @@
+Web Development Bootcamp 📌
+
+These topics are all you need in order to start developing Web applications on your own using HTML, CSS and JavaScript and other web technologies building off of those! Master WebDev in 15 weeks. Learn effectively and succeed!.
+
+
+Week 1: Understanding Web Development - Roadmap
+===============================================
+1. Frontend
+  The frontend refers to the user interface or and the user experience of the application. That means it is the part of the program that users directly interact with. Moreover, it is the part that is responsible for presenting data and functionality in an accessible and user-friendly way.
+        The technologies that are used are HTML (HyperText Markup Language), which is used for defining the structure of the page,  CSS (Cascading Styles Sheets), which will aid you in styling and developing the layout of the said structure, and JavaScript, which will add the interactivity and functionality to your application.
+  Links (0): 
+2. Backend
+  The backend part refers to anything that happens behind-the-scenes of your application. This part is responsible for ensuring the management and processing of data, interactions with external services and other server-side operations.
+        Read  this article  to get a quick overview of backend development, and explore upon concepts such as the server and some programming languages that can be used for backend development.
+  Links (1): https://iq.opengenus.org/introduction-to-backend-development/
+3. Database
+  Databases are where you actually organize and store the information you use on your application. This information could be user data, such as names and emails, blog posts, product details or anything else that your site might need.
+        When anyone uses your application, it will often envole creating, reading, updating, and deleting ( CRUD ) information. All this information will be saved in tables, each having rows and columns. For example, imagine a "Users" table with rows for each user, and columns for their names, emails etc.
+  Links (0): 
+
+---
+
+Week 2: Essential HTML tags
+===========================
+1. DOCTYPE tag
+  The DOCTYPE tag is the very first tag that's used in an HTML page, so, in order to better understand the syntax of an HTML page, you can start by researching this one tag.
+  Links (1): https://iq.opengenus.org/doctype/
+2. HTML tag
+  The HTML tag is also a highly important tag that needs to be added at all times in the HTML page. You only need to focus on the HTML part of this article.
+  Links (1): https://iq.opengenus.org/html-tag-in-html/
+3. Head tag
+  The head tag is another element that provides our HTML file with some additional structure.
+  Links (1): https://iq.opengenus.org/head-tag-in-html/
+4. Body tag
+  The body tag is the last that is used standardly in every HTML file, thus you should know a bit about what it does as well.
+  Links (1): https://iq.opengenus.org/body-tag-html/
+
+---
+
+Week 3: Other HTML tags
+=======================
+1. Headings
+  Heading tags are widely used in HTML pages. They are used to define the structure and hierarchy of content on a web page and serve as a way to organize and categorize information, making it more accessible and understandable for both users and search engines.
+  Links (1): https://iq.opengenus.org/headings-in-html/
+2. Button
+  The button tag creates interactive buttons for user input and form submission on web pages.
+  Links (1): https://iq.opengenus.org/button-tag/
+3. Lists
+  List tags provide list structure for displaying items sequentially, without order, or in term-explanation pairs.
+  Links (1): https://iq.opengenus.org/lists-in-html/
+4. Forms
+  Forms are made up of multiple elements, all included in this article. Forms are used for data submission to servers. They're crucial for various web-based applications, from search bars to contact forms.
+  Links (1): https://iq.opengenus.org/forms-in-html/
+5. Tables
+  Tables are used to organize and display data in rows and columns, facilitating the presentation of information and enhancing the structure of web content.
+  Links (1): https://iq.opengenus.org/tables-in-html/
+6. HTML tags
+  This is a comprehensive guide to HTML tags. You'll also find some you've already read about more thoroughly if you're following this checklist in order. Consider this a sheet you can refer back to whenever you need to.
+  Links (1): https://iq.opengenus.org/html-tags-list/
+
+---
+
+Week 4: CSS
+===========
+1. CSS Selectors
+  CSS selectors are a great way to start your CSS-learning journey, since they are what enable you to select elements from an HTML template in order to style them.
+  Links (1): https://iq.opengenus.org/css-selectors/
+2. CSS Basics
+  In this CSS basics article, you'll be able to find a few ways to link your CSS to HTML, and also a few fundamental properties that will help you jumpstart your learning journey.
+  Links (1): https://iq.opengenus.org/basics-of-css/
+3. Box model
+  The box model is one of the most important characteristics of an element when it comes to CSS, defining the said element's size, spacing and positioning.
+  Links (1): https://iq.opengenus.org/css-box-model/
+4. Display property
+  The display property is another important concept you should know in CSS, since it determines an element's layout. An interesting application of this property is  making an element transparent .
+  Links (1): https://iq.opengenus.org/css-box-model/
+5. Position property
+  The position property controls how an element is positioned within a container element. It's a very handy tool when it comes to CSS layout.
+  Links (1): https://iq.opengenus.org/css-position-property/
+6. Flexbox
+  Flex is an advanced layout model that lets you do a lot of cool stuff, such as controling the direction of the layout. It's definitely worth learning.
+  Links (1): https://iq.opengenus.org/flexbox/
+7. Grid
+  Grid is similar to flexbox in that it's a great layout model, however, being two-dimensional. Even if you've already learned flexbox, this is still worth learning, as it can have different use cases than flexbox. Plus, you might find some of the properties grid comes with familiar!
+  Links (1): https://iq.opengenus.org/grid-positioning-in-css/
+8. Media queries
+  Media queries are a great way to change your styles based on the circumstances of the environment they're in ( such as the type of device ). An interesting use case would be fixing rendering on a mobile device.
+  Links (1): https://iq.opengenus.org/media-queries/
+9. Transitions
+  Transitions will take your styling skills even further, enabling you to actually design moving elements on your website!
+  Links (1): https://iq.opengenus.org/transitions-in-css/
+10. Animations
+  Animations are transitions taken further! By using them, you'll be able to create more exciting and intricating effects.
+  Links (1): https://iq.opengenus.org/css-animation/
+11. CSS preprocessors
+  CSS preprocessors allow you to write shorter, more effective CSS-like code, but more in the form of an actual programming language. Using CSS preprocessors is an amazing next step!
+  Links (1): https://iq.opengenus.org/css-preprocessors/
+12. CSS Recap
+  This CSS Core Ideas article contains everything we've covered regarding CSS so far in a more concise way. You can always come back to it to review some of the concepts learned!
+  Links (1): https://iq.opengenus.org/core-ideas-of-css/
+
+---
+
+Week 5: JavaScript
+==================
+1. JavaScript Basics
+  First of all, you're going to need to learn some JavaScript basics, such as variables, data types, loops, conditional statements and others.
+  Links (1): https://iq.opengenus.org/basics-of-javascript/
+2. Functions
+  Functions are an important concept to learn in JavaScript, since they enable developers to reuse code and enhance maintainability overall.
+  Links (1): https://iq.opengenus.org/functions-in-javascript/
+3. Data structures
+  Data structures are fundamental concepts that help developers organize and manipulate data. This article will teach you everything you need to know about arrays, sets, maps and their individual methods.
+  Links (1): https://iq.opengenus.org/built-in-data-structures-in-javascript/
+4. Objects
+  Objects are data structures that are made up of key-value pairs. They are fundamental concepts for the organization and storage of both data and functions.
+  Links (1): https://iq.opengenus.org/objects-in-js/
+5. DOM manipulation
+  JavaScript is a great way to manipulate the Document Object Model, which is a fundamental concept for building web applications. Here is a practical guide to manipulate the DOM using JavaScript.
+  Links (1): https://iq.opengenus.org/roll-the-dice-game/
+6. Event listeners
+  Event listeners are the way to go if you want your web application to react to the actions of a user. You can easily find a list containing all the events that JavaScript can 'listen' to. An interesting concept is the capturing and bubbling of events. In the article, you can also find out the exact way event listeners are defined.
+  Links (1): https://iq.opengenus.org/capturing-and-bubbling-in-javascript/
+7. Asynchronous programming
+  Asynchronous programming is another crucial concept in Web Development, allowing you to run tasks independently of your other code, which runs synchronously.
+  Links (1): https://iq.opengenus.org/asynchronous-programming-in-javascript/
+8. Fetch API
+  The Fetch API is a modern way to make HTTP requests to retrieve data from ther servers by using promises.
+  Links (2): https://iq.opengenus.org/intro-to-fetch-api/, https://iq.opengenus.org/promises-in-javascript/
+9. APIs
+  Here is a more general description of APIs not necessarily in JavaScript specifically, but rather in the whole software development world. Another interesting API to check out is the fullscreen API.
+  Links (2): https://iq.opengenus.org/power-of-apis-in-your-data-science-projects/, https://iq.opengenus.org/fullscreen-api/
+10. SOLID principles
+  The SOILD principles are fundamental concepts in object-oriented programming, helping you keep your code maintainable and flexible and enabling efficient software development.
+  Links (1): https://iq.opengenus.org/solid-principles/
+
+---
+
+Week 6 - 8: Interesting projects using HTML, CSS and JavaScript
+===============================================================
+1. Whiteboard
+  A whiteboard can help you gain more experience in DOM manipulation and event handling.
+  Links (1): https://iq.opengenus.org/whiteboard-html/
+2. Word Scramble Game
+  Building a word scramble game can aid you in learning concepts such as how to handle user input.
+  Links (1): https://iq.opengenus.org/word-scramble-game-in-html-and-js/
+3. Memory Game
+  A memory game is a great project to build in order to enhance how you go about implementing game logic, which is definitely a handy skill.
+  Links (1): https://iq.opengenus.org/memory-game-using-js-and-html/
+4. Whack-a-Mole Game
+  Building a whack-a-mole game can help you hone your skills regarding DOM manipulation, event handling and animations.
+  Links (1): https://iq.opengenus.org/whack-a-mole-game-using-html-css-js/
+5. Gift Card Application
+  Building a gift card application can help you learn things such as handling forms for the content and storing data.
+  Links (1): https://iq.opengenus.org/gift-card-web-application/
+6. Playable Piano Game
+  Try making a piano game. This will get you a better grasp of listening on events in JavaScript.
+  Links (1): https://iq.opengenus.org/playable-piano-in-html-css-and-javascript/
+7. Connect Four Game
+  In the process of building a connect four game you can further develop your skills regarding event handling, AI opponent strategies and many others. The game also has an interesting game logic that is worth researching more about.
+  Links (1): https://iq.opengenus.org/connect-four-in-html-and-js/
+8. Hangman Game
+  Building a hangman game can help you further hone your skills in learning how to work with arrays in JavaScript, implementing logic such as word selection and handling interactions for the guessing of letters.
+  Links (1): https://iq.opengenus.org/hangman-in-html-css-js/
+9. Bubble Shooter Game
+  Making a bubble shooter game can help you get a better grasp on concepts that you've already covered, such as smooth animations, but also help you learn novel things, such as implementing a canvas.
+  Links (1): https://iq.opengenus.org/bubble-shooter-game-in-html/
+10. Car Racing Game
+  Building a car racing game can help you understand how to set up a game loop and implement concepts such as AI opponent behaviour.
+  Links (1): https://iq.opengenus.org/car-racing-game-in-html/
+11. 30 Other Ideas
+  Here are 30 other ideas that you can use to develop more projects and advance your HTML, CSS and JavaScript skills. You can go ahead and try to implement the ones that appeal the most to you on your own, although you should be able to easily find resources on the internet if you find you need it.
+  Links (1): https://iq.opengenus.org/hangman-in-html-css-js/
+
+---
+
+Week 9: Version Control Software - Git
+======================================
+1. Installing GIT
+  This article will teach you how to install Git on any operating system, and, thus, help you make the first step towards using a VCS.
+  Links (1): https://iq.opengenus.org/install-git/
+2. Initialize a repository
+  Initializing a repository is the first step towards using a VCS, being the central location where code is stored.
+  Links (1): https://iq.opengenus.org/initialize-a-git-repository/
+3. Linking local and remote repositories
+  Linking your local repository to a remote one is the next step that you need to take in order to use a VCS. ( You can use a platform such as GitHub to store your repositories easily )
+  Links (1): https://iq.opengenus.org/git-remote-add-origin/
+4. Adding files - git add
+  The next step is to actually start modifying the content of the repository. You can start adding files by using the git add command.
+  Links (1): https://iq.opengenus.org/git-track-a-new-file/
+5. Checking status - git status
+  In order to check which files are currently added 'for commit' ( you'll understand this expression after reading the next step ), we have a special command, namely the git status command.
+  Links (1): https://iq.opengenus.org/git-status-command/
+6. Commiting changes - git commit
+  The next command that needs to be run in the process of modifying the repository is to commit the changes, that is to actually save and record the changes, by making a snapshot. You can read more about this by reading this git commit article.
+  Links (1): https://iq.opengenus.org/git-commit-command/
+7. Pushing changes - git push
+  The last step to modifying a repository is to actually 'push' the changes to your remote repository, by running the command 'git push origin (main)'. The last word, in paranthases, is the name of the 'branch' you're pushing to. For now, you can stick to 'main', as it is the default branch name.
+  Links (0): 
+8. Creating a local branch - git branch
+  Another interesting concept in Git is the ability to create 'branches', that is, different versions of your code that you can manage in a repository. A common use of branches is to create different features, each in a different branch with a specific name, so that it is easy to identify. In order to create a new branch, the command 'git branch (branch-name)' is used, and the 'git branch' command is used in order to get a list of all the local branches.
+  Links (0): 
+9. Creating a remote branch - git push
+  There isn't a special command for creating a remote branch, rather one is created for you once you push your local changes to the remote branch. Thus, you can add and commit the changes and then push them using the command git push origin (remote-branch-name).
+  Links (0): 
+10. Changing the current branch - git checkout
+  In order to change the current branch you're on, there is a special command: git checkout (branch-name), which will take you directly to the local branch of whose name you entered in place of the parantheses.
+  Links (0): 
+11. Deleting a local branch
+  We've learned how you can create and view local branches, but how about how to delete them? Here are a few different ways to delete a local branch.
+  Links (1): https://iq.opengenus.org/git-delete-local-branch/
+12. Deleting a remote branch
+  Remote branches may sound a bit harder to delete, but the process is actually quite similar to deleting a local branch. You can study a couple different ways to delete a remote branch.
+  Links (1): https://iq.opengenus.org/git-delete-remote-branch/
+13. Creating a pull request
+  Another interesting concept that is widely used in Git is creating a pull request. This means requesting to do changes to someone else's repository by cloning their code, modifying it, and then trying to 'push' it to their repository. This is a great concept to learn if you wish to contribute to open source code.
+  Links (1): https://iq.opengenus.org/create-a-pull-request-at-github/
+14. Git vs GitHub
+  This article will help you understand the difference between Git and GitHub, so that you can use the terms properly and avoid any confusion.
+  Links (1): https://iq.opengenus.org/body-tag-html/
+15. A comprehensive guide to Git commands
+  Here is a comprehensive guide to Git commands. It contains both commands that you've read about here, and other more advanced ones that are definitely worth learning, since Git is a tool that is extremely important in the coding world and is likely to stay around for a long time. You can refer back to this as a cheatsheet.
+  Links (1): https://iq.opengenus.org/git-commands-list/
+
+---
+
+Week 10: Frontend JavaScript Frameworks / Libraries - React, Angular, Vue
+=========================================================================
+1. Functional programming
+  Functional programming  is a concept widely implemented by frontend JavaScript frameworks, so it is great to learn a bit more about it before delving in.
+  Links (1): https://iq.opengenus.org/basics-of-react-js/
+2. Basics of React
+  This article  covers much of what you need in order to get started on your first simple React app.
+  Links (1): https://iq.opengenus.org/basics-of-react-js/
+3. React Hooks
+  React Hooks are another crucial concept to learn if you wish to use React to develop projects. For example, from the above article, we used a hook: useState. However, there are many more hooks that can help us do several other actions, such as: useEffect, that responds reactively (pun intended) to any state changes in your code, or even optimizing hooks, such as useMemo or useCallback. This is definitely a subject worth delving in if you want to work with React.
+  Links (0): 
+4. React Routing
+  React Routing brings a bit of backend logic into the frontend, by allowing developers to create multi-page interfaces only using the frontend.
+  Links (1): https://iq.opengenus.org/react-routing/
+5. Angular
+  Angular is a frontend framework for building dynamic web applications. It is developed by Google and enables developers to build applications, minimizing the need for manual DOM manipulation. Here is a guide on how you can install Angular on Ubuntu.
+  Links (1): https://iq.opengenus.org/install-angular-js-on-ubuntu/
+6. Vue
+  If you'd prefer to get started with Vue, or you have a particular project that you feel would be easier to implement using Vue, worry not! Here is a quick introduction to Vue to get you started.
+  Links (1): https://iq.opengenus.org/intro-to-vue/
+
+---
+
+Week 11 - 12: Backend JavaScript Framework - Node.js (Express)
+==============================================================
+1. Introduction to Node.js
+  Here is an  introduction to Node.js , so that you can install it and understand what it actually represents.
+  Links (1): https://iq.opengenus.org/introduction-to-node-js/
+2. Creating a simple web app
+  Here is a tutorial you can use to set up a really simple web server for the first time using Node.js.
+  Links (1): https://iq.opengenus.org/create-a-web-server-using-node-js/
+3. Node.js Routing
+  Node Routing is basically the process of determining how an HTML request is supposed to be handled based on the URL and HTTP method. This process is simplified by a lot if you use a framework such as Express.js.
+  Links (1): https://iq.opengenus.org/routing-in-node-js/
+4. Creating an API using Node.js
+  Creating a web API is the next step in your learning journey that is worth taking, for this will often come up in projects if you continue working with Node.js
+  Links (1): https://iq.opengenus.org/creating-a-web-api-node-js/
+5. Express. Express Routing
+  Express is a framework built on top of Node, that abstracts some concepts in Node, making them easier to code using Express. One example that we mentioned earlier was routing. Read this article to find out how to set up an Express app and utilize Express routing.
+  Links (1): https://iq.opengenus.org/routing-with-express-and-postman/
+6. Express Middlewares
+  Middlewares are what is between the client and the server within the request-response process. They do tasks such as processing and modifying requests as they pass through the web server, making them crucial to learn. This tutorial can get you started.
+  Links (1): https://iq.opengenus.org/middlewares-in-express/
+7. Interesting Node projects
+  Here are 31 Node.js projects that you might want to try in order to test your new-learned skills and, based on difficulty, acquire new ones!
+  Links (1): https://iq.opengenus.org/list-of-node-js-projects/
+
+---
+
+Week 13 - 14: Backend Python Framework - Django
+===============================================
+1. Introduction to Django
+  Here is an  introduction to Django , where you will learn a bit more about what it actually is and how you can integrate it in your own project.
+  Links (1): https://iq.opengenus.org/getting-started-with-django/
+2. Application structure of Django
+  Here is an  guide to the application structure of Django , so that you can understand the overall flow. We will be expanding upon these subjects further, this is just an overview.
+  Links (1): https://iq.opengenus.org/application-structure-of-django/
+3. Models in Django
+  Models  are Python classes that act as intermediaries between your Python code and the database and a fundamental concept to learn.
+  Links (1): https://iq.opengenus.org/models-in-django/
+4. Templates in Django
+  Templates are a fundamental part of Django, that allow you to generate dynamic HTML web pages.
+  Links (1): https://iq.opengenus.org/django-template-system/
+5. Views in Django
+  Views are another very important concept in Django, determining the logic of a web page and how it is displayed. Their purpose can be processing requests, retrieving data from the database, or rendering HTML templates.
+  Links (1): https://iq.opengenus.org/class-based-generic-views-django/
+6. User Authentication
+  Read this article  for a walkthrough of how to set up user authentication in Django.
+  Links (1): https://iq.opengenus.org/django-user-authentication/
+7. URL Routing
+  URL routing is a fundamental concept that helps you map incoming URLs to specific views, so that you can define how different parts of your application are accessed. All the urls are defined in the 'urls.py' file of the application, inside an array called 'urlpatterns'. You have to import the 'path' function from django.urls (from django.urls import path) and the views, from your current application (from . import views). In order to define a path, you must specify three parameters: the coressponding url, the view that should handle it, and a name. For example, a url pattern for a page displaying all the products of a website could be path('products/', views.products, name="products-list"). In order to define dyanmic URL segments, you must mention them within angle brackets ( < > ): 'products/<int:product_id>'
+  Links (0): 
+8. Follow-through project
+  Go ahead and try to follow through the creation of a full-fledged project using Django with this article. You will be creating your first-ever project using Django, a library app!
+  Links (1): https://iq.opengenus.org/pdf-library-application-in-django/
+9. Project ideas
+  Some interesting project ideas that you could create using Django would be a blog application, that would include user registration, article publishing, comments and the search functionality. Another great idea could be an e-commerce website, which would include product listings, a shopping cart and the corresponding logic, user accounts, order history, and reviews. If you'd like some other ideas and a more detailed explanation of the projets, you can also check out this article, where you won't necessarily find Django projects, but software development ones, most of which are entirely doable using Django! Happy coding!
+  Links (1): https://iq.opengenus.org/software-development-project-ideas/
+
+---
+
+Week 15: Databases
+==================
+1. Database introduction - different types of databases
+  Learn a bit about what databases are, what kind of databases there are out there, what is the difference between them and figure out some examples of databases by reading through general classification of databases.
+  Links (1): https://iq.opengenus.org/types-of-database/
+2. SQL database commands
+  Take a look at this comprehensive list of SQL commands, which will help you easily interact with a SQL database.
+  Links (1): https://iq.opengenus.org/create-a-web-server-using-node-js/
+3. NoSQL databases
+  If you decide to go the other way, and a NoSQL database appears best for the project at hand, you can check out this article, which will help you make an informed choice over what database it is that most nearly tends to your projects' needs.
+  Links (1): https://iq.opengenus.org/choose-nosql-databases/
+4. NoSQL database - MongoDB
+  One of the most widely used NoSQL databases is no other than MongoDB, being included in many tech stacks such as MEAN or MERN. Here is everything you need to learn in order to get started with MongoDB.
+  Links (1): https://iq.opengenus.org/intro-to-mongo-db/
+5. MongoDB + Mongoose
+  Following the current stack we're working with, it's only rational that we add another tech to our aid: Mongoose, which is often used with Node.js and is great for keeping MongoDB structures. Here is an introduction to working with MongoDB and Mongoose.
+  Links (1): https://iq.opengenus.org/intro-to-mongoose-with-mongodb/
+
+---
+
+Further directions
+==================
+1. HTML Interview Questions
+  Here are some intersting HTML interview questions .
+  Links (1): https://iq.opengenus.org/html-interview-questions/
+2. CSS Interview Questions
+  Here are some intersting CSS interview questions .
+  Links (1): https://iq.opengenus.org/interview-questions-on-css/
+3. JavaScript Interview Questions ( Promises )
+  Here are some intersting JavaScript interview questions .
+  Links (1): https://iq.opengenus.org/interview-questions-on-javascript-promises/
+4. Git Interview Questions
+  Here are some intersting Git interview questions .
+  Links (1): https://iq.opengenus.org/interview-questions-on-git/
+5. Web Development Stacks
+  Here are some of the most popular web stacks at the moment. Some of them are from technologies already covered in this checklist, others from some we might have not even mentioned. Consider them to be something to research if you want to enrich your capabilities even more. Remember that they're just material, and you don't have to learn them all comprehensively! Moreover, if you learned those features in this checklist, you're most likely to be able to implement apps much easier using any technology, even if you haven't worked with it before!
+  Links (1): https://iq.opengenus.org/different-web-stacks/
+
+---
+Generated by OpenGenus. Updated on 2023-12-28
