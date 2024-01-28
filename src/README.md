@@ -17,6 +17,7 @@
 | 12 | Large Language Models Checklist | In progress | Alexander Nilsson |
 | 13 | Java Checklist | [Deployed](https://iq.opengenus.org/learn-java/) | Manish Singh |
 | 14 | NLP Checklist | In progress | Agniva Maiti |
+| 15 | HTML Checklist | In progress | Abiodun Adejare Adekunle |
 
 ## Todo features:
 - Code cleanup (checklist dynamic height logic) [_In progress_]
