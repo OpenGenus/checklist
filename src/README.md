@@ -16,6 +16,7 @@
 | 11 | Web Development Checklist | [Deployed](https://iq.opengenus.org/learn-web-development/) | Delia Georgiana Soare |
 | 12 | Large Language Models Checklist | In progress | Alexander Nilsson |
 | 13 | Java Checklist | [Deployed](https://iq.opengenus.org/learn-java/) | Manish Singh |
+| 14 | NLP Checklist | In progress | Agniva Maiti |
 
 ## Todo features:
 - Code cleanup (checklist dynamic height logic) [_In progress_]
