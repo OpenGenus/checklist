@@ -19,6 +19,7 @@
 | 14 | NLP Checklist | In progress | Agniva Maiti |
 | 15 | HTML Checklist | In progress | Abiodun Adejare Adekunle |
 | 16 | Computer Networks Checklist | In progress | Manraj Singh |
+| 17 | C++ Checklist | In progress | Jessica Janko |
 
 ## Todo features:
 - Code cleanup (checklist dynamic height logic) [_In progress_]
