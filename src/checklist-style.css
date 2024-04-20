@@ -589,3 +589,46 @@ footer span {
 		page-break-after: avoid;
 	}
 }
+
+
+/* add edit button and contributor section */
+.content {
+    margin: 0 auto;
+}
+
+/* Edit button styling */
+.edit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.edit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Contributor section styling */
+.contributor-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contributor-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contributor-section ul {
+    padding: 0;
+}
+
+.contributor-section ul li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
