@@ -103,3 +103,9 @@ window.onclick = function () {
   }
   */
 }
+
+/* Function for pencil icon redirect */ 
+function redirectToEdit() {
+    // Redirect to the desired location when the button is clicked
+    window.location.href = "https://github.com/OpenGenus/checklist/blob/main/src/html-checklist.html";
+}

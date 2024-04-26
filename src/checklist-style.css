@@ -592,43 +592,32 @@ footer span {
 
 
 /* add edit button and contributor section */
-.content {
-    margin: 0 auto;
-}
-
-/* Edit button styling */
 .edit-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.edit-button:hover {
-    background-color: #0056b3;
-}
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 50%;
+	cursor: pointer;
+  }
 
 /* Contributor section styling */
 .contributor-section {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
+    text-align: center;
+	margin: -27px auto;
 }
 
 .contributor-section h2 {
     font-size: 1.5em;
-    margin-bottom: 10px;
+	margin-top: -14px;
 }
 
 .contributor-section ul {
     padding: 0;
+	margin-top: -18px;
+	list-style-type: none;
+
 }
 
-.contributor-section ul li {
-    margin-bottom: 5px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 5px;
-}
