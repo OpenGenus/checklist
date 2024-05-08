@@ -590,34 +590,50 @@ footer span {
 	}
 }
 
-
-/* add edit button and contributor section */
-.edit-button {
+/*Pencil Icon Styling*/
+  .inlineIcon.edit {
+	background: transparent;
 	position: fixed;
 	top: 20px;
 	right: 20px;
-	color: #fff;
-	border: none;
-	padding: 10px 15px;
-	border-radius: 50%;
-	cursor: pointer;
+	z-index: 999;
   }
+  
+  .edit {
+	background: #3498db;
+  }
+  
+  .button {
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	display: inline-block;
+	color: #FFF;
+	border-radius: 0.25em;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.4);
+  }
+  
+  .inlineIcon.edit:before {
+	color: #3498db;
+	line-height: 32px;
+	font-size: 32px;
+	padding: 4px 0px;
+  }
+  
+  .edit:before {
+	content: "\f040";
+	font-family: FontAwesome;
+	display: inline-block;
+	font-size: 1rem;
+	padding-right: 12px;
+	background: none;
+	color: #FFF;
+  }
+  
 
 /* Contributor section styling */
 .contributor-section {
     text-align: center;
-	margin: -27px auto;
 }
 
-.contributor-section h2 {
-    font-size: 1.5em;
-	margin-top: -14px;
-}
-
-.contributor-section ul {
-    padding: 0;
-	margin-top: -18px;
-	list-style-type: none;
-
-}
 
