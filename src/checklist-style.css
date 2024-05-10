@@ -593,6 +593,7 @@ footer span {
 /*Pencil Icon Styling*/
   .inlineIcon.edit {
 	background: transparent;
+	border: none;
 	position: fixed;
 	top: 20px;
 	right: 20px;
