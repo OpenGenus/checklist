@@ -1,6 +1,6 @@
 import os
 import datetime
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # type: ignore
 
 # Create a directory named "text_list" in the current working directory if it doesn't exist
 output_directory = "text_list"
