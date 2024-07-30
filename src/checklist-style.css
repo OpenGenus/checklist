@@ -589,3 +589,52 @@ footer span {
 		page-break-after: avoid;
 	}
 }
+
+/*Pencil Icon Styling*/
+  .inlineIcon.edit {
+	background: transparent;
+	border: none;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 999;
+  }
+  
+  .edit {
+	background: #3498db;
+  }
+  
+  .button {
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 400;
+	display: inline-block;
+	color: #FFF;
+	border-radius: 0.25em;
+	text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.4);
+  }
+  
+  .inlineIcon.edit:before {
+	color: #3498db;
+	line-height: 32px;
+	font-size: 32px;
+	padding: 4px 0px;
+  }
+  
+  .edit:before {
+	content: "\f040";
+	font-family: FontAwesome;
+	display: inline-block;
+	font-size: 1rem;
+	padding-right: 12px;
+	background: none;
+	color: #FFF;
+  }
+  
+
+/* Contributor section styling */
+.contributor-section {
+    text-align: center;
+}
+
+
