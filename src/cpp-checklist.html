@@ -595,112 +595,264 @@ team@opengenus.org
   </ul>
 </section>
 
-  <section class="checklist">
-    <h2 class="checklist__title">Memory Management</h2>
-    <span class="checklist__title-border"></span>
-    <span class="checklist__percentage-border"></span>
-    <ul class="checklist-container">
-  
-     <li class="checklist-item">
-      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">New</span>
+<section class="checklist">
+  <h2 class="checklist__title">Memory Management</h2>
+  <span class="checklist__title-border"></span>
+  <span class="checklist__percentage-border"></span>
+  <ul class="checklist-container">
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">New</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      <a href="https://iq.opengenus.org/new-operator-cpp/">The New Operator</a> in C++ allows a user to request for memory allocation. If sufficient memory exists, the memory will be reserved and the address of the newly allocated memory is returned.
+     </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Malloc</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      <a href="https://iq.opengenus.org/malloc-in-cpp/">Malloc</a> is used to allocate a block of memory specified by a size of bytes, returning a pointer to the first byte of allocated memory.
+     </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Calloc</span>
       <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                       <span class="line"></span>
                   </button>
       <div class="info-container">
        <div class="info">
-        <a href="https://iq.opengenus.org/new-operator-cpp/">The New Operator</a> in C++ allows a user to request for memory allocation. If sufficient memory exists, the memory will be reserved and the address of the newly allocated memory is returned.
+        <a href="https://iq.opengenus.org/calloc-in-c/">Calloc</a> requests the allocation of a block of memory for an array of objects, each of a specified length size of bytes, and initializes all of the memory to zero.
        </div>
       </div>
      </li>
-  
+
      <li class="checklist-item">
-      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Malloc</span>
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Delete</span>
       <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                       <span class="line"></span>
                   </button>
       <div class="info-container">
        <div class="info">
-        <a href="https://iq.opengenus.org/malloc-in-cpp/">Malloc</a> is used to allocate a block of memory specified by a size of bytes, returning a pointer to the first byte of allocated memory.
+        <a href="https://iq.opengenus.org/delete-operator-cpp/">The Delete Operator</a> is used to deallocate memory previous allocated by the new operator, allowing the memory to be reused.
        </div>
       </div>
      </li>
 
      <li class="checklist-item">
-        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Calloc</span>
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Malloc vs Calloc vs Realloc</span>
+      <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                      <span class="line"></span>
+                  </button>
+      <div class="info-container">
+       <div class="info">
+        <a href="https://iq.opengenus.org/malloc-calloc-realloc/"> Malloc vs Calloc vs Realloc</a> are all functions in C++ involving memory allocation, but they serve different purposes.
+        <code>Malloc</code> allocates a block of memory specified in bytes.
+        <code>Calloc</code> allocates memory for an array of elements.
+        <code>Realloc</code> changes the size of a previously allocated memory block.
+       </div>
+      </div>
+     </li>
+
+     <li class="checklist-item">
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Static Memory Management</span>
+      <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                      <span class="line"></span>
+                  </button>
+      <div class="info-container">
+       <div class="info">
+        <code>Static Memory Allocation</code> involves automatic memory allocation at compile time of a program and deallocation by the runtime environment once the program finishes running.
+       </div>
+      </div>
+     </li>
+
+     <li class="checklist-item">
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Dynamic Memory Management</span>
+      <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                      <span class="line"></span>
+                  </button>
+      <div class="info-container">
+       <div class="info">
+        <a href="https://iq.opengenus.org/dynamic-memory-allocation-cpp/">Dynamic Memory Allocation</a> occurs when a user manually allocates using <code>new</code> or deallocates memory using <code>delete</code> or <code>free</code>.
+       </div>
+      </div>
+     </li>
+
+     <li class="checklist-item">
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Memory Leaks in C++: How to Prevent Them</span>
+      <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                      <span class="line"></span>
+                  </button>
+      <div class="info-container">
+       <div class="info">
+        <a href="https://iq.opengenus.org/memory-leak-in-cpp-and-how-to-avoid-it/">Memory Leaks</a> occur when a program fails to deallocate memory after it is no longer needed, leading to the gradual accumulation of used resources.
+        They can be avoided by always releasing dynamically allocated memory once it is done being used.
+       </div>
+      </div>
+     </li>
+</ul>
+</section>
+
+<section class="checklist">
+  <h2 class="checklist__title">C++ Projects</h2>
+  <span class="checklist__title-border"></span>
+  <span class="checklist__percentage-border"></span>
+  <ul class="checklist-container">
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Spell Checker Console Application</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      <a href="https://iq.opengenus.org/spell-checker-cpp/">A Spell Checker</a> is used to check for the misspelling of any words in a provided text. Given a word dictonary, we can use C++ to write a spell checker program that checks for misspelled words and provides correct suggestions similar to the misspelt word. 
+     </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+    <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Bank Management System</span>
+    <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                    <span class="line"></span>
+                </button>
+    <div class="info-container">
+     <div class="info">
+      <a href="https://iq.opengenus.org/bank-management-system-in-cpp/">A Bank Management Program</a> can be used to keep track of bank funds as well as deposit and withdraw funds to and from the account. Using the C++ bank management system, a user can create, login, and manage their account. The program utilizes C++ OOP design principles.
+     </div>
+    </div>
+   </li>
+
+   <li class="checklist-item">
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Stop Watch Console Application</span>
+      <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                      <span class="line"></span>
+                  </button>
+      <div class="info-container">
+       <div class="info">
+        <a href="https://iq.opengenus.org/stopwatch-in-cpp/">A Stopwatch Console Application</a> utilizes threads to allow the stopwatch to remain constantly running in real time unless signaled by the main thread to stop.
+       </div>
+      </div>
+     </li>
+
+    <li class="checklist-item">
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Typing Speed Project</span>
+      <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                      <span class="line"></span>
+                  </button>
+      <div class="info-container">
+       <div class="info">
+        <a href="https://iq.opengenus.org/stopwatch-in-cpp/">Checking Typing Speed</a> involves counting the number of words a user types per minute. In this project, dynamic arrays are used for storing the words, allowing the program to produce accurate results. The user can type for as long as they like, but once they indicate to the program that they are finished, the program calculates the total number of words, letters, and the total typing time, as well as the words per minute.
+       </div>
+      </div>
+     </li>
+
+     <li class="checklist-item">
+      <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Multi-threaded Program for Linear Search</span>
+      <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                      <span class="line"></span>
+                  </button>
+      <div class="info-container">
+       <div class="info">
+        <a href="https://iq.opengenus.org/multi-threaded-cpp-program-for-linear-search/">A Multi-threaded Program for Linear Search</a> involves the creation of a vector of M threads with N elements, each assigned to perform linear search on a separate chunk.
+       </div>
+      </div>
+     </li>
+
+     <li class="checklist-item">
+        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Trading Application</span>
         <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                         <span class="line"></span>
                     </button>
         <div class="info-container">
          <div class="info">
-          <a href="https://iq.opengenus.org/calloc-in-c/">Calloc</a> requests the allocation of a block of memory for an array of objects, each of a specified length size of bytes, and initializes all of the memory to zero.
+          <a href="https://iq.opengenus.org/trading-application-in-cpp/">Trading Applications</a> or investment applications allow people to manage their financial assets such as stocks and bonds. Within the application, users can buy and sell their holdings.
          </div>
         </div>
        </li>
 
        <li class="checklist-item">
-        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Delete</span>
+        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Multi-threaded Program to Find All Prime Numbers</span>
         <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                         <span class="line"></span>
                     </button>
         <div class="info-container">
          <div class="info">
-          <a href="https://iq.opengenus.org/delete-operator-cpp/">The Delete Operator</a> is used to deallocate memory previous allocated by the new operator, allowing the memory to be reused.
+          <a href="https://iq.opengenus.org/multi-thread-cpp-find-all-prime-numbers/">Finding All Prime Numbers</a> involves assuming all numbers are prime, then checking each one and eliminating those that aren't. Multi-threading speeds up this process by enabling concurrent checks on multiple numbers.
          </div>
         </div>
        </li>
 
        <li class="checklist-item">
-        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Malloc vs Calloc vs Realloc</span>
+        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Login and Registration System</span>
         <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                         <span class="line"></span>
                     </button>
         <div class="info-container">
          <div class="info">
-          <a href="https://iq.opengenus.org/malloc-calloc-realloc/"> Malloc vs Calloc vs Realloc</a> are all functions in C++ involving memory allocation, but they serve different purposes.
-          <code>Malloc</code> allocates a block of memory specified in bytes.
-          <code>Calloc</code> allocates memory for an array of elements.
-          <code>Realloc</code> changes the size of a previously allocated memory block.
+          <a href="https://iq.opengenus.org/login-and-registration-system-in-cpp/">The Login and Registration System</a> utilizes a local file for storing users and passwords. The file is accessed as a binary file, protecting the integrity and security of the user data it contains.
          </div>
         </div>
        </li>
 
        <li class="checklist-item">
-        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Static Memory Management</span>
+        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Restaurant Management System</span>
         <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                         <span class="line"></span>
                     </button>
         <div class="info-container">
          <div class="info">
-          <code>Static Memory Allocation</code> involves automatic memory allocation at compile time of a program and deallocation by the runtime environment once the program finishes running.
+          <a href="https://iq.opengenus.org/restaurant-management-system-in-cpp/">A Restaurant Management System</a> allows a restaurant to allocate tables to customers, take orders, bill tables, and get an overview of the entire restaurant. This implementation uses user-defined classes to facilitate interaction between the different components such as the tables, orders, and bills.
          </div>
         </div>
        </li>
 
        <li class="checklist-item">
-        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Dynamic Memory Management</span>
+        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Calculator Console Application</span>
         <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                         <span class="line"></span>
                     </button>
         <div class="info-container">
          <div class="info">
-          <a href="https://iq.opengenus.org/dynamic-memory-allocation-cpp/">Dynamic Memory Allocation</a> occurs when a user manually allocates using <code>new</code> or deallocates memory using <code>delete</code> or <code>free</code>.
+          <a href="https://iq.opengenus.org/calculator-console-application/">The Calculator Console Application</a> allows a user to input arithmetic operations between two numbers. The program processes the user input and returns the correct mathematical result.
          </div>
         </div>
        </li>
 
        <li class="checklist-item">
-        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Memory Leaks in C++: How to Prevent Them</span>
+        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Snake Game</span>
         <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
                         <span class="line"></span>
                     </button>
         <div class="info-container">
          <div class="info">
-          <a href="https://iq.opengenus.org/memory-leak-in-cpp-and-how-to-avoid-it/">Memory Leaks</a> occur when a program fails to deallocate memory after it is no longer needed, leading to the gradual accumulation of used resources.
-          They can be avoided by always releasing dynamically allocated memory once it is done being used.
+          <a href="https://iq.opengenus.org/snake-game-using-cpp-sfml/">The Snake Game in C++</a> uses a library called the Simple and Fast Multimedia Library (SFML) that is commonly used for 2D games such as this one. The user controls the snake and must eat more food without going out of bounds or hitting itself. As the snake grows, the game gets much more difficult.
          </div>
         </div>
        </li>
-  </ul>
+
+       <li class="checklist-item">
+        <input id="" type="checkbox" /><label for="" class="checkbox"></label><span class="checklist-item__title">Keylogger</span>
+        <button class="checklist-item__expand" aria-label="Toggle Info" title="Toggle More Information">
+                        <span class="line"></span>
+                    </button>
+        <div class="info-container">
+         <div class="info">
+          <a href="https://iq.opengenus.org/keylogger-in-cpp/">A Keylogger</a> is used to record keystrokes, usually to try to steal sensitive information such as login passwords and credit card information. They are a form of malicious software that runs in the background while a user is on their computer. When a key is pressed while the program is running, that key is written in an output file. 
+         </div>
+        </div>
+       </li>
+</ul>
 </section>
 
 </div>
