@@ -1,5 +1,6 @@
 import os
 import shutil
+import subprocess
 
 # Define the source directory (one level above the current directory)
 source_directory = os.path.abspath(os.path.join(os.getcwd(), ".."))
@@ -19,6 +20,27 @@ file_extensions = {
     ".html": ".hbs"
 }
 
+# List of script files to be copied
+script_files = ["markdown.py", "text-edition.py", "deploy.py"]
+
+# Function to update script files from a remote repository
+def update_scripts():
+    try:
+        # Update script files from the remote repository
+        subprocess.run(["git", "pull"])
+        print("Scripts updated successfully.")
+    except Exception as e:
+        print(f"Error updating scripts: {e}")
+
+# Update script files from the remote repository
+update_scripts()
+
+# Copy script files to the destination directory
+for script_file in script_files:
+    source_file_path = os.path.join(os.getcwd(), script_file)
+    destination_file_path = os.path.join(destination_path, script_file)
+    shutil.copy(source_file_path, destination_file_path)
+
 # Loop through the files in the source directory
 for filename in os.listdir(source_directory):
     if filename == "sample-checklist-template.html":
@@ -27,7 +49,6 @@ for filename in os.listdir(source_directory):
 
     # Get the file extension
     file_extension = os.path.splitext(filename)[1]
-
     if file_extension in file_extensions:
         # Get the new file extension and destination path
         new_extension = file_extensions[file_extension]
