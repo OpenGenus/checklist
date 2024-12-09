@@ -104,6 +104,9 @@ a {
 a:hover {
 	border-bottom: 2px solid #bf6bfe;
 }
+a.no-underline {
+	border-bottom: none;
+}
 ::-moz-selection {
 	background: rgba(33, 16, 118, .75);
 	text-shadow: none;
